@@ -1,40 +1,32 @@
-# v0.1.0 初始发布
+# v0.1.0 Initial Release
 
-这是 `negotiation-war-room-skill` 的第一个公开版本。该版本提供一套面向 ChatGPT、Claude、Cursor、Codex、OpenAI Agent 等 Agent 的中文谈判决策 Skill，用于将谈判背景转化为结构化策略、可选方案、话术、风险审查和复盘动作。
+The first public release of `negotiation-war-room-skill` provided a Chinese negotiation decision skill for ChatGPT, Claude, Cursor, Codex, OpenAI agents, and other agents. It turns background into strategy, options, wording, risk review, and debrief actions. This fork translates the bundle into English.
 
-## 本次发布内容
+## Contents
 
-- 完整 Skill 核心协议 `skill.md`
-- 系统提示词
-- 输入/输出模板
-- 谈判框架库
-- 场景 Playbook
-- 微信/邮件/电话/会议模板
-- 示例案例
-- 测试 Prompt
-- 安全边界文档
+- Core protocol, `SKILL.md` in this fork.
+- System prompt.
+- Input and output templates.
+- Negotiation frameworks.
+- Scenario playbooks.
+- WeChat, email, phone, and meeting templates.
+- Worked examples.
+- Test prompts.
+- Safety documentation.
 
-## 适用场景
+## Scenarios
 
-- 商业合作
-- 尾款结算
-- 客户压价
-- 薪资谈判
-- 合同谈判
-- 合伙人谈判
-- 纠纷协商
-- 熟人合作
-- 家庭沟通
+Business cooperation, outstanding payments, discounts, compensation, contracts, partners, disputes, friends and relatives, family conversations.
 
-## 注意事项
+## Notes
 
-- 不保证谈判成功，只帮助用户提高谈判准备质量和达成更优协议的概率。
-- 不用于威胁、敲诈、伪造证据或违法施压。
-- 涉及法律争议、劳动仲裁、合同纠纷、赔偿或诉讼时，请咨询专业律师。
+- Improve preparation and the likelihood of a better agreement; no guaranteed success.
+- Do not use for threats, extortion, fabricated evidence, or unlawful pressure.
+- Consult a qualified lawyer for legal disputes, employment arbitration, contract disputes, compensation, or litigation.
 
-## 下一版本计划
+## Plans from the original release
 
-- 增加更多行业 Playbook
-- 增加更多真实案例
-- 增加英文版文档
-- 增加 Agent 集成示例
+- More industry playbooks.
+- More real cases.
+- English documentation, supplied by this fork.
+- More agent integration examples.

@@ -1,177 +1,117 @@
-# Use Cases / 适用场景
+# Use Cases
 
-本页说明 `negotiation-war-room-skill` 适合处理哪些谈判场景，以及每类场景中 Skill 如何帮助用户完成诊断、策略和话术生成。
+How the skill supports diagnosis, strategy, and wording across scenarios.
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
-## 1. 尾款结算
+## 1. Outstanding payments
 
-### 典型问题
+Typical problems:
 
-- 项目已交付，但客户迟迟不验收。
-- 对方说“不需要后续服务了”，但不愿结算已完成部分。
-- 没有正式合同，只有微信记录、转账记录和交付文件。
+- Delivered project with delayed acceptance.
+- Future cancellation used to avoid payment for completed work.
+- No formal contract, only chats, transfers, and files.
 
-### Skill 如何帮助
-
-- 区分“后续是否继续”和“已完成部分如何结算”。
-- 梳理证据：聊天记录、付款记录、交付成果、会议纪要。
-- 设计阶段结算、继续履行、折中收口三套方案。
-- 生成催款但不撕破脸的微信/邮件话术。
-- 做发送前风险审查，避免过度法律定性。
-
-### 示例 Prompt
+The skill separates continuation from settlement, organizes evidence, offers stage settlement / continued service / compromise, drafts tactful payment reminders, and reviews legal characterizations.
 
 ```text
-请使用 negotiation-war-room-skill。
-我和甲方口头约定 3 万合作，对方已付 6000。我已经完成一半服务，现在对方说后续不用了，可能不想付剩余款。请帮我分析局势、设计三套结算方案，并生成微信话术。
+Use negotiation-war-room-skill. We verbally agreed RMB 30,000; RMB 6,000 is paid and half the service is complete. The client no longer needs future service and may resist payment. Assess the situation, propose three settlements, and draft WeChat wording.
 ```
 
-## 2. 客户压价
+## 2. Client discounts
 
-### 典型问题
+Typical problems:
 
-- 客户说“别人更便宜”。
-- 客户要求降价 30%-40%。
-- 用户想保住客户，但不能破坏利润和交付质量。
+- "Others are cheaper."
+- Requests for 30–40% off.
+- Retaining the client without harming margins or quality.
 
-### Skill 如何帮助
-
-- 判断对方是预算压力、采购惯例还是价值感知不足。
-- 重构价值，不围绕对方低锚直接谈。
-- 把折扣和范围、付款、周期、数量、案例授权绑定。
-- 生成保利益、保成交、保预算三套报价方案。
-
-### 示例 Prompt
+Assess genuine budget pressure, purchasing tactics, or weak perceived value. Restore a value-based reference point, tie discounts to scope / payment / duration / volume / case-study permission, and offer value-first, agreement-first, and budget-first quotes.
 
 ```text
-请使用 negotiation-war-room-skill。
-客户说别人 6 万能做，我报价 10 万，要求我降 40%。我最多只能降 10%。请帮我维护价值、缩小范围，并设计不同报价方案。
+Use negotiation-war-room-skill. I quoted RMB 100,000; the client cites RMB 60,000 and wants 40% off. I can concede at most 10%. Protect value, adjust scope, and design different quotes.
 ```
 
-## 3. 薪资谈判
+## 3. Compensation
 
-### 典型问题
+Typical problems:
 
-- Offer 低于预期。
-- 用户想涨薪，但担心和 HR 或老板谈崩。
-- base 薪资空间有限，但总包或其他条件可能有空间。
+- Offer below expectations.
+- Raise request without damaging relations with HR or management.
+- Limited base pay but other terms remain flexible.
 
-### Skill 如何帮助
-
-- 分析能力证明、市场价值、替代机会和岗位匹配度。
-- 设计 base、bonus、sign-on、equity、职级、调薪节点等组合方案。
-- 生成专业、稳健、不威胁的邮件和电话话术。
-
-### 示例 Prompt
+Analyze ability, market value, alternatives, and fit. Combine base, bonus, sign-on, equity, level, and review dates, then draft professional, measured emails and phone wording.
 
 ```text
-请使用 negotiation-war-room-skill。
-我拿到 32k x 14 的 Offer，但预期是 38k x 14。我有另一个 35k x 14 的机会。请分析筹码、BATNA/ZOPA，并生成给 HR 的邮件。
+Use negotiation-war-room-skill. I received 32k × 14, expected 38k × 14, and have another 35k × 14 opportunity. Analyze bargaining assets and BATNA/ZOPA, then draft an HR email.
 ```
 
-## 4. 合同条款
+## 4. Contract terms
 
-### 典型问题
+Typical problems:
 
-- 验收标准写得模糊。
-- 付款节点不清楚。
-- 违约责任过重或没有责任上限。
-- 对方说“这是标准模板不能改”。
+- Vague acceptance criteria or payment milestones.
+- Excessive or uncapped liability.
+- "The standard template cannot change."
 
-### Skill 如何帮助
-
-- 找出付款、验收、交付、责任、终止、保密、知识产权等高风险条款。
-- 生成“不是不信任，而是降低执行争议”的沟通话术。
-- 提醒用户涉及正式法律判断时咨询律师。
-
-### 示例 Prompt
+Identify risky payment, acceptance, delivery, liability, termination, confidentiality, and IP terms. Explain clarity as reducing execution disputes, and recommend legal advice for formal assessments.
 
 ```text
-请使用 negotiation-war-room-skill。
-客户合同里写“甲方满意后付款”，没有具体验收标准；违约责任也没有上限。请帮我分析风险，并生成合同条款确认邮件。
+Use negotiation-war-room-skill. Payment depends on client satisfaction without acceptance criteria, and liability has no cap. Assess risks and draft a terms-confirmation email.
 ```
 
-## 5. 合伙谈判
+## 5. Partnerships
 
-### 典型问题
+Typical problems:
 
-- 朋友合伙，口头说五五分。
-- 股权、分工、投入、决策权、退出机制没谈清。
-- 用户怕谈规则显得不信任。
+- Verbal 50/50 between friends.
+- Unclear equity, roles, contributions, decisions, exits.
+- Fear that rules imply distrust.
 
-### Skill 如何帮助
-
-- 用“保护关系”作为谈规则的理由。
-- 设计试运行、里程碑、项目制合作等方案。
-- 明确账号、客户、收入、成本、退出机制。
-
-### 示例 Prompt
+Frame rules as relationship protection, offer trials / milestones / project cooperation, and define ownership, income, costs, and exits.
 
 ```text
-请使用 negotiation-war-room-skill。
-朋友说他出资源，我负责执行，希望五五分。但股权、分工、投入和退出机制都没谈清楚。请帮我设计面谈策略和谈后确认文本。
+Use negotiation-war-room-skill. A friend provides resources, I execute, and he wants 50/50. Equity, roles, contributions, and exits are unclear. Design a meeting strategy and confirmation.
 ```
 
-## 6. 纠纷协商
+## 6. Disputes
 
-### 典型问题
+Typical problems:
 
-- 对方要求退款或赔偿。
-- 双方争议事实还没对齐。
-- 用户不想承认责任，但也想尽快解决。
+- Refund or compensation demands.
+- Disputed facts.
+- Desire for resolution without unconfirmed admissions.
 
-### Skill 如何帮助
-
-- 把事实、情绪、诉求、责任边界分开。
-- 生成不承认未确认责任的回应。
-- 设计补救、退款、赔偿、和解和分级处理方案。
-
-### 示例 Prompt
+Separate facts, feelings, requests, and responsibility; draft responses without admitting unconfirmed liability; design remedies, refunds, compensation, settlements, and staged escalation.
 
 ```text
-请使用 negotiation-war-room-skill。
-客户说我们的服务造成损失，要求赔 5 万。但事实还没对齐。我不想承认责任。请帮我写第一轮回应和风险审查。
+Use negotiation-war-room-skill. A client demands RMB 50,000 for alleged service losses. Facts are not agreed and I do not want to admit liability. Draft a first reply and risk review.
 ```
 
-## 7. 熟人合作
+## 7. Friends and relatives
 
-### 典型问题
+Typical problems:
 
-- 朋友请用户免费帮忙。
-- 亲戚借钱但没有明确还款计划。
-- 用户想保留关系，又不想无边界付出。
+- Free help requested by friends.
+- Loans without repayment plans.
+- Desire to preserve ties without unlimited giving.
 
-### Skill 如何帮助
-
-- 把“拒绝对方”改成“表达边界和可执行条件”。
-- 生成自然、不伤面子的微信话术。
-- 对借款、合作、免费支持加入金额、时间和责任边界。
-
-### 示例 Prompt
+Express boundaries and practical conditions, use natural and considerate WeChat language, and define amounts, timing, and responsibilities for loans, work, and free support.
 
 ```text
-请使用 negotiation-war-room-skill。
-朋友让我免费帮他做方案，说以后项目成了再分我。我想保留关系但不能白干。请给我微信回复。
+Use negotiation-war-room-skill. A friend wants a free proposal and promises a share if the project succeeds. I want to preserve the relationship without unpaid work. Draft a WeChat reply.
 ```
 
-## 8. 家庭沟通
+## 8. Family conversations
 
-### 典型问题
+Typical problems:
 
-- 家人要求经济支持。
-- 伴侣或父母沟通容易情绪化。
-- 用户想表达边界，但不想用商业谈判压迫家人。
+- Financial support requests.
+- Emotional conversations with parents or partners.
+- Boundaries without commercial pressure.
 
-### Skill 如何帮助
-
-- 使用事实、感受、需求、请求结构。
-- 避免商业强压话术。
-- 优先保护情绪安全、人身安全和长期关系。
-
-### 示例 Prompt
+Use facts, feelings, needs, and requests. Protect emotional safety, physical safety, and the long-term relationship.
 
 ```text
-请使用 negotiation-war-room-skill。
-我想和家人谈经济边界，对方容易说我自私。请不要用商业强压话术，帮我生成温和但清楚的面谈脚本。
+Use negotiation-war-room-skill. I want financial boundaries with family who may call me selfish. Draft a gentle, clear meeting script without commercial pressure tactics.
 ```

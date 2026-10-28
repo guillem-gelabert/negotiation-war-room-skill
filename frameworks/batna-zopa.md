@@ -1,146 +1,134 @@
-# BATNA / ZOPA 分析方法
+# BATNA / ZOPA Analysis
 
-本文件用于判断谈判底层空间：谈不成怎么办，可能在哪里成交，以及如何不暴露底线。
+Use this file to assess the space for agreement: what to do if talks fail, where agreement may be possible, and how to protect the walk-away limit.
 
-## 基本定义
+## Definitions
 
-- BATNA：Best Alternative To a Negotiated Agreement，谈不成时的最佳替代方案。
-- WATNA：Worst Alternative To a Negotiated Agreement，谈不成时的最坏可预期结果。
-- ZOPA：Zone Of Possible Agreement，双方都优于各自 BATNA 的可能成交区间。
+- BATNA: Best Alternative to a Negotiated Agreement.
+- WATNA: Worst Alternative to a Negotiated Agreement, the worst reasonably foreseeable outcome without a deal.
+- ZOPA: Zone of Possible Agreement, where both sides do better than their respective BATNAs.
 
-## 如何识别自己的 BATNA
+## Identifying your BATNA
 
-识别步骤：
-
-1. 列出所有替代选择：换客户、换供应商、换岗位、延期、暂停、内部消化、寻求第三方、咨询律师等。
-2. 判断每个替代选择是否可执行，而不是只看是否理想。
-3. 评估替代选择的收益、成本、时间、关系影响和风险。
-4. 选择最现实、最强的替代方案作为 BATNA。
-5. 把任何谈判方案与 BATNA 比较，低于 BATNA 的方案原则上不接受。
-
-输出格式：
+1. List all alternatives: another client, supplier, or job; delay; suspension; handling the issue internally; a third party; legal consultation; and so on.
+2. Check whether each is actionable, rather than merely desirable.
+3. Assess benefits, costs, time, relationship effects, and risks.
+4. Select the strongest realistic alternative as the BATNA.
+5. Compare every proposed agreement against it. As a rule, do not accept anything worse.
 
 ```text
-可选替代方案：
-最强 BATNA：
-执行成本：
-执行时间：
-主要风险：
-BATNA 强度：强 / 中 / 弱
+Available alternatives:
+Strongest BATNA:
+Execution cost:
+Execution time:
+Main risks:
+BATNA strength: strong / moderate / weak
 ```
 
-## 如何推断对方 BATNA
+## Estimating the other party's BATNA
 
-推断维度：
+Consider:
 
-- 对方是否有替代供应商、候选人、客户、合作伙伴或解决路径。
-- 对方切换成本高不高。
-- 对方是否有时间压力、预算压力、KPI 压力、审批压力或关系压力。
-- 对方不成交会损失什么。
-- 对方是否只是用“我有别的选择”做谈判姿态。
+- Alternative suppliers, candidates, clients, partners, or ways to resolve the issue.
+- Switching costs.
+- Time, budget, KPI, approval, or relationship pressure.
+- What they lose without agreement.
+- Whether "I have other options" is merely a negotiating posture.
 
-探测问题：
+Probing questions:
 
 ```text
-你们现在更优先考虑预算、交付稳定性还是时间？
-如果这版方案不合适，你们内部倾向于调整范围，还是重新评估供应商？
-这个条件主要是预算限制，还是审批流程要求？
-如果我们把范围/付款/周期调整，你们是否有推进空间？
+Are budget, delivery reliability, or timing your main priority right now?
+If this proposal does not fit, would you prefer to adjust scope or reconsider suppliers?
+Is this term driven by a budget limit or an approval requirement?
+Would changes to scope, payment, or duration give you room to move forward?
 ```
-
-输出格式：
 
 ```text
-对方可能 BATNA：
-对方切换成本：
-对方时间压力：
-对方不成交损失：
-可信度判断：
+Other party's possible BATNA:
+Switching costs:
+Time pressure:
+Losses without agreement:
+Credibility assessment:
 ```
 
-## 如何判断可能成交区间
+## Assessing the possible agreement range
 
-判断步骤：
+1. Establish the user's walk-away limit and acceptable target.
+2. Estimate the other party's limits and acceptable target.
+3. Look for overlap on a single variable.
+4. If none exists, add variables: price, scope, payment, duration, quality, risk, resources, relationships.
+5. Describe combinations of terms rather than a single number.
 
-1. 明确用户底线和可接受目标。
-2. 推断对方底线和可接受目标。
-3. 判断双方是否在单一变量上有交集。
-4. 如果单一变量无交集，增加变量：价格、范围、付款、周期、质量、风险、资源、关系。
-5. 将区间写成“组合区间”，而不是只写单一数字。
-
-示例：
+Example:
 
 ```text
-可能 ZOPA 不一定是“降价 0-10%”，也可以是：
-- 降价 10% + 签 12 个月 + 预付 50%
-- 降价 20% + 缩小服务范围 + 取消额外支持
-- 原价 + 延长付款周期 + 增加季度复盘
+The possible ZOPA may extend beyond a 0–10% discount:
+- 10% discount + 12-month term + 50% advance payment
+- 20% discount + reduced scope + no additional support
+- Original price + longer payment period + quarterly reviews
 ```
-
-输出格式：
 
 ```text
-价格区间：
-范围区间：
-付款区间：
-时间区间：
-风险分配：
-最可能成交组合：
+Price range:
+Scope range:
+Payment range:
+Timing range:
+Risk allocation:
+Most promising combination:
 ```
 
-## 如何避免暴露底线
+## Protecting the walk-away limit
 
-禁止表达：
+Avoid:
 
 ```text
-我最低只能接受 X。
-这是我的底线。
-再低我就不做了。
-我最多只能让 X。
+The minimum I can accept is X.
+This is my bottom line.
+Any lower and I will not do it.
+The most I can concede is X.
 ```
 
-推荐表达：
+Prefer:
 
 ```text
-这个条件需要和范围、付款节点、合作周期一起看。
-如果价格要调整，我们需要同步调整交付范围或确认更长合作周期。
-这个责任我们不能无限承担，需要明确触发条件和责任上限。
-我可以配合你们的约束，但需要一个可执行的组合方案。
+We need to consider this alongside scope, payment milestones, and the cooperation period.
+If the price changes, we need to adjust delivery scope or confirm a longer term.
+We cannot accept unlimited responsibility; triggers and liability caps need to be defined.
+I can work with your constraints, but we need a combination of terms we can execute.
 ```
 
-规则：
+Rules:
 
-- 底线只在内部使用，不在第一轮话术暴露。
-- 对外用客观约束表达底线，例如成本结构、审批规则、交付质量、合规边界。
-- 接近底线时停止报新数字，转向条件交换。
+- Keep the walk-away limit internal, especially in the first round.
+- Express external boundaries through objective constraints: cost structure, approval rules, delivery quality, or compliance.
+- Near the limit, stop quoting new figures and focus on conditional exchanges.
 
-## 如何在没有明确 ZOPA 时探测对方区间
+## Probing when the ZOPA is unclear
 
-适用情况：
+Use when:
 
-- 对方只说“太贵”“预算不够”“再便宜点”。
-- 对方没有明确审批人、预算、替代方案或时间节点。
-- 用户不知道是否还有成交空间。
+- The other party only says "too expensive," "not enough budget," or "make it cheaper."
+- The approver, budget, alternatives, or timing are unclear.
+- The user does not know whether a deal is still possible.
 
-探测方法：
+Methods:
 
-1. 问优先级：价格、范围、时间、质量、风险哪个最重要。
-2. 问约束来源：预算、审批、流程、现金流还是内部 KPI。
-3. 给区间型选项：让对方选择偏好，而不是直接接受/拒绝。
-4. 用 MESO 方案测试真实利益。
-5. 要求对方给出可推进条件。
-
-探测话术：
+1. Ask which matters most: price, scope, timing, quality, or risk.
+2. Ask what drives the constraint: budget, approvals, process, cash flow, or internal KPIs.
+3. Offer ranges and choices of terms rather than a yes-or-no decision.
+4. Use MESO offers to test underlying interests.
+5. Ask what conditions would allow progress.
 
 ```text
-为了避免只围绕价格来回拉扯，我想先确认一下，你们现在最卡的是预算总额、付款节奏，还是内部审批？
-如果预算是最优先项，我们可以看精简范围；如果效果是最优先项，建议保留核心服务但调整付款节奏。
-你们能推进的条件更接近哪一种组合？
+Before we keep going back and forth on price, can I check whether the main obstacle is the total budget, payment timing, or internal approval?
+If budget comes first, we can look at a reduced scope. If results come first, I suggest keeping the core service and adjusting payment timing.
+Which combination is closest to something you could move forward with?
 ```
 
-## 风险提示
+## Risks
 
-- BATNA 弱时，不要假装强势。
-- ZOPA 不明时，不要直接亮底价。
-- 对方 BATNA 只是推测，必须标注不确定性。
-- 涉及合同、劳动、法律争议时，只做策略和风险提示，不给法律结论。
+- Do not pretend to hold a strong position when the BATNA is weak.
+- Do not reveal the lowest price while the ZOPA remains unclear.
+- Label estimates of the other party's BATNA as uncertain.
+- For contract, employment, or legal disputes, provide strategy and risk considerations rather than legal conclusions.

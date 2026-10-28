@@ -1,165 +1,165 @@
-# 标准输出模板
+# Standard Output Template
 
-本模板用于“动态谈判作战参谋 Skill”的标准输出。Agent 应保持以下 15 个部分的稳定顺序；如用户要求简版，也应保留局势判断、方案建议、话术和风险审查。
+Use these 15 sections in a consistent order. A short version should retain situation assessment, recommended options, wording, and risk review.
 
-## 可复制输出格式
+## Copyable output
 
 ```text
-【一、当前局势判断】
-字段含义：判断谈判类型、当前阶段、核心矛盾、优先风险和本轮策略方向。
-应包含：
-- 谈判类型：
-- 当前阶段：
-- 核心矛盾：
-- 优先风险：
-- 初步策略风格：强硬 / 稳健 / 柔性
-示例：这是客户压价 + 续约谈判。核心矛盾不是单纯价格，而是客户预算压力与我方交付利润之间的冲突。建议采用稳健策略：不直接拒绝降价，但把折扣和范围、付款、周期绑定。
+[1. Current situation]
+Meaning: identify negotiation type, stage, conflict, priority risk, and direction for this round.
+Include:
+- Negotiation type:
+- Current stage:
+- Core conflict:
+- Priority risks:
+- Initial posture: firm / measured / flexible
+Example: this is a client discount and renewal negotiation. Budget pressure conflicts with our delivery margin. Use a measured approach: consider discounts conditionally, linking them to scope, payment, and duration.
 
-【二、双方权力指数】
-字段含义：评估双方谈判杠杆，用于判断该强硬、稳健还是柔性。
-应包含：
-- 我方权力指数：/25
-- 对方权力指数：/25
-- 我方优势：
-- 我方短板：
-- 策略含义：
-示例：我方 15/25，对方 13/25。双方接近均势。我方优势是熟悉客户业务和替换成本高，短板是现金流依赖。适合提出条件交换，不适合直接摊牌。
+[2. Power index for both sides]
+Meaning: assess bargaining power to choose a firm, measured, or flexible posture.
+Include:
+- Our power index: /25
+- Other party's power index: /25
+- Our advantages:
+- Our weaknesses:
+- Strategic implications:
+Example: 15/25 for us and 13/25 for them, close to balanced. We know the business and switching is costly, but depend on the cash flow. Conditional exchanges fit better than a showdown.
 
-【三、信息缺口】
-字段含义：列出影响判断但尚未明确的信息，避免武断结论。
-应包含：
-- 必须补充：
-- 有助优化：
-- 可暂时假设：
-示例：必须补充客户是否有替代供应商、对方 30% 降价是否为真实预算上限。有助优化的信息包括客户今年采购流程和审批人。
+[3. Information gaps]
+Meaning: identify missing information that affects judgment.
+Include:
+- Required:
+- Helpful:
+- Provisional assumptions:
+Example: confirm alternative suppliers and whether 30% off reflects a real budget ceiling. Purchasing procedures and approvers would also help.
 
-【四、目标三层模型】
-字段含义：把用户目标拆成理想目标、可接受目标和底线，并说明底线保护方式。
-应包含：
-- 理想目标：
-- 可接受目标：
-- 底线：
-- 对外表达边界：
-示例：理想目标是原价续约；可接受目标是降 10% 并签 12 个月；底线是降价超过 10% 必须减少范围。对外不要说“最多降 10%”，而说“价格需要和范围、周期、付款一起看”。
+[4. Three-level goal model]
+Meaning: distinguish ideal, acceptable, and walk-away outcomes and protect the limit.
+Include:
+- Ideal outcome:
+- Acceptable outcome:
+- Walk-away limit:
+- External boundary wording:
+Example: ideal is original-price renewal; acceptable is 10% off with a 12-month term; beyond 10% requires reduced scope. Externally say price depends on scope, duration, and payment rather than revealing the 10% limit.
 
-【五、BATNA / ZOPA 分析】
-字段含义：分析谈不成时的替代方案和可能成交区间。
-应包含：
-- 我方 BATNA：
-- 对方可能 BATNA：
-- 可能 ZOPA：
-- ZOPA 风险：
-- 探测问题：
-示例：我方 BATNA 是把资源转给其他客户；对方 BATNA 是找新供应商但有切换成本。可能 ZOPA 是 0-10% 折扣，或更高折扣但缩小服务范围/增加预付款。
+[5. BATNA / ZOPA analysis]
+Meaning: identify alternatives and the possible agreement range.
+Include:
+- Our BATNA:
+- Other party's possible BATNA:
+- Possible ZOPA:
+- ZOPA risks:
+- Probing questions:
+Example: we can move resources to another client; they can change suppliers at a switching cost. Possible overlap is 0–10% off, or a larger discount with reduced scope or greater prepayment.
 
-【六、筹码地图】
-字段含义：列出双方可用于交换的变量，不只看价格。
-应包含：
-- 我方筹码：
-- 对方筹码：
-- 可交换变量：
-- 不可交换边界：
-示例：我方筹码包括历史效果、业务理解、响应速度和替换成本。可交换变量包括折扣、服务范围、付款比例、合作周期、案例授权。
+[6. Bargaining map]
+Meaning: identify exchange variables beyond price.
+Include:
+- Our bargaining assets:
+- Other party's bargaining assets:
+- Exchangeable variables:
+- Non-negotiable boundaries:
+Example: past results, business knowledge, response speed, and switching costs. Variables include discount, scope, advance-payment percentage, duration, and case-study permission.
 
-【七、对方画像】
-字段含义：判断对方表面诉求、真实利益、压力来源和决策权。
-应包含：
-- 表面诉求：
-- 真实利益推测：
-- 压力来源：
-- 决策权判断：
-- 可能下一步：
-示例：对方表面要降价，真实利益可能是预算压力和内部降本 KPI。采购经理可能不是最终决策人，下一步可能继续压价或要求“先给最低价”。
+[7. Other party's profile]
+Meaning: assess stated requests, underlying interests, pressures, and authority.
+Include:
+- Stated requests:
+- Possible underlying interests:
+- Sources of pressure:
+- Decision authority:
+- Likely next move:
+Example: the discount request may reflect budget pressure and internal cost-reduction KPIs. The purchasing manager may lack final authority and may keep pressing or ask for the lowest price.
 
-【八、策略建议】
-字段含义：给出本轮总体策略、谈判姿态、让步交换规则和禁区。
-应包含：
-- 推荐策略：
-- 让步规则：
-- 不建议做：
-- 本轮目标：
-示例：推荐先承接预算压力，再提出三套组合方案。任何折扣必须换取合作周期、预付款、范围缩减或案例授权。不建议直接报最低价。
+[8. Strategy]
+Meaning: overall approach, posture, concession rules, and prohibited moves this round.
+Include:
+- Recommended strategy:
+- Concession rules:
+- Actions to avoid:
+- This round's objective:
+Example: acknowledge the budget constraint, then present three combinations. Exchange discounts for duration, prepayment, reduced scope, or case-study permission. Do not quote the minimum directly.
 
-【九、三套谈判方案】
-字段含义：生成 2-3 套可选方案，优先 3 套 MESO 方案。
-应包含：
-- 方案 A：保利益方案
-- 方案 B：保成交方案
-- 方案 C：保关系/长期合作方案
-每套方案写明：核心条件、对方收益、我方收益、执行条件、主要风险。
-示例：
-方案 A：原价续约，增加季度复盘；对方获得更强结果保障，我方保住价格。
-方案 B：降 10%，签 12 个月并预付 50%；对方获得预算让步，我方获得现金流和确定性。
-方案 C：降 20%，但缩小服务范围；对方降低预算，我方控制成本。
+[9. Three negotiation offers]
+Meaning: generate two or three options, preferably three MESO offers.
+Include:
+- A: protect value
+- B: secure agreement
+- C: preserve the relationship / long-term cooperation
+For each, specify terms, benefits to both sides, execution conditions, and main risks.
+Example:
+A: original-price renewal with quarterly reviews; the client gains stronger outcome support and we protect price.
+B: 10% off, 12-month term, 50% advance payment; the client gains budget relief and we gain cash flow and certainty.
+C: 20% off with reduced scope; the client reduces spending and we control costs.
 
-【十、方案评分】
-字段含义：用统一模型对方案评分并推荐顺序。
-评分维度：利益最大化、成交概率、风险可控、关系保留、执行清晰度。每项 1-5 分。
-应包含：
-| 方案 | 利益最大化 | 成交概率 | 风险可控 | 关系保留 | 执行清晰度 | 总分 | 推荐顺序 |
+[10. Offer scoring]
+Meaning: compare offers consistently and recommend an order.
+Dimensions: value maximization, agreement likelihood, risk control, relationship preservation, execution clarity. Score each from 1 to 5.
+Include:
+| Option | Value | Agreement likelihood | Risk control | Relationship | Execution clarity | Total | Rank |
 |---|---:|---:|---:|---:|---:|---:|---|
-示例：方案 B 总分最高，且风险可控、执行清晰，建议作为首推。
+Example: B has the highest total, with manageable risk and clear execution, so recommend it first.
 
-【十一、第一轮话术】
-字段含义：根据沟通渠道和希望风格生成可直接发送或使用的话术。
-应包含：
-- 推荐语气：
-- 话术正文：
-- 不建议说的话：
-示例：我理解今年预算压力确实更大。价格可以一起看，但我不建议只单独压价格，因为这会影响服务范围和最终效果。我给你三个选择……
+[11. First-round wording]
+Meaning: ready-to-send or ready-to-use wording matching channel and style.
+Include:
+- Recommended tone:
+- Draft:
+- Expressions to avoid:
+Example: I understand budgets are tighter this year. We can consider price alongside scope and outcomes. Here are three options...
 
-【十二、对方可能反应与应对】
-字段含义：预测对方回应，并给出对应话术。
-应包含：
-- 反应 1：接受或部分接受
-- 反应 2：继续压价
-- 反应 3：拖延或说要内部讨论
-- 反应 4：情绪化或提出新条件
-示例：如果对方说“你先给最低价”，回应：“我可以申请空间，但需要先确认你们更优先的是预算、范围还是付款节奏，否则最低价没有执行基础。”
+[12. Likely reactions and replies]
+Meaning: anticipate responses and provide replies.
+Include:
+- Reaction 1: acceptance or partial acceptance
+- Reaction 2: further price pressure
+- Reaction 3: delay or internal discussion
+- Reaction 4: emotional response or new conditions
+Example: to "give me your lowest price," reply: "I can request flexibility, but first need to confirm whether budget, scope, or payment timing matters most, so the quote is workable."
 
-【十三、发送前风险审查】
-字段含义：审查话术是否暴露底线、免费让步、承认责任或制造法律/关系风险。
-应包含：
-- 风险等级：低 / 中 / 高
-- 主要风险：
-- 修改建议：
-- 更安全版本：
-示例：风险等级中。不要写“最多只能降 10%”，会暴露底线；改为“价格空间需要和范围、周期、付款一起确认”。
+[13. Pre-send risk review]
+Meaning: check exposed limits, free concessions, admissions, and legal or relationship risks.
+Include:
+- Risk level: low / medium / high
+- Main risks:
+- Revisions:
+- Safer version:
+Example: medium risk. "At most 10% off" reveals the limit. Replace with "Price flexibility depends on scope, duration, and payment."
 
-【十四、谈后确认文本】
-字段含义：生成用于留痕和执行的确认文本。
-应包含：
-- 已确认事项：
-- 双方责任：
-- 金额/条款/时间：
-- 待确认问题：
-- 异议反馈期限：
-示例：我确认一下我们刚才沟通的结果：1）你方优先考虑预算控制；2）我方提供三套方案；3）你方在周五前确认偏好。如理解有偏差，请今天内指出。
+[14. Post-discussion confirmation]
+Meaning: document the outcome for execution.
+Include:
+- Agreed points:
+- Both sides' responsibilities:
+- Amounts / terms / dates:
+- Open questions:
+- Deadline for corrections:
+Example: to confirm: 1) budget control is your priority; 2) we will provide three offers; 3) you will confirm your preference by Friday. Please flag any misunderstanding today.
 
-【十五、下一轮行动】
-字段含义：明确用户下一步该做什么，以及下一轮复盘要收集什么信息。
-应包含：
-- 立即行动：
-- 等待对方反馈时长：
-- 对方回复后要记录：
-- 下一轮复盘问题：
-示例：先发送方案 B 风格的话术，等待 24-48 小时。记录对方是否提出新价格、是否透露审批人、是否愿意换付款或范围。
+[15. Next-round actions]
+Meaning: define immediate steps and information to collect for the review.
+Include:
+- Immediate action:
+- Time to wait for feedback:
+- What to record in the reply:
+- Next-round review questions:
+Example: send wording based on B and wait 24–48 hours. Record new price requests, approver information, and willingness to exchange payment or scope.
 ```
 
-## 简版输出示例
+## Short example
 
 ```text
-【一、当前局势判断】
-这是客户压价谈判，双方接近均势。建议稳健处理，不直接拒绝，也不直接给最低价。
+[1. Current situation]
+A client discount negotiation with roughly balanced power. Use a measured response without rejecting immediately or revealing the lowest price.
 
-【九、三套谈判方案】
-A 原价续约 + 增加季度复盘。
-B 降 10% + 签 12 个月 + 预付 50%。
-C 降 20% + 缩小服务范围。
+[9. Three negotiation offers]
+A: original-price renewal + quarterly reviews.
+B: 10% off + 12 months + 50% advance payment.
+C: 20% off + reduced scope.
 
-【十一、第一轮话术】
-我理解今年预算压力确实更大。价格可以一起看，但需要和服务范围、付款节奏、合作周期一起确认……
+[11. First-round wording]
+I understand budgets are tighter this year. We can review price together with scope, payment timing, and duration...
 
-【十三、发送前风险审查】
-不要暴露“最多降 10%”这个底线。把底线改写成条件交换。
+[13. Pre-send risk review]
+Keep the 10% limit private. Express it through conditional exchanges instead.
 ```

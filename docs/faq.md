@@ -1,107 +1,54 @@
-# FAQ / 常见问题
+# Frequently Asked Questions
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
-## 这个项目是软件吗？
+## Is this software?
 
-不是传统软件包。它不需要安装依赖，也不需要运行服务。
+It is a library of skill instructions, prompts, and playbooks for agents. No dependencies or running service are required. Copy `SKILL.md`, `prompts/system-prompt.md`, and relevant playbooks into ChatGPT, Claude, Cursor, Codex, or your own agent.
 
-它是一个面向 Agent 的 **Skill / Prompt / Playbook 文档库**。你可以把 `skill.md`、`prompts/system-prompt.md` 和相关 Playbook 复制到 ChatGPT、Claude、Cursor、Codex 或自建 Agent 中使用。
+## Can I use it with ChatGPT?
 
-## 可以直接用于 ChatGPT 吗？
-
-可以。
-
-最简单的方式是复制 [prompts/system-prompt.md](../prompts/system-prompt.md) 到自定义 GPT 的 Instructions 中，再把 [skill.md](../skill.md) 和相关目录作为知识文件上传。
-
-如果不使用自定义 GPT，也可以直接在对话中输入：
+Yes. Copy the [system prompt](../prompts/system-prompt.md) into a custom GPT's Instructions and upload [SKILL.md](../SKILL.md) with relevant resources as knowledge. You can also start a conversation with:
 
 ```text
-请使用 negotiation-war-room-skill 的工作流。
-我的谈判背景如下：
-[粘贴背景]
+Use the negotiation-war-room-skill workflow.
+My background:
+[paste background]
 ```
 
-## 能保证谈判成功吗？
+## Does it guarantee success?
 
-不能。
+No. Outcomes depend on facts, evidence, power, alternatives, the other party's willingness, and execution conditions. The skill improves preparation, reduces avoidable mistakes, expands options, and reduces communication risks.
 
-谈判结果取决于事实、证据、权力结构、替代方案、对方意愿和执行条件。本项目只能帮助用户提高准备质量、减少低级错误、增加方案空间、降低沟通风险。
+## Can it help with legal disputes?
 
-## 能用于法律纠纷吗？
+It can help prepare communication, organize facts and evidence, flag risks, and review wording before formal proceedings. It does not replace a lawyer, give definitive legal conclusions, or predict litigation or arbitration results. Consult a lawyer for formal rights and obligations involving breach, employment arbitration, compensation, or litigation.
 
-可以用于法律纠纷前的沟通准备、事实整理、证据清单、风险提示和话术审查。
+## Can it help with compensation?
 
-但它不能替代律师，不能给确定法律结论，也不能预测诉讼或仲裁结果。涉及合同违约、劳动仲裁、赔偿、诉讼等正式权利义务判断时，建议咨询律师。
+Yes. The [compensation playbook](../playbooks/salary-negotiation.md) covers offers, raises, bonuses, levels, signing bonuses, equity, and review dates. It analyzes ability, market value, competing offers, BATNA/ZOPA, and variables such as base, bonus, sign-on, equity, and title.
 
-## 能用于薪资谈判吗？
+## Can it help with family conversations?
 
-可以。
+Yes, with an approach centered on emotional safety, boundaries, common ground, physical safety, and long-term relationships. Avoid commercial pressure tactics. See the [relationships playbook](../playbooks/relationship-communication.md) for friends, family, and close relationships.
 
-项目包含 [playbooks/salary-negotiation.md](../playbooks/salary-negotiation.md)，可用于 Offer、涨薪、奖金、职级、签字费、期权和调薪节点谈判。
+## How can I contribute a case?
 
-它会帮助用户分析：
+Anonymize it first. Remove names, phone numbers, addresses, company secrets, contract numbers, unauthorized chat records, and anything identifying a person or organization.
 
-- 能力证明。
-- 市场价值。
-- 替代 Offer。
-- BATNA / ZOPA。
-- base、bonus、sign-on、equity、title 等可交换变量。
+Read [CONTRIBUTING.md](../CONTRIBUTING.md), then include:
 
-## 能用于家庭关系沟通吗？
+1. User input.
+2. Situation assessment.
+3. Information gaps.
+4. Power index.
+5. BATNA / ZOPA.
+6. Three offers.
+7. Scores.
+8. Wording.
+9. Risk review.
+10. Confirmation.
 
-可以，但不能使用商业强压话术。
+## How do I assess output quality?
 
-家庭和亲密关系沟通应优先考虑：
-
-- 情绪安全。
-- 边界表达。
-- 共识建立。
-- 人身安全。
-- 长期关系。
-
-项目包含 [playbooks/relationship-communication.md](../playbooks/relationship-communication.md)，专门处理熟人合作、家庭关系和亲密关系沟通。
-
-## 如何贡献自己的谈判案例？
-
-欢迎贡献，但必须脱敏。
-
-请删除：
-
-- 姓名。
-- 手机号。
-- 地址。
-- 公司机密。
-- 合同编号。
-- 未授权聊天记录。
-- 任何可识别个人或组织的信息。
-
-建议先阅读 [CONTRIBUTING.md](../CONTRIBUTING.md)，按案例结构提交：
-
-1. 用户输入。
-2. 当前局势判断。
-3. 信息缺口。
-4. 权力指数。
-5. BATNA / ZOPA。
-6. 三套方案。
-7. 方案评分。
-8. 话术。
-9. 风险审查。
-10. 谈后确认。
-
-## 如何判断 Agent 输出是否合格？
-
-参考 [tests/acceptance-checklist.md](../tests/acceptance-checklist.md)。
-
-简要标准：
-
-- 能正确判断谈判类型。
-- 能识别信息缺口。
-- 能分析权力指数。
-- 能建立目标三层模型。
-- 能分析 BATNA/ZOPA。
-- 能生成多方案和评分。
-- 能生成可用话术。
-- 能做风险审查。
-- 能生成谈后确认文本。
-- 不违反安全边界。
+Use the [acceptance checklist](../tests/acceptance-checklist.md). Check scenario identification, information gaps, power analysis, three-level goals, BATNA/ZOPA, multiple offers and scores, usable wording, risk review, confirmation, and safety boundaries.

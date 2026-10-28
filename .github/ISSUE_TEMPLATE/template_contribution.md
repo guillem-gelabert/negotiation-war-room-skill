@@ -1,59 +1,55 @@
 ---
-name: Template contribution / 模板贡献
-about: 贡献话术模板、谈判复盘模板、确认文本模板
+name: Template contribution
+about: Contribute wording, debrief, or confirmation templates
 title: "[Template] "
 labels: template
 assignees: ""
 ---
 
-## 模板类型
+## Template type
 
-- [ ] 微信话术
-- [ ] 邮件模板
-- [ ] 电话脚本
-- [ ] 会议脚本
-- [ ] 谈判纪要
-- [ ] 谈后确认文本
-- [ ] 跟进消息
-- [ ] 复盘模板
-- [ ] 其他
+- [ ] WeChat wording
+- [ ] Email
+- [ ] Phone
+- [ ] Meeting
+- [ ] Minutes
+- [ ] Confirmation
+- [ ] Follow-up
+- [ ] Debrief
+- [ ] Other
 
-## 适用场景
+## Applicable scenarios
 
 ```text
-例如：客户压价 / 尾款结算 / 薪资谈判 / 合同条款 / 熟人合作 / 家庭沟通
+Examples: discounts / payments / compensation / contracts / friends / family
 ```
 
-## 模板正文
+## Template
 
-请保留可替换变量，例如 `[对方称呼]`、`[事项]`、`[金额]`、`[日期]`。
+Keep variables such as `[name]`, `[subject]`, `[amount]`, `[date]`.
 
 ```text
-[粘贴模板]
+[paste template]
 ```
 
-## 使用说明
+## Usage
 
-这个模板适合什么时候使用？不适合什么时候使用？
+When is it suitable or unsuitable?
 
 ```text
-[说明]
+[explanation]
 ```
 
-## 风险审查
+## Risk review
 
-请确认：
+- [ ] No threats, humiliation, deception, evidence fabrication, or unlawful pressure.
+- [ ] No success guarantees.
+- [ ] No lawyer or third-party impersonation.
+- [ ] Privacy protected; no real personal information.
+- [ ] Natural, restrained wording with boundaries.
 
-- [ ] 没有威胁、羞辱、欺骗、伪造证据或违法施压
-- [ ] 没有承诺保证成功
-- [ ] 没有冒充律师或第三方
-- [ ] 已保护隐私，没有真实个人信息
-- [ ] 话术自然、克制、有边界
-
-## 示例输入
-
-可选，提供脱敏示例：
+## Example input
 
 ```text
-[示例]
+[optional anonymized example]
 ```

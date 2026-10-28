@@ -1,134 +1,98 @@
-# Contributing / 贡献指南
+# Contributing
 
-感谢你愿意贡献 `negotiation-war-room-skill`。这个项目欢迎真实、克制、可执行的中文谈判经验，尤其欢迎脱敏案例、场景 Playbook、话术模板、测试 Prompt 和安全边界改进。
+Contribute practical, restrained, actionable negotiation experience: anonymized cases, scenario playbooks, wording templates, test prompts, and safety improvements. This fork uses English.
 
-请注意：本项目不接受欺骗、威胁、敲诈、伪造证据、违法施压、冒充律师或恶意操控内容。
+Do not contribute deception, threats, extortion, fabricated evidence, unlawful pressure, lawyer impersonation, or malicious manipulation.
 
-## 贡献方式
+## Ways to contribute
 
-你可以通过两种方式参与：
+1. Open an issue for problems, scenarios, or draft templates.
+2. Open a pull request for documentation, templates, playbooks, or tests.
 
-1. 提交 Issue：反馈问题、请求新场景、贡献模板草稿。
-2. 提交 Pull Request：直接修改文档、模板、Playbook 或测试。
+## New playbooks
 
-## 新增 Playbook
+Place them in `playbooks/`, preferably using:
 
-新增场景 Playbook 时，请放在 `playbooks/` 目录，并尽量包含以下结构：
+1. Scenario definition.
+2. Common situations.
+3. Common mistakes.
+4. Objectives.
+5. Key risks.
+6. Information to gather.
+7. Power assessment.
+8. Bargaining assets.
+9. Recommended strategy.
+10. Actions to avoid.
+11. First-round wording.
+12. Common reactions.
+13. Replies.
+14. Confirmation.
+15. Review questions.
 
-1. 场景定义
-2. 常见用户处境
-3. 用户常见错误
-4. 谈判目标
-5. 关键风险
-6. 信息采集重点
-7. 权力指数判断重点
-8. 筹码分析重点
-9. 推荐策略
-10. 不建议动作
-11. 第一轮话术模板
-12. 对方常见反应
-13. 应对话术
-14. 谈后确认文本
-15. 复盘问题
+Emphasize conditional concessions and protection of limits. Business scenarios need evidence, records, payment milestones, and scope. Family and relationship scenarios need emotional safety, boundaries, and common ground.
 
-Playbook 必须强调：
+## New templates
 
-- 不无条件让步。
-- 不提前暴露底线。
-- 商业场景重视证据、留痕、付款节点和交付边界。
-- 家庭/关系场景优先情绪安全、边界和共识。
+Place them in `templates/` or submit through the issue template.
 
-## 新增模板
+- Keep replaceable variables such as `[name]`, `[subject]`, `[amount]`, `[date]`.
+- Make text ready to copy.
+- Use natural, restrained language with clear boundaries.
+- Define actions, owners, dates, or correction deadlines.
+- Exclude threats, humiliation, deception, fabricated evidence, and unlawful pressure.
 
-新增模板时，请放在 `templates/` 或通过 Issue 模板提交。
+## New examples
 
-模板要求：
+Place anonymized cases in `examples/`. Remove names, phone numbers, addresses, company secrets, contract numbers, unauthorized chats, and anything identifying people or organizations.
 
-- 保留可替换变量，例如 `[对方称呼]`、`[事项]`、`[金额]`、`[日期]`。
-- 适合用户直接复制使用。
-- 语气自然、克制、有边界。
-- 明确下一步动作、负责人、时间或异议反馈期限。
-- 不包含威胁、羞辱、欺骗、伪造证据或违法施压内容。
-
-## 新增案例
-
-新增案例请放在 `examples/`，必须脱敏。
-
-必须删除：
-
-- 姓名。
-- 手机号。
-- 地址。
-- 公司机密。
-- 合同编号。
-- 未授权聊天记录。
-- 任何可识别个人或组织的信息。
-
-推荐结构：
+Suggested structure:
 
 ```text
-# 完整案例：[场景名称]
+# Worked Example: [scenario]
 
-## 用户输入
-## Skill 输出示例
-### 一、当前局势判断
-### 二、双方权力指数
-### 三、信息缺口
-### 四、目标三层模型
-### 五、BATNA / ZOPA 分析
-### 六、筹码地图
-### 七、对方画像
-### 八、策略建议
-### 九、三套谈判方案
-### 十、方案评分
-### 十一、第一轮话术
-### 十二、对方可能反应与应对
-### 十三、发送前风险审查
-### 十四、谈后确认文本
-### 十五、下一轮行动
+## User input
+## Example output
+### 1. Situation
+### 2. Power index
+### 3. Information gaps
+### 4. Three-level goals
+### 5. BATNA / ZOPA
+### 6. Bargaining map
+### 7. Other party's profile
+### 8. Strategy
+### 9. Three offers
+### 10. Scores
+### 11. First-round wording
+### 12. Reactions and replies
+### 13. Risk review
+### 14. Confirmation
+### 15. Next actions
 ```
 
-## 修正文档
+## Documentation corrections
 
-欢迎修正：
+Fix typos, links, repetition, unclear instructions, README content, docs, FAQs, and roadmap items. Keep English professional, restrained, and usable.
 
-- 错别字。
-- 链接错误。
-- 重复表达。
-- 不够可执行的说明。
-- README、docs、FAQ、Roadmap。
+## Issues
 
-文档修改也应保持中文为主、专业克制、可复制使用。
+Choose:
 
-## 提交 Issue
+- Bug report: documentation errors, ineffective templates, scenario assessment problems.
+- Feature request: capabilities, templates, agent integration.
+- Scenario request: a new negotiation situation.
+- Template contribution: wording, review, or confirmation templates.
 
-请选择对应 Issue 模板：
+Include background, user goals, other party's interests, channel, risk boundaries, and an anonymized example where possible.
 
-- Bug report：文档错误、模板失效、场景判断不合理。
-- Feature request：新增功能、模板、Agent 适配方式。
-- Scenario request：请求新增谈判场景。
-- Template contribution：贡献话术、复盘或确认文本模板。
+## Pull requests
 
-提交 Issue 时，请尽量提供：
+- [ ] Changes are clear.
+- [ ] Applicable scenarios are specified.
+- [ ] Safety implications are described.
+- [ ] Relevant test prompts were tried, or inapplicability is explained.
+- [ ] No private information or business secrets.
+- [ ] No threats, deception, fabricated evidence, unlawful pressure, or success guarantees.
 
-- 场景背景。
-- 用户目标。
-- 对方诉求。
-- 沟通渠道。
-- 风险边界。
-- 脱敏示例。
+## Safety first
 
-## 提交 PR
-
-提交 PR 前请确认：
-
-- [ ] 修改内容清楚。
-- [ ] 适用场景明确。
-- [ ] 是否涉及安全边界已说明。
-- [ ] 已使用相关测试 Prompt 验证，或说明不适用。
-- [ ] 没有真实隐私或商业机密。
-- [ ] 没有威胁、欺骗、伪造证据、违法施压或保证成功内容。
-
-## 安全优先
-
-如果你不确定某个模板是否可能造成法律、隐私、人身安全或关系风险，请优先提交 Issue 讨论，不要直接合并为推荐模板。
+If a template may create legal, privacy, physical safety, or relationship risk, open an issue for discussion before merging it as a recommended template.

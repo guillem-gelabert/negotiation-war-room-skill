@@ -1,143 +1,143 @@
-# 商业合作与尾款结算 Playbook
+# Business Projects and Outstanding Payments Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于商业合作项目中的回款、尾款、验收、结算、分阶段付款、合作收口和已交付价值确认。重点不是“催一句钱”，而是用证据、交付边界和结算方案提高回款概率。
+For collections, outstanding balances, acceptance, settlement, milestone payments, project closeout, and confirmation of delivered value. Improve recovery through evidence, delivery boundaries, and settlement options.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 项目已完成，但客户迟迟不验收。
-- 对方用“效果再看看”“领导没批”“财务流程慢”拖尾款。
-- 客户提出新增需求，却不愿先结清已完成部分。
-- 双方是长期合作关系，用户不想撕破脸。
-- 合同、验收标准或聊天记录不够清楚，用户担心追款被动。
+- The project is complete but acceptance is delayed.
+- The client cites results, management approval, or slow finance processes to delay payment.
+- New requests arrive before completed work is paid for.
+- The user wants to preserve a long-term relationship.
+- Unclear contracts, acceptance criteria, or chat records weaken the user's position.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 继续免费修改，期待对方主动付款。
-- 一上来情绪化催款，破坏后续协商空间。
-- 没有区分合同范围内交付和新增需求。
-- 只电话催款，不做微信、邮件或会议纪要留痕。
-- 直接威胁曝光、起诉或拉黑，导致风险升级。
+- Continuing free revisions in the hope of voluntary payment.
+- Opening with emotional demands and narrowing room for discussion.
+- Failing to separate contracted deliverables from new requests.
+- Calling without documenting through WeChat, email, or minutes.
+- Immediately threatening exposure, litigation, or blocking contact.
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：确认已交付事实，推动尾款按节点支付。
-- 次级目标：如对方现金流紧张，争取分期付款和明确日期。
-- 底线目标：停止无边界免费投入，保留证据和后续追索空间。
+- Primary: confirm delivery facts and secure payment on schedule.
+- Secondary: if cash flow is tight, agree installments and definite dates.
+- Minimum: stop open-ended unpaid work; preserve evidence and room for further remedies.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 证据不足导致对方否认交付或验收。
-- 新增需求被混入原合同范围。
-- 用户在沟通中承认“确实没做好”，影响责任判断。
-- 分期方案没有日期、金额和违约后果。
-- 涉及合同违约、仲裁或诉讼时误给法律结论。Agent 只能提供沟通和证据策略，并建议咨询律师。
+- Insufficient evidence allows denial of delivery or acceptance.
+- New requests become part of the original scope.
+- Statements such as "we did not do a good job" affect responsibility assessment.
+- Installments lack dates, amounts, and consequences of nonpayment.
+- For breach, arbitration, or litigation, provide communication and evidence strategy, recommend a lawyer, and avoid legal conclusions.
 
-## 6. 信息采集重点
-
-```text
-合同/报价单是否明确付款节点：
-交付物清单：
-交付时间和证据：
-验收标准：
-对方已提出的异议：
-已付款金额和未付款金额：
-发票/收据状态：
-是否有新增需求：
-对方付款决策人：
-下一步沟通渠道：
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：用户是否可暂停服务、转投其他客户或启动正式流程。
-- 时间压力：谁更急于完成项目、上线、交付或审计。
-- 信息优势：合同、交付记录、验收记录、聊天记录是否完整。
-- 资源控制：用户是否控制后续维护、源文件、账号、交付权限或服务支持。
-- 证据强度：是否有连续可核验的交付证据。
-- 关系依赖：对方是否依赖后续服务或长期合作。
-
-## 8. 筹码分析重点
-
-- 已交付价值：成果、数据、上线状态、客户已使用的部分。
-- 后续支持：维护、答疑、优化、培训、补充交付。
-- 时间筹码：财务截止、项目上线、内部验收节点。
-- 关系筹码：长期合作、后续折扣、优先响应。
-- 风险筹码：停止新增支持、正式书面确认、律师审阅风险提示。
-
-## 9. 推荐策略
-
-1. 先整理事实时间线和交付证据。
-2. 将“验收异议”和“新增需求”分开。
-3. 要求对方具体列明异议，而不是接受笼统拖延。
-4. 给出 2-3 套结算方案：按原节点支付、分期支付、争议部分保留但大部分先结。
-5. 所有后续支持绑定付款节点或书面确认。
-6. 语气克制专业，避免上来定性为恶意拖欠。
-
-## 10. 不建议动作
-
-- 不建议写“你们就是故意拖欠”。
-- 不建议无条件继续改到对方满意。
-- 不建议只口头约定分期。
-- 不建议在证据不足时直接发强硬律师函式话术。
-- 不建议把法律判断说死。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-我理解你们内部还需要确认流程。为了不影响双方后续安排，我们先把已完成交付和待确认事项对齐一下。
-
-目前合同范围内的 A、B、C 已经在 X 日期前提交，相关记录我这边也整理好了。若你们对验收有具体异议，麻烦在 X 前列出具体项，我们按合同范围逐项处理；如果没有新的交付异议，建议先按原付款节点推进尾款。
-
-后续新增优化我们也愿意配合，但需要和尾款结算分开确认，避免范围一直扩大、双方都不好执行。
+Payment milestones in the contract or quote:
+Deliverables:
+Delivery dates and evidence:
+Acceptance criteria:
+Objections already raised:
+Amounts paid and outstanding:
+Invoice / receipt status:
+New requests:
+Payment decision-maker:
+Next communication channel:
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “我们还没验收，先等等。”
-- “效果还没达到预期，你们再优化一下。”
-- “财务最近紧，晚点付。”
-- “领导还没批。”
-- “你们先把这个新需求做了，尾款一起结。”
+- Alternatives: suspend services, work for other clients, or begin formal processes.
+- Time: who most needs completion, launch, delivery, or audit closure?
+- Information: completeness of contracts, delivery, acceptance, and chats.
+- Resources: control of later maintenance, source files, accounts, delivery access, or support.
+- Evidence: continuous, verifiable delivery records.
+- Dependence: reliance on later services or long-term cooperation.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方说“还没验收”：
+- Delivered value: outputs, data, launch status, work already used.
+- Future support: maintenance, questions, optimization, training, further deliverables.
+- Timing: finance deadlines, launches, internal acceptance milestones.
+- Relationships: long-term work, future discounts, priority response.
+- Risk: ending additional support, formal written confirmation, legal review considerations.
+
+## 9. Recommended strategy
+
+1. Organize a factual timeline and delivery evidence.
+2. Separate acceptance objections from new work.
+3. Request specific objections rather than accept vague delay.
+4. Offer two or three settlements: original schedule, installments, or most paid now with disputed amounts reserved.
+5. Tie further support to payment milestones or written confirmation.
+6. Remain restrained and professional; do not immediately characterize the delay as malicious.
+
+## 10. Avoid
+
+- "You are deliberately withholding payment."
+- Unconditional revisions until the client is satisfied.
+- Verbal installment agreements alone.
+- Aggressive lawyer-style demands without sufficient evidence.
+- Definitive legal claims.
+
+## 11. First-round wording
 
 ```text
-可以理解。为了推进验收，麻烦你们把具体未通过的项目列出来。只要属于合同范围，我们会配合处理；如果没有具体异议，我们就按已交付状态推进结算。
+I understand you still have internal checks to complete. To keep both teams' plans on track, let's align on completed delivery and open points.
+
+A, B, and C within the agreed scope were submitted by X, and I have organized the supporting records. If you have specific acceptance objections, please list them by X so we can address them against the agreed scope. If there are no further delivery objections, I suggest progressing the balance on the original payment schedule.
+
+We are happy to discuss further improvements separately from payment for completed work, so scope stays clear and manageable for both sides.
 ```
 
-对方要求继续免费优化：
+## 12. Common reactions
+
+- "We have not accepted it yet; wait."
+- "Results are below expectations; improve it first."
+- "Cash is tight; we will pay later."
+- "Management has not approved it."
+- "Complete this new request and we will pay everything together."
+
+## 13. Replies
+
+Not yet accepted:
 
 ```text
-新增优化我们可以讨论，但需要和已完成交付的尾款分开。已完成部分先按节点结算，新增部分我们再确认范围、时间和费用。
+Understood. To move acceptance forward, please list the specific items that have not passed. We will address items within the contracted scope. Without specific objections, we can progress settlement based on the completed delivery.
 ```
 
-对方说财务紧：
+More free optimization:
 
 ```text
-如果现金流确实需要缓冲，我们可以讨论分两笔支付。但需要明确每笔金额和日期，并确认这不影响已交付部分的验收。
+We can discuss new improvements separately from the balance for completed delivery. Let's settle completed work on schedule, then agree scope, timing, and fees for the additions.
 ```
 
-## 14. 谈后确认文本
+Cash flow pressure:
 
 ```text
-我确认一下本次沟通结果：
-1. 已完成交付：A、B、C，提交时间分别为……
-2. 待你方确认：是否存在合同范围内的具体验收异议。
-3. 尾款安排：如无新增异议，建议按原节点在 X 前支付；如需分期，请在 X 前确认金额和日期。
-4. 新增优化：与已完成交付分开讨论，需另行确认范围和时间。
-
-如以上理解有偏差，请在 X 前指出；如无异议，我们就按这个方向推进。
+If you need breathing room on cash flow, we can discuss two installments. We need the amount and date of each, and confirmation that this does not affect acceptance of completed work.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 对方是否提出了具体验收异议？
-- 对方是否承认已收到或已使用交付成果？
-- 对方拖延理由是流程、现金流、效果异议还是新增需求？
-- 对方是否有最终付款决策权？
-- 用户是否又承诺了新增免费支持？
-- 下一轮是否应继续协商、提出分期、暂停支持或咨询律师？
+```text
+To confirm our discussion:
+1. Completed deliveries: A, B, C, submitted on...
+2. Your confirmation needed: any specific acceptance objections within the agreed scope.
+3. Balance: without further objections, payment by X on the original schedule; for installments, confirm amounts and dates by X.
+4. Further improvements: discussed separately, with scope and timing agreed in advance.
+
+Please flag any difference in understanding by X. Otherwise, we will proceed on this basis.
+```
+
+## 15. Review questions
+
+- Were specific acceptance objections raised?
+- Did the client acknowledge receipt or use of the deliverables?
+- Is the delay driven by process, cash flow, results, or new requests?
+- Does the contact have final payment authority?
+- Has the user promised additional free support?
+- Should the next round continue negotiation, offer installments, suspend support, or involve a lawyer?

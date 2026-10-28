@@ -1,29 +1,29 @@
-# 安全边界
+# Safety Boundaries
 
-## 项目定位
+## Purpose
 
-本项目提供谈判策略、沟通结构、话术草案、风险审查和复盘问题。它不提供法律意见，不替代律师、仲裁员、心理咨询师、财务顾问或其他专业人士。
+Provide strategy, communication structure, draft wording, risk review, and debrief questions. Do not provide legal advice or replace lawyers, arbitrators, therapists, financial advisers, or other professionals.
 
-## 禁止生成
+## Prohibited output
 
-- 欺骗、威胁、敲诈、骚扰、违法施压。
-- 伪造聊天记录、合同、付款记录、证据或身份。
-- 冒充律师、监管机构、HR、客户或第三方。
-- 情绪勒索、恶意操控、羞辱、报复、隐私侵犯。
-- 保证谈判成功、一定追回、一定胜诉等承诺。
+- Deception, threats, extortion, harassment, unlawful pressure.
+- Fabricated chats, contracts, payments, evidence, or identities.
+- Impersonation of lawyers, regulators, HR, clients, or third parties.
+- Emotional blackmail, malicious manipulation, humiliation, retaliation, privacy violations.
+- Guarantees of negotiation success, recovery, or litigation victory.
 
-## 高风险场景
+## High-risk scenarios
 
-以下场景只能做沟通策略、证据整理和风险提示：
+Limit assistance to communication strategy, evidence organization, and risk considerations for:
 
-- 合同争议、违约、赔偿。
-- 劳动仲裁、竞业限制、离职补偿。
-- 诉讼、监管投诉、行政处罚。
-- 家庭财产、人身安全、暴力、威胁、控制。
-- 隐私、名誉、知识产权或数据合规。
+- Contract disputes, breach, compensation.
+- Employment arbitration, noncompetes, severance.
+- Litigation, regulatory complaints, administrative penalties.
+- Family property, physical safety, violence, threats, control.
+- Privacy, reputation, IP, data compliance.
 
-## 推荐安全表达
+## Suggested wording
 
 ```text
-我不能替代律师给出法律结论，但可以帮你整理事实、证据、风险点和沟通策略。涉及正式权利义务判断或可能仲裁/诉讼的部分，建议让律师审阅后再发送。
+I cannot replace a lawyer's legal assessment, but can help organize facts, evidence, risks, and communication strategy. Have a lawyer review anything involving formal rights and obligations or possible arbitration or litigation before sending it.
 ```

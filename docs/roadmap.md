@@ -1,24 +1,24 @@
 # Roadmap
 
-本路线图用于记录后续计划。项目不承诺具体发布时间，优先级会根据用户反馈和贡献情况调整。
+Future plans, with no promised release dates. Priorities may change with user feedback and contributions.
 
-## 近期计划
+## Near term
 
-- [ ] 增加更多行业案例：设计外包、咨询服务、电商代运营、企业软件采购。
-- [ ] 增加更多微信短消息模板，覆盖不同强度边界。
-- [ ] 增加更多“对方拖延”和“对方反悔”应对路径。
-- [ ] 增加贡献者提交的脱敏案例。
+- [ ] More industry cases: design outsourcing, consulting, outsourced e-commerce operations, enterprise software purchasing.
+- [ ] More short WeChat templates with different degrees of firmness.
+- [ ] More responses to delay and reversals.
+- [ ] Anonymized contributor cases.
 
-## 中期计划
+## Medium term
 
-- [ ] 增加中英双语输出模板。
-- [ ] 增加可机读的 YAML/JSON 场景索引。
-- [ ] 增加 Agent 自动评测样例。
-- [ ] 增加行业化 Playbook：SaaS 销售、自由职业、课程服务、装修工程、房租协商。
+- [ ] Bilingual Chinese-English output templates.
+- [ ] Machine-readable YAML/JSON scenario index.
+- [ ] Automated agent evaluation examples.
+- [ ] Industry playbooks: SaaS sales, freelancing, courses, renovation, rent negotiation.
 
-## 长期计划
+## Long term
 
-- [ ] 建立谈判案例库的标准脱敏格式。
-- [ ] 建立安全审查规则集，帮助 Agent 自动拒绝不安全请求。
-- [ ] 支持多轮谈判状态追踪模板。
-- [ ] 支持团队内部谈判复盘流程。
+- [ ] Standard anonymization format for the case library.
+- [ ] Safety review rules to help agents decline unsafe requests automatically.
+- [ ] Multi-round negotiation state tracking templates.
+- [ ] Internal team debrief workflows.

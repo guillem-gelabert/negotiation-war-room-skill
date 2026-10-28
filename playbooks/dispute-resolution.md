@@ -1,142 +1,142 @@
-# 纠纷、退款、赔偿、责任协商 Playbook
+# Disputes, Refunds, Compensation, and Responsibility Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于退款、赔偿、投诉、服务争议、责任争议、道歉、和解、劳动争议前沟通和合同争议前协商。核心是止损、留痕、分清事实和诉求，避免情绪化升级。
+For refunds, compensation, complaints, service and responsibility disputes, apologies, settlements, and discussions before employment or contract proceedings. Limit losses, preserve records, separate facts from requests, and avoid emotional escalation.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 对方要求退款或赔偿。
-- 用户认为对方也有责任，但不知怎么说。
-- 双方聊天已经开始情绪化。
-- 用户想和解，但担心承认责任。
-- 争议可能涉及合同、劳动、消费、知识产权或人身伤害。
+- The other party demands a refund or compensation.
+- The user believes responsibility is shared but cannot express it.
+- Messages have become emotional.
+- The user wants settlement without admitting liability.
+- Contract, employment, consumer, IP, or personal injury issues may be involved.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 一上来争对错，忽视事实整理。
-- 情绪化道歉或承认责任。
-- 威胁曝光、报警、起诉，却没有证据和路径。
-- 不区分情绪安抚、事实确认和赔偿方案。
-- 口头和解，没有确认文本。
+- Arguing blame before organizing facts.
+- Emotional apologies or admissions.
+- Threats of exposure, police, or litigation without evidence or a plan.
+- Mixing reassurance, factual confirmation, and compensation proposals.
+- Verbal settlements without written confirmation.
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：降低冲突升级，保护证据和权利。
-- 次级目标：达成可执行的补救、退款、赔偿或和解方案。
-- 底线目标：不承认未确认责任，不接受不可执行或过高条件。
+- Primary: de-escalate and protect evidence and rights.
+- Secondary: agree an executable remedy, refund, compensation, or settlement.
+- Minimum: do not admit unconfirmed responsibility or accept excessive or unworkable terms.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 未经核实承认责任。
-- 赔偿方案没有换取对方确认结案。
-- 威胁性语言引发反制。
-- 证据不足但过度强硬。
-- 涉及法律争议时需要律师意见，Agent 不能给法律结论。
+- Admitting responsibility before verification.
+- Compensation without confirmation that the matter is resolved.
+- Threats provoke counteraction.
+- Excessive firmness without evidence.
+- Legal disputes require lawyer input; the agent must not give legal conclusions.
 
-## 6. 信息采集重点
-
-```text
-争议事项：
-事实时间线：
-双方已有沟通：
-对方诉求：
-用户可接受补救：
-证据清单：
-合同/规则/协议：
-已承认或承诺内容：
-是否涉及法律、劳动、投诉或人身安全：
-希望保持关系吗：
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：用户可否走平台、第三方、律师、内部流程。
-- 时间压力：谁更急于解决、止损或恢复合作。
-- 信息优势：谁掌握事实和证据。
-- 资源控制：谁控制款项、服务、账号、评价、公开渠道。
-- 证据强度：合同、聊天、付款、交付、照片、录音是否合法合规。
-- 关系依赖：双方是否需要继续合作或避免声誉损害。
-
-## 8. 筹码分析重点
-
-- 事实筹码：时间线、记录、合同、付款、交付。
-- 补救筹码：退款、重做、维修、延期、折扣、道歉。
-- 风险筹码：平台投诉、正式函件、第三方调解、律师咨询。
-- 关系筹码：和解、保密、互不扩大争议、后续合作。
-
-## 9. 推荐策略
-
-1. 先把事实、情绪和诉求分开。
-2. 用时间线替代指责。
-3. 不承认未确认责任，只表达解决意愿。
-4. 提供分级方案：沟通解决、书面确认、第三方介入、专业人士。
-5. 和解必须换取对方确认结案或不再扩大争议。
-
-## 10. 不建议动作
-
-- 不建议威胁、羞辱或公开曝光。
-- 不建议说“都是我的错”或“我一定赔”。
-- 不建议伪造、删改或选择性隐藏证据。
-- 不建议口头赔偿不留痕。
-- 不建议在法律问题上给确定判断。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-我希望这件事尽量通过沟通解决。为了避免双方理解不一致，我先把目前事实按时间线对齐：A 时间发生了 B，随后 C，目前争议点主要是 D。
-
-如果你认可这个事实基础，我们可以继续讨论解决方案。我的建议是围绕补救方式、完成时间和双方后续不再扩大争议来确认一版书面方案。
-
-如果你对事实部分有不同理解，也请具体指出，我们先把事实对齐。
+Disputed matter:
+Fact timeline:
+Communications so far:
+Other party's demands:
+Remedies acceptable to the user:
+Evidence list:
+Contracts / rules / agreements:
+Admissions or promises already made:
+Legal, employment, complaint, or physical safety issues:
+Is preserving the relationship a goal?
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “你必须全额退款/赔偿。”
-- “你就是不负责任。”
-- “我马上曝光/投诉你。”
-- “别讲那么多，先给钱。”
-- “你先承认是你的问题。”
+- Alternatives: platform processes, third parties, lawyers, internal procedures.
+- Time: who needs resolution, loss limitation, or restored cooperation sooner?
+- Information: who holds facts and evidence?
+- Resources: control of funds, services, accounts, reviews, public channels.
+- Evidence: legality and compliance of contracts, chats, payments, deliverables, photos, recordings.
+- Dependence: need to cooperate further or avoid reputational harm.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方要求先承认责任：
+- Facts: timeline, records, contracts, payment, delivery.
+- Remedies: refund, rework, repair, extension, discount, apology.
+- Escalation: platform complaint, formal letter, mediation, legal consultation.
+- Relationships: settlement, confidentiality, non-escalation, future cooperation.
+
+## 9. Recommended strategy
+
+1. Separate facts, emotions, and demands.
+2. Use a timeline rather than accusations.
+3. Express willingness to resolve without admitting unconfirmed responsibility.
+4. Offer stages: discussion, written confirmation, third-party involvement, professional help.
+5. Exchange settlement for confirmation of closure or no further escalation of this dispute.
+
+## 10. Avoid
+
+- Threats, humiliation, or public exposure.
+- "It is all my fault" or "I will definitely compensate you."
+- Fabricating, altering, deleting, or selectively concealing evidence.
+- Undocumented verbal compensation arrangements.
+- Definitive legal judgments.
+
+## 11. First-round wording
 
 ```text
-我理解你现在很不满，也愿意推进解决。但责任判断需要基于具体事实。我们可以先确认哪些事实双方一致，再讨论补救方案。
+I would like to resolve this through discussion if possible. To make sure we share the same understanding, here is the timeline: B happened at A, followed by C. The main disputed point is D.
+
+If you agree with those facts, we can discuss a solution covering the remedy, completion date, and how both sides will close out the matter in writing.
+
+If you see the facts differently, please identify the specific points so we can clarify them first.
 ```
 
-对方威胁曝光：
+## 12. Common reactions
+
+- "You must give a full refund or compensation."
+- "You are refusing responsibility."
+- "I will expose or report you immediately."
+- "Stop talking and pay first."
+- "First admit it was your fault."
+
+## 13. Replies
+
+Demand for an admission:
 
 ```text
-我希望事情不要扩大，扩大对双方都增加成本。我们可以先在 X 前把事实和解决方案对齐，如果无法达成，再考虑第三方或正式流程。
+I understand you are unhappy, and I want to work toward a solution. Responsibility needs to be assessed against the specific facts. Let's establish the facts we agree on, then discuss remedies.
 ```
 
-对方要求先给钱：
+Threat of exposure:
 
 ```text
-赔付或退款可以讨论，但需要同时确认金额、原因、支付时间，以及支付后双方对本事项的处理边界。
+I would prefer to avoid escalation, which adds costs for both sides. Let's try to agree the facts and a solution by X. If we cannot, we can consider a third party or formal process.
 ```
 
-## 14. 谈后确认文本
+Demand for immediate payment:
 
 ```text
-我确认一下本次沟通结果：
-1. 双方目前一致的事实是：……
-2. 仍有争议的点是：……
-3. 当前拟定解决方案是：……
-4. 我方负责：……
-5. 你方需确认：……
-6. 如按该方案执行，双方就本事项不再扩大争议/另行以书面补充为准。
-
-如以上理解有偏差，请在 X 前指出。
+We can discuss compensation or a refund alongside the amount, reason, payment date, and how the matter will be handled after payment.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 对方真正想要的是钱、道歉、修复、面子还是第三方确认？
-- 用户是否已经承认了不该承认的责任？
-- 哪些证据最关键？
-- 是否需要升级到平台、律师或第三方调解？
-- 和解方案是否包含结案边界？
+```text
+To confirm our discussion:
+1. Facts currently agreed: ...
+2. Points still disputed: ...
+3. Proposed solution: ...
+4. Our responsibilities: ...
+5. Your confirmation needed: ...
+6. On completion, both sides will not further escalate this matter / any separate written supplement will govern.
+
+Please flag differences in understanding by X.
+```
+
+## 15. Review questions
+
+- Does the other party seek money, apology, repair, dignity, or third-party validation?
+- Has the user made an admission they should not have made?
+- Which evidence matters most?
+- Is platform escalation, a lawyer, or mediation needed?
+- Does settlement define closure?

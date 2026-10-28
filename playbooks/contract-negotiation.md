@@ -1,141 +1,141 @@
-# 合同条款谈判 Playbook
+# Contract Terms Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于合同中的付款、交付、验收、违约责任、保密、知识产权、终止、续约、责任上限和争议解决条款。核心是把模糊承诺变成可执行条款。
+For payment, delivery, acceptance, breach liability, confidentiality, intellectual property, termination, renewal, liability caps, and dispute resolution. Turn vague commitments into executable terms.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 对方合同模板偏强势。
-- 付款节点、验收标准或违约责任不清楚。
-- 对方要求无限责任或过高违约金。
-- 项目已经开始，但合同还没签清楚。
-- 用户担心提修改会影响合作。
+- A one-sided contract template.
+- Unclear payment, acceptance, or breach terms.
+- Unlimited liability or excessive penalties.
+- Work has begun before the contract is settled.
+- The user fears amendments will harm cooperation.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 觉得“关系好，合同差不多就行”。
-- 接受模糊验收标准。
-- 同意无限责任或过宽赔偿。
-- 口头确认关键条款，不写进合同。
-- 在法律争议中自行判断一定有利。
+- Trusting the relationship instead of checking terms.
+- Accepting vague acceptance standards.
+- Accepting unlimited or overly broad liability.
+- Leaving key terms as verbal understandings.
+- Assuming a favorable legal position without advice.
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：明确付款、交付、验收和责任边界。
-- 次级目标：在不影响合作的前提下调整高风险条款。
-- 底线目标：不接受无法控制的无限责任、模糊义务或严重不对等条款。
+- Primary: clear payment, delivery, acceptance, and responsibilities.
+- Secondary: revise risky terms while preserving cooperation.
+- Minimum: avoid uncontrollable unlimited liability, vague obligations, or seriously unequal terms.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 验收标准主观，导致尾款被拖。
-- 违约责任过重或无上限。
-- 交付范围不清，新增需求无限扩大。
-- 知识产权、保密、终止条款不清。
-- 重大合同未经过律师审阅。
+- Subjective acceptance criteria delay payment.
+- Excessive or uncapped breach liability.
+- Unclear scope enables unlimited new requests.
+- Unclear IP, confidentiality, or termination terms.
+- Significant contracts without lawyer review.
 
-## 6. 信息采集重点
-
-```text
-合同类型和金额：
-付款节点：
-交付范围：
-验收标准：
-违约责任：
-责任上限：
-终止条款：
-保密和知识产权：
-争议解决方式：
-是否已开始履行：
-用户最担心的条款：
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：是否可换客户、供应商、模板或延期签署。
-- 时间压力：谁更急于启动、交付或付款。
-- 信息优势：用户是否理解条款后果和行业惯例。
-- 资源控制：谁控制付款、交付物、审批、关键资源。
-- 证据强度：是否有邮件、谈判记录、版本变更记录。
-- 关系依赖：合作是否长期、是否可替代。
-
-## 8. 筹码分析重点
-
-- 条款筹码：付款、验收、责任上限、交付范围。
-- 风险筹码：违约、终止、争议解决、保密范围。
-- 价值筹码：价格、服务质量、交付速度、资源投入。
-- 留痕筹码：版本批注、邮件确认、会议纪要。
-
-## 9. 推荐策略
-
-1. 先肯定合作方向，再指出“执行清晰度”问题。
-2. 高风险条款不要只说不同意，要给替代表述。
-3. 将责任限定为可控范围、合理上限和明确期限。
-4. 付款和验收必须具体到日期、标准、流程。
-5. 涉及重大金额或争议时，建议律师审阅。
-
-## 10. 不建议动作
-
-- 不建议为了快签接受模糊条款。
-- 不建议口头说“应该没问题”。
-- 不建议承诺超出控制范围的结果。
-- 不建议在未咨询律师时给出法律定性。
-- 不建议把所有修改都包装成对抗。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-这版合同整体合作方向可以继续推进。为了避免后续执行时双方理解不一致，我建议把几处关键条款写得更清楚。
-
-重点是付款节点、验收标准、交付范围和责任边界。这样不是增加流程，而是降低双方后续争议成本。
-
-我会把建议修改点按条款列出来，每一条都尽量给可执行替代表述，方便你们内部评估。
+Contract type and amount:
+Payment milestones:
+Delivery scope:
+Acceptance criteria:
+Breach liability:
+Liability cap:
+Termination:
+Confidentiality and IP:
+Dispute resolution:
+Has performance started?
+Clauses of greatest concern:
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “这是我们标准模板，不能改。”
-- “不用写那么细，合作中再说。”
-- “你们是不是不信任我们？”
-- “责任上限我们不能接受。”
-- “先签了再补充。”
+- Alternatives: other clients, suppliers, templates, or delayed signing.
+- Time: who needs launch, delivery, or payment sooner?
+- Information: understanding of consequences and industry practice.
+- Resources: control of payment, deliverables, approvals, key resources.
+- Evidence: emails, negotiation records, version history.
+- Dependence: duration and replaceability of the relationship.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方说模板不能改：
+- Terms: payment, acceptance, liability caps, scope.
+- Risk: breach, termination, disputes, confidentiality boundaries.
+- Value: price, service quality, delivery speed, resources.
+- Documentation: comments, email confirmations, minutes.
+
+## 9. Recommended strategy
+
+1. Affirm the cooperation, then raise execution clarity.
+2. Offer replacement wording for risky clauses rather than rejection alone.
+3. Limit liability to controllable matters, reasonable caps, and clear periods.
+4. Specify payment and acceptance dates, standards, and processes.
+5. Recommend lawyer review for significant amounts or disputes.
+
+## 10. Avoid
+
+- Accepting ambiguity for a quick signature.
+- Verbal assurances that "it should be fine."
+- Promising outcomes beyond control.
+- Legal characterizations without professional advice.
+- Presenting every amendment as a confrontation.
+
+## 11. First-round wording
 
 ```text
-理解你们有标准模板。我们不是要推翻模板，而是希望针对本项目的付款、交付和验收补充清楚。这样双方内部执行也更好交代。
+The overall direction works for us. To avoid different interpretations during delivery, I suggest clarifying a few key terms.
+
+These concern payment milestones, acceptance criteria, delivery scope, and responsibility boundaries. Clarity now should reduce dispute costs for both sides later.
+
+I will list the proposed changes clause by clause, with practical alternative wording for your internal review.
 ```
 
-对方说不用写细：
+## 12. Common reactions
+
+- "Our standard template cannot change."
+- "No need for that detail; we can discuss it later."
+- "Do you not trust us?"
+- "We cannot accept a liability cap."
+- "Sign first and add details later."
+
+## 13. Replies
+
+Fixed template:
 
 ```text
-正因为双方都希望顺利推进，关键节点才更适合提前写清楚。后面临时解释，反而容易影响进度和关系。
+I understand you use a standard template. We would like to clarify this project's payment, delivery, and acceptance arrangements within it, so both teams can execute consistently.
 ```
 
-对方质疑不信任：
+Detail unnecessary:
 
 ```text
-这不是不信任，而是把合作预期固定下来。规则清楚，反而能减少误会，让团队更专注交付。
+Agreeing key milestones in advance will help us keep things moving smoothly. Resolving differing interpretations later could affect both the schedule and the relationship.
 ```
 
-## 14. 谈后确认文本
+Trust concern:
 
 ```text
-我确认一下本次合同沟通结果：
-1. 合作方向双方认可。
-2. 待进一步确认条款包括：付款节点、验收标准、交付范围、责任边界。
-3. 我方会在 X 前发出修改建议和替代表述。
-4. 贵方在 X 前反馈可接受版本或需要内部确认的条款。
-
-如涉及正式法律意见，建议双方各自交由专业人士审阅。
+Putting expectations in writing helps both teams share the same understanding and focus on delivery.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 对方最抗拒哪类条款？
-- 是否是业务人员无权限修改，还是法务模板限制？
-- 用户能接受哪些替代表述？
-- 哪些条款必须律师审阅？
-- 当前是否应继续谈、暂停签署或先签补充协议？
+```text
+To confirm our contract discussion:
+1. Both sides support the cooperation.
+2. Payment milestones, acceptance criteria, scope, and responsibilities need further agreement.
+3. We will send proposed amendments and alternatives by X.
+4. Please return an acceptable version or identify terms needing internal review by X.
+
+Each side should seek professional review where formal legal advice is needed.
+```
+
+## 15. Review questions
+
+- Which clauses meet the most resistance?
+- Does the business contact lack authority, or is legal policy the obstacle?
+- Which alternatives are acceptable to the user?
+- Which terms require lawyer review?
+- Should talks continue, signing pause, or a supplementary agreement be considered first?

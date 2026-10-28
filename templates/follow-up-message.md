@@ -1,62 +1,62 @@
-# 跟进消息模板
+# Follow-up Messages
 
-使用说明：适合微信或短邮件跟进。语气保持克制，重点是明确下一步、时间和留痕。
+For WeChat or short emails. Stay restrained and focus on next steps, timing, and documentation.
 
-## 对方未回复
+## No reply
 
 ```text
-[对方称呼]，我跟进一下[事项]。上次我发的是关于[具体内容]，目前还没收到你的反馈。
+[name], I am following up on [subject]. My last message covered [details], and I have not yet received your feedback.
 
-为了不影响[排期/付款/交付/合同/后续安排]，麻烦你在[日期/时间]前确认一下。如果现在还不能确定，也可以先告诉我卡点在哪里，我这边好判断下一步怎么安排。
+Please confirm by [date / time] to keep [schedule / payment / delivery / contract / plans] on track. If you cannot confirm yet, please let me know the obstacle so I can plan next steps.
 ```
 
-## 对方拖延
+## Delay
 
 ```text
-[对方称呼]，理解你这边可能还需要内部确认。不过这个事项已经从[开始时间]推进到现在，为了避免一直悬着，我建议我们先定一个明确反馈时间。
+[name], I understand you may still need internal confirmation. We have been discussing this since [date], so I suggest agreeing a definite feedback date.
 
-你看能否在[日期]前确认[具体事项]？如果到时仍无法确认，我这边会先按[备用安排/暂停排期/保留当前方案至某日]处理。
+Could you confirm [item] by [date]? If it remains unconfirmed, I will use [fallback / paused scheduling / keep the offer open until a specified date].
 ```
 
-## 对方口头答应但未行动
+## Verbal agreement without action
 
 ```text
-[对方称呼]，我跟进一下我们上次电话/面谈里确认的[事项]。
+[name], I am following up on [subject] from our last call / meeting.
 
-当时我这边理解是：你方会在[日期]前完成[动作]，我方随后推进[动作]。目前我还没看到[付款/资料/确认/合同/反馈]，想确认一下进展是否有变化。
+My understanding was that you would complete [action] by [date], followed by our [action]. I have not yet received [payment / materials / confirmation / contract / feedback]. Has anything changed?
 
-如果时间需要调整，也请给我一个新的明确节点，方便我这边安排。
+If timing needs adjustment, please provide a definite new date so I can plan accordingly.
 ```
 
-## 对方反悔
+## Change of mind
 
 ```text
-[对方称呼]，我看到你这边对之前确认的[事项]有新的调整想法。
+[name], I see you would like to revise [previously confirmed item].
 
-为了避免双方理解不一致，我们先把变化点说清楚：原来确认的是[原共识]，现在你希望调整为[新条件]。这个变化会影响[价格/范围/时间/责任/排期]。
+Let's clarify the change: we agreed [original understanding], and you now propose [new condition]. This affects [price / scope / timing / responsibility / schedule].
 
-我可以一起看调整空间，但需要同步重新确认[交换条件/时间节点/责任边界]，否则后续执行会比较不清楚。
+I can explore adjustments alongside revised [exchange conditions / milestones / boundaries], so execution stays clear.
 ```
 
-## 对方提出新条件
+## New conditions
 
 ```text
-[对方称呼]，你新提的[条件]我收到了。这个方向可以讨论，但它会影响原来确认的[范围/价格/付款/交付/责任]。
+[name], I have received your new request for [condition]. We can discuss it, though it affects the agreed [scope / price / payment / delivery / responsibility].
 
-如果要加入这个新条件，我建议同步调整[对应条件]。比如：[方案一]，或者[方案二]。
+If we include it, I suggest adjusting [corresponding condition] at the same time: either [option one] or [option two].
 
-你看你们更倾向哪种组合？确认后我再整理成文字版本，避免后面执行有偏差。
+Which combination would you prefer? Once confirmed, I will document it so we share the same understanding.
 ```
 
-## 谈判后复盘跟进
+## Post-round review
 
 ```text
-我整理一下这轮沟通后的理解：
-1. 对方目前最关注的是：[对方核心关注]
-2. 我方需要守住的是：[我方边界]
-3. 已经确认的是：[已确认事项]
-4. 还没确认的是：[待确认事项]
-5. 下一步建议：[下一步动作]
+My understanding after this round:
+1. Their main concern: [concern].
+2. Our boundary: [boundary].
+3. Confirmed: [items].
+4. Unconfirmed: [items].
+5. Suggested next step: [action].
 
-如果以上判断准确，我们下一轮可以重点围绕[关键变量]推进；如果你觉得哪里不准确，可以补充对方原话，我再帮你调整策略。
+If this is accurate, focus next round on [variable]. If anything is off, share their exact words so I can adjust the strategy.
 ```

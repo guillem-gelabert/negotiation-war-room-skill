@@ -1,218 +1,206 @@
-# 完整案例：合伙人、股权、分工、退出机制谈判
+# Worked Example: Partners, Equity, Responsibilities, and Exits
 
-## 用户输入
+## User input
 
 ```text
-【谈判类型】
-合伙 / 商业合作
+[Type]
+Partnership / business cooperation
 
-【当前背景】
-我和朋友准备一起做一个本地生活探店账号。他说他有人脉和商家资源，我负责内容、运营和拍摄剪辑。他提出五五分，但现在股权、分工、投入、决策权、退出机制都没谈清楚。
+[Background]
+A friend and I want to run a local business review account. He brings contacts and merchant resources; I handle content, operations, filming, and editing. He proposes 50/50, but equity, roles, contributions, decisions, and exits remain unclear.
 
-【我的身份与权限】
-我是潜在合伙人，主要负责执行和运营。
+[My role]
+Potential partner responsible mainly for execution and operations.
 
-【对方身份与权限】
-对方是朋友，掌握部分商家资源。
+[Other party]
+A friend with some merchant contacts.
 
-【我的目标】
-先试运行 3 个月，按实际贡献再确认长期分配。
+[Objective]
+Run a three-month trial, then agree long-term allocation based on actual contributions.
 
-【我的底线】
-不能在没有规则和退出机制的情况下直接五五分或投入大量时间。
+[Limit]
+No immediate 50/50 split or major time investment without rules and an exit mechanism.
 
-【我的 BATNA】
-我可以自己做账号，或者找另一个懂销售的人合作。
+[BATNA]
+Run the account myself or find another sales-oriented partner.
 
-【对方可能诉求】
-希望用资源换一半权益，但不想承担太多执行。
+[Their interests]
+Exchange resources for half the rights without much execution work.
 
-【我的筹码】
-我懂内容、拍摄、剪辑、运营，也愿意持续执行。
+[My assets]
+Content, filming, editing, operations, and willingness to execute consistently.
 
-【我的弱点】
-对方确实有一些商家资源，我们也是朋友，不想伤关系。
+[My weaknesses]
+The contacts have value, and I want to protect the friendship.
 
-【已有证据】
-只有微信讨论，没有正式协议。
+[Evidence]
+WeChat discussions only, no formal agreement.
 
-【沟通渠道】
-面谈后微信确认。
+[Channel]
+In person, followed by WeChat confirmation.
 
-【希望风格】
-高情商 / 有边界 / 不伤感情
+[Style]
+Tactful / clear boundaries / protect the friendship.
 
-【是否需要】
-谈判策略 / 面谈话术 / 谈后确认文本
+[Output]
+Strategy / meeting wording / confirmation.
 ```
 
-## Skill 输出示例
+## Example output
 
-### 一、当前局势判断
+### 1. Situation
 
-这是合伙人谈判，辅助场景是熟人合作。最大风险不是五五分本身，而是权责利、决策权和退出机制没有定义。
+Primary: partner negotiation. Secondary: cooperation with a friend. The greatest risk is undefined rights, duties, returns, decisions, and exits.
 
-策略风格：柔性边界。以“保护关系和项目”为理由谈规则，不直接否定对方价值。
+Use gentle boundaries and frame rules as protection for the project and friendship, while recognizing the friend's value.
 
-### 二、双方权力指数
+### 2. Power index
 
-用户 35/60，对方 33/60，双方均衡。
+User: 35/60. Other party: 33/60. Balanced.
 
-用户优势：运营和执行能力可持续，是账号长期增长关键。
+The user brings sustained operations and execution essential to growth. The friend brings early merchant contacts. Run a trial before fixing equity or sharing permanently.
 
-对方优势：掌握早期商家资源。
+### 3. Information gaps
 
-策略含义：适合先试运行，不适合立即定死股权或分成。
+- Can contacts convert into business?
+- Weekly time from each side.
+- Initial funding responsibility.
+- Ownership of account, clients, materials, income.
+- Final authority on major decisions.
+- Settlement on exit.
 
-### 三、信息缺口
+### 4. Goals
 
-- 对方商家资源是否可实际转化。
-- 双方每周投入时间。
-- 初始资金由谁承担。
-- 账号、客户、素材、收入归属。
-- 重大事项谁拍板。
-- 退出时如何结算。
+- Ideal: three-month trial, then allocation based on realized resources, content, and revenue.
+- Acceptable: temporary revenue sharing with clear roles, deferring long-term equity.
+- Limit: no long-term 50/50 commitment with unclear rules.
+- External wording: "Contributions are untested; a trial is safer" rather than "50/50 is unfair."
 
-### 四、目标三层模型
+### 5. BATNA / ZOPA
 
-- 理想目标：试运行 3 个月，按资源兑现、内容产出、收入结果确认长期分配。
-- 可接受目标：先约定临时分账和明确分工，暂不定长期股权。
-- 底线：不在规则不清时五五分并长期投入。
-- 对外表达：不说“我觉得五五不公平”，改说“贡献还没验证，先用试运行机制更稳”。
+- User: operate alone or find another sales partner.
+- Friend: find another content operator, with uncertain quality and consistency.
+- Possible overlap:
+  - Three-month trial with project-based sharing.
+  - Discuss long-term percentages after resource conversion targets are met.
+  - 50/50 only after both sides meet agreed contribution standards.
 
-### 五、BATNA / ZOPA 分析
+### 6. Bargaining map
 
-- 用户 BATNA：自己做账号或找其他销售型伙伴。
-- 对方 BATNA：找其他内容执行者，但质量和稳定性不确定。
-- 可能 ZOPA：
-  - 3 个月试运行，收入按项目分成。
-  - 对方资源转化达标后再讨论长期比例。
-  - 五五分只适用于双方投入和资源兑现达到约定标准之后。
+User: content production, filming, editing, account operations, consistent execution.
 
-### 六、筹码地图
+Friend: merchant contacts, network, sales leads.
 
-用户筹码：
+Variables: sharing, capital, account and client ownership, decision rights, exit, trial duration.
 
-- 内容生产、拍摄、剪辑、账号运营、持续执行。
+### 7. Friend's profile
 
-对方筹码：
+- Demand: 50/50.
+- Interest: secure an execution partner and recognition of resource value.
+- Pressure: may want to start quickly without complexity.
+- Style: relationship-based, driven by verbal discussions.
 
-- 商家资源、人脉、销售线索。
+### 8. Strategy
 
-可交换变量：
+1. Recognize resource value.
+2. Explain rules as protection for the friendship.
+3. Propose a three-month trial before long-term equity.
+4. Clarify account ownership, income, costs, exits.
+5. Confirm the meeting through WeChat.
 
-- 分成比例、出资、账号归属、客户归属、决策权、退出机制、试运行期。
+### 9. Offers
 
-### 七、对方画像
+**A: trial with defined roles**
 
-- 表面诉求：五五分。
-- 真实利益：锁定执行伙伴，同时体现自己资源价值。
-- 压力来源：可能希望快速开始，不想复杂化。
-- 决策风格：关系型、口头推动型。
+- User receives: no immediate locked 50/50 split.
+- Friend receives: project launch.
+- Concession: a temporary sharing ratio during the trial.
+- Return: contributions, resource conversion, review criteria defined.
+- Risk: vague trial rules perpetuate ambiguity.
+- Fits: both want to start.
 
-### 八、策略建议
+**B: milestone-based 50/50**
 
-1. 先认可对方资源价值。
-2. 把规则包装成“保护朋友关系”。
-3. 提议试运行 3 个月，先不确定长期股权。
-4. 明确账号归属、收入分配、成本承担和退出。
-5. 面谈后一定发微信确认。
+- User receives: sharing tied to real contribution.
+- Friend receives: the possibility of 50/50.
+- Concession: keeps the proposed split under consideration.
+- Return: targets for resources, sales, content output.
+- Risk: milestones need quantification.
+- Fits: strong insistence on 50/50.
 
-### 九、三套谈判方案
+**C: project-based cooperation**
 
-方案 A：试运行分工版
+- User receives: control of the account and operations.
+- Friend receives: commissions on merchant projects brought in.
+- Concession: a relatively high project commission.
+- Return: no immediate long-term ownership rights.
+- Risk: the friend may see unequal status.
+- Fits: uncertain resource conversion.
 
-- 用户获得：不立即锁死五五分。
-- 对方获得：项目启动。
-- 用户让步：接受试运行期按临时比例分成。
-- 换回条件：明确投入、资源兑现和复盘标准。
-- 风险：试运行规则不清会继续模糊。
-- 适合：双方都想先做起来。
+### 10. Scores
 
-方案 B：里程碑五五版
-
-- 用户获得：五五分与实际贡献绑定。
-- 对方获得：保留五五分可能性。
-- 用户让步：不否定对方五五诉求。
-- 换回条件：达到资源数量、成交收入、内容产出等里程碑。
-- 风险：里程碑需量化。
-- 适合：对方强烈坚持五五。
-
-方案 C：项目制合作版
-
-- 用户获得：账号和运营主导权。
-- 对方获得：按带来的商家项目分佣。
-- 用户让步：给资源方较高项目佣金。
-- 换回条件：不直接给长期权益。
-- 风险：对方可能觉得身份不够平等。
-- 适合：资源兑现不确定。
-
-### 十、方案评分
-
-| 方案 | 利益最大化 | 成交概率 | 风险可控 | 关系保留 | 执行清晰度 | 总分 | 推荐顺序 |
+| Option | Value | Agreement likelihood | Risk control | Relationship | Execution clarity | Total | Rank |
 |---|---:|---:|---:|---:|---:|---:|---|
-| A 试运行分工版 | 4 | 5 | 4 | 5 | 4 | 22 | 1 |
-| B 里程碑五五版 | 4 | 4 | 4 | 4 | 4 | 20 | 2 |
-| C 项目制合作版 | 5 | 3 | 5 | 3 | 5 | 21 | 3 |
+| A: defined trial | 4 | 5 | 4 | 5 | 4 | 22 | 1 |
+| B: milestones | 4 | 4 | 4 | 4 | 4 | 20 | 2 |
+| C: project basis | 5 | 3 | 5 | 3 | 5 | 21 | 3 |
 
-推荐：先推方案 A，必要时用方案 B 给对方保留五五台阶。
+Lead with A. Use B if needed to keep a path toward 50/50.
 
-### 十一、第一轮面谈话术
-
-```text
-我挺愿意认真做这个项目，也认可你手上的商家资源。正因为我们是朋友，我更希望一开始把规则说清楚，避免后面因为理解不同伤感情。
-
-五五分可以作为长期目标讨论，但我建议先不要一开始就定死。因为现在资源能转化多少、内容要投入多少、谁承担成本、账号归属和退出方式都还没验证。
-
-我的建议是先试运行 3 个月：我们把各自投入、分工、资源兑现、收入分配和复盘节点写清楚。三个月后按实际贡献和结果，再确认长期分配。这样对项目和关系都更稳。
-```
-
-### 十二、对方可能反应与应对
-
-对方说“你是不是不信任我”：
+### 11. First meeting wording
 
 ```text
-不是不信任。恰恰是因为我们关系不错，我才不想靠口头理解往前冲。规则清楚，后面反而更不容易伤关系。
+I want to take this seriously and recognize the value of your merchant contacts. Since we are friends, I would like to agree rules early so different expectations do not hurt the relationship later.
+
+We can discuss 50/50 as a long-term target. First, we need to test resource conversion, content workload, costs, account ownership, and exits.
+
+I suggest a three-month trial with contributions, roles, resources, income sharing, and review dates written down. Then we can decide long-term allocation from actual contributions and results.
 ```
 
-对方说“五五最简单”：
+### 12. Reactions and replies
+
+"Do you not trust me?"
 
 ```text
-五五确实简单，但不一定最适合现在这个阶段。现在双方贡献还没验证，先试运行会更公平。只要实际贡献对等，三个月后五五也可以继续谈。
+Our friendship matters to me, and I want clear expectations before we start. Written rules will help us avoid misunderstandings later.
 ```
 
-对方说“先做起来再说”：
+"50/50 is simplest."
 
 ```text
-可以先做，但至少要把试运行规则说清楚。否则项目一旦有收入或争议，到时候再谈会更难。
+It is simple, but we have not tested contributions yet. A trial would give us a fairer basis. If contributions are equivalent, 50/50 remains open after three months.
 ```
 
-### 十三、发送前风险审查
-
-风险等级：中。
-
-注意：
-
-- 不要说“你的资源不值一半”。
-- 不要攻击朋友动机。
-- 不要只口头确认。
-- 必须明确退出和账号归属。
-
-### 十四、谈后确认文本
+"Start first."
 
 ```text
-我整理一下我们今天聊到的方向：
-1. 双方都愿意继续评估本地生活探店账号合作。
-2. 暂不直接确定长期五五分，先试运行 3 个月。
-3. 试运行期需要确认：各自投入、分工、资源兑现、收入分配、成本承担、账号归属和退出方式。
-4. 三个月后按实际贡献和结果复盘，再决定长期分配。
-
-如果你觉得这个理解有偏差，可以直接补充。我们先把简版规则写清楚，再开始投入。
+We can start once the basic trial rules are clear. It will be harder to agree them after revenue or disagreements appear.
 ```
 
-### 十五、下一轮行动
+### 13. Risk review
 
-- 面谈后发送确认文本。
-- 列出试运行协议草案。
-- 在规则确认前，不交出账号主控权，不投入不可逆资源。
-- 若对方拒绝任何规则，建议暂停合作。
+Medium.
+
+- Do not say "Your resources are not worth half."
+- Do not attack motives.
+- Do not rely only on verbal confirmation.
+- Define exit and account ownership.
+
+### 14. Confirmation
+
+```text
+My understanding of today's discussion:
+1. We both want to assess cooperation on the local business review account.
+2. Run a three-month trial before deciding a permanent 50/50 split.
+3. Confirm contributions, roles, resource conversion, sharing, costs, account ownership, and exits for the trial.
+4. Review actual contributions and results after three months before long-term allocation.
+
+Please add any corrections. Let's write down the basic rules before investing resources.
+```
+
+### 15. Next actions
+
+- Send the confirmation after meeting.
+- Draft the trial agreement.
+- Keep account control and defer irreversible investment until rules are confirmed.
+- If the friend rejects any rules, consider pausing.

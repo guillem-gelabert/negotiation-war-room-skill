@@ -1,179 +1,158 @@
-# 谈判风险审查清单
+# Negotiation Risk Checklist
 
-本文件用于发送话术、邮件、微信、会议纪要或谈后确认前的风险审查。Agent 必须在最终输出前进行审查，尤其是合同、劳动、纠纷、尾款和家庭关系场景。
+Review scripts, emails, WeChat messages, minutes, and confirmations before final output, especially in contract, employment, dispute, payment, and family scenarios.
 
-## 风险等级
+## Risk levels
 
-| 等级 | 判断标准 | 处理方式 |
+| Level | Criteria | Response |
 |---|---|---|
-| 低 | 表达清晰，边界明确，留痕充分，无明显法律或关系风险 | 可发送，轻微优化 |
-| 中 | 存在底线暴露、让步不清、语气不稳或执行模糊 | 修改后再发送 |
-| 高 | 涉及法律承认、威胁、无法交付承诺、重大关系破裂或人身安全风险 | 不建议发送，需重写或咨询专业人士 |
+| Low | Clear wording and boundaries, adequate records, no apparent legal or relationship risk | Ready to send with minor improvements |
+| Medium | Exposed limits, unclear concessions, unstable tone, or ambiguous execution | Revise before sending |
+| High | Legal admissions, threats, impossible promises, major relationship breakdown, or physical danger | Do not recommend sending; rewrite or seek professional advice |
 
-## 审查清单
+## Checklist
 
-### 1. 是否暴露底线
+### 1. Does it reveal the walk-away limit?
 
-风险信号：
+Signals:
 
-- “我最低只能接受……”
-- “最多只能让……”
-- “这是我的底线……”
+- "The minimum I can accept is..."
+- "The most I can concede is..."
+- "This is my bottom line..."
 
-修正方式：
+Replace with principles, cost structure, approval rules, delivery quality, or execution boundaries.
 
-- 改为原则、成本结构、审批规则、交付质量或执行边界表达。
+### 2. Is it emotional?
 
-### 2. 是否情绪化
+Signals:
 
-风险信号：
+- Accusations, sarcasm, humiliation, absolute claims.
+- "You always," "you never," "this is outrageous."
 
-- 指责、讽刺、羞辱、绝对化表达。
-- “你总是”“你从来不”“太过分了”。
+Replace with facts, impact, needs, and requests.
 
-修正方式：
+### 3. Are concessions unconditional?
 
-- 改为事实、影响、需求和请求。
+Signals:
 
-### 3. 是否无条件让步
+- Immediate discounts, extensions, free support, or continued work.
+- No payment, confirmation, scope, timing, or commitment in return.
 
-风险信号：
+Tie each concession to definite conditions.
 
-- 直接降价、延期、免费支持、继续投入。
-- 没有换回付款、确认、范围、时间或承诺。
+### 4. Is a next action missing?
 
-修正方式：
+Signals:
 
-- 每个让步绑定确定条件。
+- A position without an action.
+- No owner, deadline, or feedback channel.
 
-### 4. 是否缺少下一步
+Add: "Please confirm Y by X; once received, we will proceed with Z."
 
-风险信号：
+### 5. Is there no written record?
 
-- 只有态度，没有动作。
-- 没有负责人、截止日期或反馈方式。
+Signals:
 
-修正方式：
+- Important matters discussed only by phone.
+- No written confirmation after meetings.
+- Amounts, dates, and scope undocumented.
 
-- 增加“请在 X 前确认 Y；我方收到后推进 Z”。
+Generate a post-discussion confirmation.
 
-### 5. 是否没有留痕
+### 6. Is the language threatening?
 
-风险信号：
+Signals:
 
-- 重要事项只电话沟通。
-- 会后没有确认文字。
-- 金额、时间、范围没有记录。
+- "Pay or I will expose you."
+- "Agree or you will pay the price."
+- "I will make you regret this."
 
-修正方式：
+Rewrite as a formal, restrained, documented boundary or staged escalation path.
 
-- 生成谈后确认文本。
+### 7. Are there promises beyond capacity?
 
-### 6. 是否用了威胁性语言
+Signals:
 
-风险信号：
+- Results, returns, speed, resources, or liability beyond actual ability.
+- "Definitely," "guaranteed results," "all future support is free."
 
-- “你不付我就曝光你。”
-- “不答应就让你付出代价。”
-- “我会让你后悔。”
+Use conditional commitments with scope, standards, and limits.
 
-修正方式：
+### 8. Is there legal risk?
 
-- 改为正式、克制、可留痕的边界表达或分级处理路径。
+Signals:
 
-### 7. 是否承诺了无法交付内容
+- Admissions of breach, fault, compensation liability, or waivers of rights.
+- Employment arbitration, contract disputes, litigation, damages, intellectual property.
 
-风险信号：
+Organize facts and communication strategy without legal conclusions. Recommend lawyer review before sending.
 
-- 承诺结果、收益、速度、资源或责任超过实际能力。
-- “一定做到”“保证有效”“后面都免费支持”。
+### 9. Could it harm a long-term relationship?
 
-修正方式：
+Signals:
 
-- 改为条件性承诺，并写明范围、标准和限制。
+- Humiliation or loss of face.
+- Turning one dispute into a judgment of character.
+- No dignified way forward or choices.
 
-### 8. 是否涉及法律风险
+State the shared goal before boundaries and options.
 
-风险信号：
+### 10. Is a verbal promise treated as a settled agreement?
 
-- 承认违约、过错、赔偿责任或放弃权利。
-- 涉及劳动仲裁、合同争议、诉讼、赔偿、知识产权。
+Signals:
 
-修正方式：
+- "We agreed on the phone," with no written confirmation.
+- No amount, date, scope, or responsible person.
 
-- 只整理事实和沟通策略，不给法律结论。
-- 建议律师审阅后再发送。
+Send a confirmation and a deadline for corrections.
 
-### 9. 是否可能破坏长期关系
+## Scenario-specific risks
 
-风险信号：
+### Outstanding payment
 
-- 让对方丢面子。
-- 把一次争议扩大为人格否定。
-- 没有给对方台阶或选择。
+- Are contracts, deliverables, acceptance, invoices, and payment records available?
+- Is free revision work continuing?
+- Are new demands treated as original delivery obligations?
 
-修正方式：
+### Client discount request
 
-- 先确认共同目标，再表达边界和选择。
+- Is the lowest price disclosed immediately?
+- Is price reduced without a scope change?
+- Are payment, duration, and case-study permissions overlooked?
 
-### 10. 是否把口头承诺当成确定协议
+### Compensation
 
-风险信号：
+- Does the message threaten HR?
+- Are offers or experience exaggerated?
+- Is the discussion limited to monthly pay rather than total compensation and level?
 
-- “刚刚电话已经说好了”，但没有文字确认。
-- 没有金额、时间、范围、负责人。
+### Contracts
 
-修正方式：
+- Is liability unlimited?
+- Are acceptance criteria vague?
+- Are payment milestones unclear?
+- Is lawyer review needed?
 
-- 发送确认文本，并设置异议反馈期限。
+### Disputes
 
-## 场景专项风险
+- Does it admit unconfirmed responsibility?
+- Does it contain threats?
+- Does it give up room to pursue remedies?
 
-### 尾款结算
+### Family relationships
 
-- 是否有合同、交付、验收、发票、付款记录。
-- 是否继续免费修改。
-- 是否把新增需求当成原交付义务。
+- Does it escalate conflict?
+- Does it use aggressive commercial tactics?
+- Is physical safety at risk?
 
-### 客户压价
-
-- 是否直接给底价。
-- 是否降价但范围不变。
-- 是否忽略付款、周期和案例授权。
-
-### 薪资谈判
-
-- 是否威胁 HR。
-- 是否夸大 offer 或经历。
-- 是否只谈月薪，不谈总包和职级。
-
-### 合同谈判
-
-- 是否接受无限责任。
-- 是否验收标准模糊。
-- 是否付款节点不清。
-- 是否需要律师审阅。
-
-### 纠纷协商
-
-- 是否承认未确认责任。
-- 是否使用威胁性语言。
-- 是否放弃追索空间。
-
-### 家庭关系
-
-- 是否升级冲突。
-- 是否使用商业强压话术。
-- 是否存在人身安全风险。
-
-## 输出格式
+## Output
 
 ```text
-风险等级：低 / 中 / 高
-主要风险：
-必须修改：
-建议优化：
-更安全版本：
-是否需要专业人士：
-发送前仍需确认：
+Risk level: low / medium / high
+Main risks:
+Required changes:
+Suggested improvements:
+Safer version:
+Professional support needed:
+Still to confirm before sending:
 ```

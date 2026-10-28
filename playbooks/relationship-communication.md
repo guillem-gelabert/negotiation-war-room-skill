@@ -1,142 +1,142 @@
-# 熟人合作、家庭关系、亲密关系沟通 Playbook
+# Friends, Family, and Close Relationships Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于熟人合作、朋友项目、亲戚借钱、家庭分工、伴侣沟通、经济边界、关系修复和亲密关系冲突。核心不是赢过对方，而是在情绪安全下表达需求、边界和可执行共识。
+For work with acquaintances, friends' projects, loans to relatives, household responsibilities, partner conversations, financial boundaries, relationship repair, and intimate conflicts. Express needs, boundaries, and practical agreements within an emotionally safe conversation.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 朋友或亲戚提出合作、借钱、帮忙，用户不好拒绝。
-- 家庭成员长期让用户承担经济或情绪压力。
-- 伴侣或家人沟通容易情绪化。
-- 用户既想维护关系，又不想继续委屈自己。
-- 熟人合作没有合同，后续出现利益争议。
+- A friend or relative asks for cooperation, money, or help and refusal feels difficult.
+- Family members repeatedly place financial or emotional burdens on the user.
+- Conversations with a partner or family member become emotional.
+- The user wants to preserve the relationship without continuing to suppress their needs.
+- Informal work without a contract develops into a financial dispute.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 为了面子答应超出承受范围的请求。
-- 一直忍耐，最后爆发。
-- 用商业压价、威胁、冷处理方式处理亲密关系。
-- 只讲道理，不承接情绪。
-- 借钱或合作没有金额、时间和责任边界。
+- Agreeing to more than one can bear to save face.
+- Enduring silently until an outburst.
+- Using commercial pressure, threats, or punitive silence in close relationships.
+- Relying only on reason without acknowledging feelings.
+- Loans or cooperation without clear amounts, dates, or responsibilities.
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：表达真实需求和边界，降低冲突。
-- 次级目标：达成可执行共识，例如金额、时间、分工、频率、规则。
-- 底线目标：不牺牲安全、尊严、基本经济边界和长期心理承受能力。
+- Primary: express real needs and boundaries while reducing conflict.
+- Secondary: practical agreement on amounts, timing, roles, frequency, or rules.
+- Minimum: protect safety, dignity, basic financial boundaries, and long-term emotional capacity.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 情绪升级，关系受损。
-- 用户因内疚继续无边界让步。
-- 对方把边界理解为拒绝关系。
-- 涉及威胁、控制、暴力或人身安全。
-- 熟人合作因不留痕导致后续争议。
+- Escalation harms the relationship.
+- Guilt drives further open-ended concessions.
+- Boundaries are interpreted as rejection of the relationship.
+- Threats, control, violence, or physical danger.
+- Informal cooperation lacks records and creates later disputes.
 
-## 6. 信息采集重点
-
-```text
-关系类型：
-当前冲突：
-用户真实需求：
-用户不能接受的边界：
-对方可能感受：
-对方实际诉求：
-是否涉及金钱/合作/照护/同住：
-是否存在威胁、控制或暴力：
-希望维持到什么关系状态：
-沟通渠道：微信/电话/面谈
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：用户是否可以暂停、拒绝、求助第三方或设置距离。
-- 时间压力：谁更急于得到回应、钱、帮助或承诺。
-- 信息优势：用户是否清楚自己的需求、边界和事实。
-- 资源控制：谁控制经济、居住、照护、关系资源。
-- 证据强度：熟人合作是否有聊天、转账、约定记录。
-- 关系依赖：用户是否因亲情、伴侣关系或面子过度让步。
-
-## 8. 筹码分析重点
-
-- 情绪筹码：尊重、理解、被看见。
-- 边界筹码：时间、金钱、精力、空间。
-- 关系筹码：继续沟通、一起解决、保留体面。
-- 规则筹码：借款日期、还款计划、合作分工、家庭分工。
-- 安全筹码：第三方陪同、公开场合、专业帮助。
-
-## 9. 推荐策略
-
-1. 先确认关系和情绪，再表达具体事实。
-2. 使用“事实 - 感受 - 需求 - 请求”结构。
-3. 边界要具体，不做人格攻击。
-4. 熟人合作或借钱必须写明金额、时间、责任。
-5. 涉及威胁、暴力、控制时，优先安全，不建议单独谈判。
-
-## 10. 不建议动作
-
-- 不建议用“你总是/你从来不”。
-- 不建议用冷暴力、威胁、报复或羞辱。
-- 不建议为了关系答应无法承受的事。
-- 不建议把商业强压话术套到家庭关系。
-- 不建议在人身安全风险下独自面谈。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-我很重视我们的关系，所以这件事我不想靠猜、忍或者突然爆发来处理。
-
-我想具体说一下：最近让我压力比较大的是 A。我的感受是 B，我真正需要的是 C。
-
-我愿意在 D 上配合，但 E 是我的边界。我们能不能先按这个方式试一段时间，然后在 X 时间再复盘？
+Relationship:
+Current conflict:
+User's real needs:
+Non-negotiable boundaries:
+Other party's possible feelings:
+Other party's actual requests:
+Money / work / care / shared housing involved:
+Threats, control, or violence:
+Desired future relationship:
+Channel: WeChat / phone / in person
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “你怎么这么计较？”
-- “都是一家人/朋友，谈这些太生分。”
-- “你就是不在乎我。”
-- “以前都可以，为什么现在不行？”
-- “那算了，以后别来往了。”
+- Alternatives: pause, refuse, involve a third party, or create distance.
+- Time: who needs an answer, money, help, or commitment sooner?
+- Information: clarity about needs, boundaries, and facts.
+- Resources: finances, housing, care, social relationships.
+- Evidence: chats, transfers, agreements for informal work.
+- Dependence: excessive concessions due to family ties, partnership, or saving face.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方说你计较：
+- Emotional: respect, understanding, acknowledgment.
+- Boundaries: time, money, energy, space.
+- Relationship: continued discussion, shared problem-solving, dignity.
+- Rules: loan dates, repayments, work roles, household tasks.
+- Safety: accompaniment, public venues, professional help.
+
+## 9. Recommended strategy
+
+1. Acknowledge the relationship and feelings before specific facts.
+2. Use facts → feelings → needs → requests.
+3. Make boundaries specific; avoid character attacks.
+4. Record amounts, dates, and responsibilities for loans or work.
+5. Prioritize safety for threats, violence, or control; do not recommend negotiating alone.
+
+## 10. Avoid
+
+- "You always" or "you never."
+- Punitive silence, threats, revenge, humiliation.
+- Commitments beyond capacity for the sake of the relationship.
+- Commercial pressure tactics in family conversations.
+- Meeting alone when physical safety is at risk.
+
+## 11. First-round wording
 
 ```text
-我不是想计较，也不是否定我们的关系。我是希望把这件事说清楚，避免我一直压着，最后反而影响关系。
+Our relationship matters to me, and I want to talk about this before it builds up further.
+
+Recently, A has been putting pressure on me. I feel B, and what I need is C.
+
+I can help with D, but E is my boundary. Could we try this arrangement for a while and review it at X?
 ```
 
-对方说谈规则生分：
+## 12. Common reactions
+
+- "Why are you being so petty?"
+- "We are family / friends; these rules make us strangers."
+- "You do not care about me."
+- "It was fine before; why not now?"
+- "Then forget it; we should stop seeing each other."
+
+## 13. Replies
+
+Accusation of pettiness:
 
 ```text
-正因为关系重要，才更需要把边界说清楚。规则不是疏远，是为了减少误会。
+I want to explain what I can manage so this does not keep building up and hurt our relationship later.
 ```
 
-对方情绪化：
+Rules feel distant:
 
 ```text
-我听到你现在很不舒服。我们可以先暂停一下，但这件事我不想继续回避。等情绪缓一点，我们再回到具体怎么做。
+The relationship matters to me. Clear boundaries will help us avoid misunderstandings.
 ```
 
-## 14. 谈后确认文本
+Emotional response:
 
 ```text
-我整理一下我们刚才说到的内容：
-1. 我在意的是我们的关系，也希望事情能更清楚地处理。
-2. 目前让我有压力的是：……
-3. 我可以做到：……
-4. 我的边界是：……
-5. 我们先按……执行到 X 时间，再一起复盘。
-
-如果你觉得我理解有偏差，也可以补充。
+I can hear this is upsetting. We can pause for now, but I do want us to return to it when we feel calmer and discuss what to do.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 对方是否听懂了用户的具体边界？
-- 用户是否因为内疚又做了超出承受范围的承诺？
-- 这次沟通是降低了冲突，还是升级了风险？
-- 是否需要第三方、家庭成员、朋友或专业人士介入？
-- 是否存在安全风险，需要优先离开或求助？
+```text
+Here is what I took from our conversation:
+1. Our relationship matters to me, and I want us to handle this more clearly.
+2. What is putting pressure on me: ...
+3. What I can do: ...
+4. My boundary: ...
+5. We will try ... until X, then review it together.
+
+Please add anything I have misunderstood.
+```
+
+## 15. Review questions
+
+- Did the other party understand the specific boundary?
+- Did guilt lead to promises beyond capacity?
+- Did the discussion reduce conflict or increase risk?
+- Should a third party, relative, friend, or professional be involved?
+- Is safety at risk, requiring leaving or seeking help first?

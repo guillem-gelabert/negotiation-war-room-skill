@@ -1,142 +1,142 @@
-# 采购与销售谈判 Playbook
+# Procurement and Sales Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于采购报价、供应商谈判、销售成交、账期、起订量、框架协议、渠道合作、返点、质量标准和供货周期。核心是把单价谈判扩展为量、账期、质量、风险和长期合作的组合谈判。
+For quotes, supplier negotiations, sales, payment terms, minimum orders, framework agreements, channel cooperation, rebates, quality standards, and supply schedules. Link unit price to volume, payment, quality, risk, and long-term cooperation.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 采购要求供应商降价或延长账期。
-- 销售面对大客户压价。
-- 双方对质量、交付、售后责任有分歧。
-- 客户承诺未来大量采购，但当前不愿给确定订单。
-- 供应商担心低价影响质量和供货稳定性。
+- Purchasing requests lower prices or longer payment periods.
+- A major client pressures a salesperson on price.
+- Disagreement on quality, delivery, or after-sales responsibility.
+- Promises of large future purchases without firm current orders.
+- Suppliers fear low prices will undermine quality and reliable supply.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 只围绕单价谈。
-- 接受长账期但没有风险补偿。
-- 为拿订单承诺不确定供货或售后。
-- 把未来采购量当成确定承诺。
-- 口头谈定价格和账期，不做书面确认。
+- Negotiating only unit price.
+- Accepting long payment periods without compensation for risk.
+- Promising uncertain supply or support to win an order.
+- Treating future volume as a firm commitment.
+- Agreeing price and payment terms verbally.
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：在价格、量、账期、质量和供货稳定性之间达成可执行组合。
-- 次级目标：用长期合作或框架协议换取更好条件。
-- 底线目标：不接受亏损价格、不可承受账期或无法交付承诺。
+- Primary: an executable combination of price, volume, payment, quality, and supply reliability.
+- Secondary: better terms through long-term cooperation or frameworks.
+- Minimum: avoid loss-making prices, unbearable payment periods, or undeliverable promises.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 低价锁定后，成本波动无法转嫁。
-- 长账期带来现金流风险。
-- 起订量、质量标准、售后责任不清。
-- 对方用未来量换当前让利，但不承诺。
-- 框架协议没有实际采购义务。
+- Locked prices cannot absorb cost changes.
+- Long payment periods strain cash flow.
+- Minimum orders, quality, and after-sales responsibility are unclear.
+- Future volume secures present concessions without commitment.
+- Framework agreements contain no actual purchase obligation.
 
-## 6. 信息采集重点
-
-```text
-产品/服务类型：
-当前报价和目标价：
-采购量或预计量：
-账期：
-交付周期：
-质量标准：
-售后责任：
-是否独家/框架：
-对方替代供应商：
-我方成本底线：
-未来量是否有书面承诺：
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：双方是否有替代供应商或客户。
-- 时间压力：谁更急于下单、交付或完成采购指标。
-- 信息优势：谁更清楚市场价、成本、库存、需求。
-- 资源控制：谁控制供应、渠道、资金、订单或客户。
-- 证据强度：报价单、样品测试、历史订单、质量报告。
-- 关系依赖：是否长期供货、替换成本是否高。
-
-## 8. 筹码分析重点
-
-- 价格筹码：单价、阶梯价、返点。
-- 数量筹码：起订量、年度量、锁量。
-- 账期筹码：预付款、月结、票期、信用额度。
-- 质量筹码：标准、验收、售后、质保。
-- 供货筹码：交期、库存、优先级、独家。
-
-## 9. 推荐策略
-
-1. 不单独谈单价，必须联动量、账期、质量和交付。
-2. 折扣换确定采购量、预付款、短账期或框架承诺。
-3. 长账期必须换价格、担保、阶段付款或信用额度。
-4. 未来采购量必须写入可执行承诺或阶梯价格。
-5. 质量和售后责任要明确边界。
-
-## 10. 不建议动作
-
-- 不建议为拿单接受亏损价。
-- 不建议把“以后量很大”当确定事实。
-- 不建议接受无限售后责任。
-- 不建议在未确认账期和付款条件时排产。
-- 不建议口头确认返点、独家或框架条件。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-单价可以讨论，但需要和采购量、账期、交付周期、质量标准一起确认。不同组合对应的成本结构不同。
-
-如果贵方能确认年度量或缩短账期，我们可以给出更有竞争力的价格；如果账期和交付要求都保持较高标准，价格空间就会比较有限。
-
-我建议我们按三种组合来对齐：价格优先、交付优先、长期合作优先。
+Product or service:
+Current quote and target price:
+Order or forecast volume:
+Payment terms:
+Delivery lead time:
+Quality standards:
+After-sales responsibility:
+Exclusivity / framework arrangements:
+Alternative suppliers:
+Our cost threshold:
+Written commitments for future volume:
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “先按这个低价做，后面量会起来。”
-- “账期是公司规定，不能改。”
-- “别家更便宜。”
-- “质量不能降，价格也要降。”
-- “先供货，合同后补。”
+- Alternatives: other suppliers or clients for each side.
+- Time: urgency to order, deliver, or meet purchasing targets.
+- Information: market prices, costs, inventory, demand.
+- Resources: supply, channels, funds, orders, clients.
+- Evidence: quotations, sample tests, past orders, quality reports.
+- Dependence: ongoing supply and switching costs.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方承诺未来量：
+- Price: unit price, tiers, rebates.
+- Volume: minimum orders, annual volume, committed volume.
+- Payment: prepayment, monthly settlement, bill maturity, credit limits.
+- Quality: standards, acceptance, support, warranty.
+- Supply: lead times, inventory, priority, exclusivity.
+
+## 9. Recommended strategy
+
+1. Link price with volume, payment, quality, and delivery.
+2. Exchange discounts for firm orders, prepayment, faster payment, or framework commitments.
+3. Exchange long payment periods for price, guarantees, milestones, or credit limits.
+4. Translate future volume into executable commitments or tiered pricing.
+5. Define quality and after-sales boundaries.
+
+## 10. Avoid
+
+- Loss-making prices to win orders.
+- Treating "large volumes later" as fact.
+- Unlimited after-sales responsibility.
+- Starting production before payment conditions are confirmed.
+- Verbal rebates, exclusivity, or framework terms.
+
+## 11. First-round wording
 
 ```text
-如果未来量比较确定，我们可以设计阶梯价。当前价格先按本批量执行，达到约定采购量后自动进入下一档价格，这样对双方都更清楚。
+We can discuss unit price alongside volume, payment terms, delivery lead time, and quality standards. Each combination has a different cost structure.
+
+Confirmed annual volumes or faster payment could support a more competitive price. With demanding payment and delivery conditions unchanged, price flexibility is more limited.
+
+I suggest comparing three combinations: price first, delivery first, and long-term cooperation first.
 ```
 
-对方要求低价且高质量：
+## 12. Common reactions
+
+- "Start at this low price; volume will grow later."
+- "Payment terms are company policy."
+- "Others are cheaper."
+- "Keep quality and reduce price."
+- "Deliver first; we will sign later."
+
+## 13. Replies
+
+Future volume:
 
 ```text
-质量标准我们可以保证，但对应的成本和交付要求需要匹配。如果价格要进一步优化，就需要在采购量、账期或部分非核心服务上同步调整。
+If future volume is likely, we can use tiered pricing. The current batch uses its applicable price, with the next tier activated when agreed volume is reached.
 ```
 
-对方要求先供货：
+Low price and high quality:
 
 ```text
-为了不影响后续执行，建议先把订单数量、价格、账期和验收标准确认下来。确认后我们可以尽快安排排产/交付。
+We can meet the quality standard with matching cost and delivery arrangements. Further price reductions would need changes in volume, payment terms, or some non-core services.
 ```
 
-## 14. 谈后确认文本
+Deliver first:
 
 ```text
-我确认一下本次沟通结果：
-1. 当前讨论的核心变量是：单价、采购量、账期、交付周期、质量标准。
-2. 我方可根据不同组合提供阶梯报价。
-3. 若需更低单价，需要同步确认采购量、预付款/账期或年度框架。
-4. 双方在 X 前确认优先方案和书面订单/合同。
-
-如理解有偏差，请补充。
+Let's first confirm order quantity, price, payment terms, and acceptance standards so execution stays clear. We can then arrange production or delivery promptly.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 对方最看重单价、账期、质量还是交付？
-- 未来采购量是否有书面承诺？
-- 用户是否低估了现金流风险？
-- 哪些条件必须写入合同或订单？
-- 下一轮应推阶梯价、账期交换还是质量边界？
+```text
+To confirm our discussion:
+1. Main variables: unit price, volume, payment terms, delivery, quality.
+2. We can provide tiered quotes for different combinations.
+3. Lower prices require confirmation of volume, prepayment / payment terms, or an annual framework.
+4. Both sides will confirm the preferred option and written order / contract by X.
+
+Please add any corrections.
+```
+
+## 15. Review questions
+
+- Is the priority price, payment, quality, or delivery?
+- Is future volume committed in writing?
+- Has cash flow risk been underestimated?
+- What belongs in the contract or order?
+- Should the next round emphasize tiers, payment exchanges, or quality boundaries?

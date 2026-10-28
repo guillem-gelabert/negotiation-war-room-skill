@@ -1,141 +1,141 @@
-# 合伙人、股权、分工、退出机制谈判 Playbook
+# Partners, Equity, Responsibilities, and Exits Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于合伙创业、股权分配、利润分成、角色分工、决策权、资源投入、退出机制和熟人合伙。核心是先谈规则，再谈投入；先谈退出，再谈长期。
+For joint ventures, equity, profit sharing, roles, decision rights, resource contributions, exits, and partnerships with friends. Agree rules before contributions and exits before long-term commitments.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 朋友或熟人邀请合伙，口头说“五五分”。
-- 一方出钱，一方出力，贡献难量化。
-- 股权、分红、决策权没有写清楚。
-- 项目还没赚钱，但已经产生投入和争议。
-- 用户担心谈规则显得不信任对方。
+- A friend proposes a verbal 50/50 split.
+- One side contributes money and the other labor; contributions are difficult to compare.
+- Equity, dividends, and decision rights are unclear.
+- Work and disputes have begun before profits.
+- The user worries discussing rules implies distrust.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 用感情替代协议。
-- 只谈分成，不谈责任和退出。
-- 贡献不确定时一次性确定股权。
-- 没有重大事项决策机制。
-- 不留痕，后续各说各话。
+- Replacing agreements with personal ties.
+- Discussing shares without responsibilities or exits.
+- Fixing equity immediately despite uncertain contributions.
+- No decision process for major matters.
+- No records, allowing conflicting accounts later.
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：明确权责利、决策权和退出机制。
-- 次级目标：用阶段性试运行验证贡献。
-- 底线目标：不在规则不清时投入大量时间、资金或资源。
+- Primary: define rights, duties, returns, decision rights, and exits.
+- Secondary: validate contributions through a trial phase.
+- Minimum: avoid major investments of time, funds, or resources while rules remain unclear.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 股权或分成与实际贡献不匹配。
-- 一方控制关键资源但不承担责任。
-- 没有退出机制导致关系和项目一起受损。
-- 客户、知识产权、账号、资金归属不清。
-- 熟人关系导致用户不敢表达边界。
+- Equity or sharing does not match contributions.
+- One party controls key resources without responsibility.
+- No exit mechanism harms both project and relationship.
+- Unclear ownership of clients, IP, accounts, and funds.
+- Friendship prevents clear boundaries.
 
-## 6. 信息采集重点
-
-```text
-合伙事项：
-各方投入：资金/资源/时间/客户/技术
-预期分工：
-收益分配：
-股权或份额：
-决策机制：
-重大事项范围：
-退出条件：
-客户和知识产权归属：
-是否已有口头承诺或聊天记录：
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：用户是否可独立做、换合伙人或先试运行。
-- 时间压力：谁更急于启动项目。
-- 信息优势：用户是否掌握客户、技术、资金、运营数据。
-- 资源控制：谁控制关键资源、账号、客户或资金。
-- 证据强度：是否有书面规则或聊天记录。
-- 关系依赖：双方是否因熟人关系难以退出。
-
-## 8. 筹码分析重点
-
-- 资金筹码：出资额、垫资、承担亏损能力。
-- 资源筹码：客户、渠道、品牌、供应链。
-- 劳动筹码：运营、销售、产品、交付。
-- 决策筹码：重大事项表决权、一票否决权。
-- 退出筹码：回购、转让、冷静期、试运行期。
-
-## 9. 推荐策略
-
-1. 用“保护关系”作为谈规则的理由。
-2. 先列权责利，再谈比例。
-3. 贡献不确定时使用试运行、里程碑或 vesting。
-4. 重大事项必须有决策机制。
-5. 退出机制要在合作前谈，不要等冲突后谈。
-
-## 10. 不建议动作
-
-- 不建议直接接受口头五五分。
-- 不建议说“我们关系这么好不用写”。
-- 不建议在没有退出机制时投入关键资源。
-- 不建议把所有权力交给单方。
-- 不建议用家庭式、兄弟式语言替代协议。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-我愿意认真推进这件事，也很重视我们之间的信任。正因为是长期合作，我建议一开始把规则说清楚。
-
-我们可以先把投入、分工、决策权、收益分配和退出机制列出来。这样不是不信任，而是避免以后因为记忆、理解或阶段变化产生误会。
-
-如果现在贡献还不完全确定，我建议先试运行 X 个月，按实际投入和结果再确认长期分配。
+Partnership purpose:
+Each party's contribution: funds / resources / time / clients / technology
+Expected responsibilities:
+Return allocation:
+Equity or ownership shares:
+Decision process:
+Definition of major decisions:
+Exit conditions:
+Client and IP ownership:
+Existing verbal promises or chat records:
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “你是不是不信任我？”
-- “先做起来，以后再说。”
-- “五五分最公平。”
-- “我资源多，你执行就行。”
-- “退出机制现在谈太伤感情。”
+- Alternatives: proceed alone, choose another partner, or run a trial.
+- Time: who wants to start sooner?
+- Information: client, technology, funding, operating data.
+- Resources: control of key resources, accounts, clients, funds.
+- Evidence: written rules and chats.
+- Dependence: whether personal ties make exit difficult.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方说不信任：
+- Capital: investment, advances, ability to bear losses.
+- Resources: clients, channels, brand, supply chain.
+- Labor: operations, sales, product, delivery.
+- Decisions: voting and veto rights on major matters.
+- Exit: buyback, transfer, cooling-off period, trial.
+
+## 9. Recommended strategy
+
+1. Frame rules as protection for the relationship.
+2. List rights, duties, and returns before percentages.
+3. Use trials, milestones, or vesting for uncertain contributions.
+4. Define decision procedures for major matters.
+5. Agree exits before cooperation, rather than after conflict.
+
+## 10. Avoid
+
+- Immediately accepting a verbal 50/50 split.
+- "We are close; no need to write it down."
+- Committing key resources without an exit mechanism.
+- Giving all authority to one side.
+- Replacing agreements with family or brotherhood language.
+
+## 11. First-round wording
 
 ```text
-正因为信任和关系重要，我才希望把规则写清楚。规则不是防着谁，而是防止以后因为理解不同伤关系。
+I want to explore this seriously and value the trust between us. Since we are considering a long-term partnership, I suggest agreeing the rules at the start.
+
+Let's list contributions, responsibilities, decision rights, returns, and exits. This will help avoid misunderstandings as circumstances change.
+
+If contributions are still uncertain, I suggest a trial of X months, then confirming the long-term allocation based on actual effort and results.
 ```
 
-对方说以后再说：
+## 12. Common reactions
+
+- "Do you not trust me?"
+- "Let's start and discuss it later."
+- "50/50 is fairest."
+- "I bring the resources; you just execute."
+- "Talking about exit now hurts the relationship."
+
+## 13. Replies
+
+Distrust concern:
 
 ```text
-项目启动后再谈，大家投入和情绪都进来了，反而更难谈。我们可以先写一个简版备忘录，不复杂，但关键点要有。
+Our trust and relationship matter to me. Clear rules will help prevent different understandings from damaging them later.
 ```
 
-对方坚持五五分：
+Discuss later:
 
 ```text
-五五分可以作为目标讨论，但需要和实际投入、决策责任、风险承担绑定。否则看起来公平，执行时可能不公平。
+Once we have invested time and emotion, these questions become harder. We can start with a short memorandum covering the essentials.
 ```
 
-## 14. 谈后确认文本
+Insistence on 50/50:
 
 ```text
-我确认一下我们对合伙事项的初步共识：
-1. 双方愿意继续评估合作。
-2. 需要先确认投入、分工、收益分配、决策机制和退出机制。
-3. 如贡献暂不确定，先试运行 X 个月，并设置复盘节点。
-4. 试运行前暂不做不可逆资源投入或股权确认。
-
-如以上理解有偏差，请直接补充。
+We can discuss 50/50 as a target alongside actual contributions, decision responsibilities, and risk. A split that looks equal may still work unevenly in practice.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 对方是否愿意谈退出机制？
-- 对方真实贡献是资金、资源、劳动还是想法？
-- 用户是否有独立推进或换合伙人的 BATNA？
-- 哪些事项必须写进协议？
-- 是否需要律师或财税专业人士审阅？
+```text
+To confirm our initial understanding:
+1. We both want to continue evaluating the partnership.
+2. First, we need agreement on contributions, roles, returns, decisions, and exits.
+3. If contributions remain uncertain, run a trial for X months with a review milestone.
+4. Before the trial, defer irreversible resource commitments and final equity allocation.
+
+Please add or correct anything I have misunderstood.
+```
+
+## 15. Review questions
+
+- Will the other party discuss exit arrangements?
+- Are their contributions funds, resources, labor, or ideas?
+- Can the user proceed alone or find another partner?
+- What must be in the agreement?
+- Is legal, financial, or tax review needed?

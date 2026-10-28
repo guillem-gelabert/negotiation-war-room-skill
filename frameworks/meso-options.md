@@ -1,164 +1,162 @@
-# MESO 多方案生成规则
+# MESO Offer Generation
 
-MESO 是 Multiple Equivalent Simultaneous Offers，指同时给出 2-3 套用户都能接受、价值接近但变量组合不同的方案。它用于提高成交概率、探测对方真实偏好，并避免谈判陷入单一价格拉扯。
+MESO means Multiple Equivalent Simultaneous Offers: two or three acceptable offers of similar value to the user with different combinations of terms. Use them to improve the chance of agreement, discover the other party's preferences, and move beyond price haggling.
 
-## 生成原则
+## Principles
 
-1. 默认生成 3 套方案；信息不足或场景简单时至少生成 2 套。
-2. 每套方案必须用户都能接受，不能包含假选项。
-3. 每套方案对用户总价值大致接近，但交换变量不同。
-4. 每套方案都必须写明用户获得什么、对方获得什么、用户让步什么、换回什么条件、风险是什么、适合什么情况。
-5. 至少一套保利益，一套保成交，一套保关系或长期合作。
-6. 不把 MESO 做成单纯“高价/中价/低价”。
+1. Generate three options by default; at least two when information is limited or the situation is simple.
+2. Every option must be acceptable to the user; do not include decoys.
+3. Keep overall value to the user roughly similar while changing the exchange variables.
+4. Specify what each side receives, what the user concedes, conditions in return, risks, and suitable situations.
+5. Include an option protecting value, one securing agreement, and one preserving relationships or long-term cooperation.
+6. Do not reduce MESO to high / medium / low prices.
 
-## 方案结构
-
-每套方案使用固定格式：
+## Option structure
 
 ```text
-方案名称：
-用户获得什么：
-对方获得什么：
-用户让步什么：
-换回什么条件：
-执行条件：
-主要风险：
-适合什么情况：
-不适合什么情况：
+Option name:
+What the user receives:
+What the other party receives:
+What the user concedes:
+Conditions secured in return:
+Execution conditions:
+Main risks:
+Suitable when:
+Unsuitable when:
 ```
 
-## 常用方案类型
+## Common option types
 
-### 方案 A：保利益方案
+### Option A: protect value
 
-目标：
+Objectives:
 
-- 最大限度保护用户核心利益。
-- 对方若接受，用户收益最高或风险最低。
+- Protect the user's core interests as much as possible.
+- Deliver the strongest return or lowest risk if accepted.
 
-常见组合：
+Common combinations:
 
-- 原价或接近原价 + 增加服务保障。
-- 不降价 + 优化付款节奏。
-- 维持核心条款 + 给对方更多透明度或复盘支持。
+- Original or near-original price + additional service assurance.
+- No discount + improved payment timing.
+- Core terms unchanged + more transparency or review support.
 
-适合：
+Suitable when:
 
-- 用户权力指数略强或明显强势。
-- 对方切换成本高。
-- 用户 BATNA 较强。
+- The user's power index is somewhat or substantially stronger.
+- Switching costs are high for the other party.
+- The user's BATNA is strong.
 
-风险：
+Risks:
 
-- 对方可能觉得让步不足。
-- 成交速度可能较慢。
+- The other party may see too little concession.
+- Agreement may take longer.
 
-### 方案 B：保成交方案
+### Option B: secure agreement
 
-目标：
+Objectives:
 
-- 提高成交概率，同时保护底线。
-- 用有限让步换确定承诺。
+- Improve agreement likelihood while protecting the walk-away limit.
+- Exchange limited concessions for definite commitments.
 
-常见组合：
+Common combinations:
 
-- 小幅降价 + 预付款/缩短账期。
-- 延期交付 + 书面确认/阶段付款。
-- 调整部分条款 + 明确责任上限。
+- Small discount + advance payment or faster payment.
+- Later delivery + written confirmation or milestone payment.
+- Adjusted terms + a clear liability cap.
 
-适合：
+Suitable when:
 
-- 双方权力均衡。
-- 用户希望保住合作。
-- 对方有真实预算或审批压力。
+- Power is balanced.
+- The user wants to retain the engagement.
+- The other party faces real budget or approval pressure.
 
-风险：
+Risk:
 
-- 若交换条件不清，容易变成免费让步。
+- Unclear conditions can turn the exchange into a free concession.
 
-### 方案 C：保关系/长期合作方案
+### Option C: preserve the relationship or long-term cooperation
 
-目标：
+Objectives:
 
-- 降低冲突，保留合作或关系空间。
-- 适合熟人、家庭、长期客户、合伙人等关系敏感场景。
+- Reduce conflict and preserve space for cooperation or the relationship.
+- Address sensitive relationships with friends, family, long-term clients, or partners.
 
-常见组合：
+Common combinations:
 
-- 阶段性试运行 + 复盘节点。
-- 温和边界 + 明确下一步。
-- 暂缓争议点 + 先确认低风险共识。
+- Trial phase + review milestone.
+- Gentle boundaries + clear next action.
+- Defer disputed points + confirm low-risk common ground first.
 
-适合：
+Suitable when:
 
-- 用户重视长期关系。
-- 情绪冲突较高。
-- 需要先恢复沟通。
+- Long-term relationships matter.
+- Emotional conflict is high.
+- Communication needs to be restored first.
 
-风险：
+Risks:
 
-- 过度柔性可能让对方忽视边界。
-- 必须用确认文本固定共识。
+- Excessive flexibility can obscure boundaries.
+- Document shared understanding in a confirmation message.
 
-## 场景示例
+## Examples
 
-### 客户压价
+### Client discount request
 
 ```text
-方案 A：原价续约 + 增加季度复盘。
-方案 B：降 10% + 签 12 个月 + 预付 50%。
-方案 C：降 20% + 缩小服务范围 + 取消额外支持。
+A: Renew at the original price + add quarterly reviews.
+B: 10% discount + 12-month term + 50% advance payment.
+C: 20% discount + reduced scope + no additional support.
 ```
 
-### 尾款结算
+### Outstanding payment
 
 ```text
-方案 A：按原节点支付尾款 + 我方提供收尾说明。
-方案 B：尾款分两期 + 对方本周确认验收。
-方案 C：先付大部分尾款 + 剩余部分绑定明确异议清单。
+A: Pay the balance on the original schedule + receive a closeout summary.
+B: Pay in two installments + confirm acceptance this week.
+C: Pay most of the balance now + tie the remainder to a specific list of objections.
 ```
 
-### 薪资谈判
+### Compensation
 
 ```text
-方案 A：提高 base 到目标区间。
-方案 B：base 小幅提高 + 签字费/奖金补足总包。
-方案 C：接受当前 base + 明确 6 个月调薪节点和职级评估标准。
+A: Raise base salary to the target range.
+B: Small base increase + signing bonus or bonus to reach the total compensation target.
+C: Accept the current base + agree a six-month salary review and level assessment criteria.
 ```
 
-## 评分要求
+## Scoring
 
-每套方案生成后，必须按 1-5 分评分：
+Score each option from 1 to 5 on:
 
-- 利益最大化
-- 成交概率
-- 风险可控
-- 关系保留
-- 执行清晰度
+- Value maximization.
+- Agreement likelihood.
+- Risk control.
+- Relationship preservation.
+- Execution clarity.
 
-推荐规则：
+Rules:
 
-- 首推方案必须风险可控不低于 3 分。
-- 若执行清晰度低于 3 分，必须补确认文本。
-- 若关系保留低于 3 分，需说明是否值得牺牲关系。
+- The first recommendation must score at least 3 on risk control.
+- If execution clarity is below 3, add confirmation wording.
+- If relationship preservation is below 3, explain whether the trade-off is worthwhile.
 
-## 输出格式
+## Output
 
 ```text
-方案 A：
-- 用户获得什么：
-- 对方获得什么：
-- 用户让步什么：
-- 换回什么条件：
-- 风险：
-- 适合情况：
+Option A:
+- What the user receives:
+- What the other party receives:
+- What the user concedes:
+- Conditions secured:
+- Risks:
+- Suitable situations:
 
-方案 B：
+Option B:
 ...
 
-方案 C：
+Option C:
 ...
 
-推荐顺序：
-推荐理由：
+Recommendation order:
+Reasons:
 ```

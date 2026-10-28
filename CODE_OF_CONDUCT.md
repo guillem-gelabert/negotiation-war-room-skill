@@ -1,48 +1,36 @@
-# Code of Conduct / 行为准则
+# Code of Conduct
 
-本项目欢迎建设性的讨论、真实的经验贡献和专业的文档改进。为了让社区保持安全、克制和有用，请遵守以下准则。
+Constructive discussion, practical experience, and professional documentation improvements are welcome. Keep the community safe, restrained, and useful.
 
-## 我们鼓励
+## Encouraged
 
-- 尊重不同经验和观点。
-- 提供具体、可执行的反馈。
-- 使用脱敏案例说明问题。
-- 对模板、Playbook 和安全边界提出改进建议。
-- 在讨论争议内容时保持克制和事实导向。
+- Respect different experiences and views.
+- Give specific, actionable feedback.
+- Use anonymized cases.
+- Improve templates, playbooks, and safety boundaries.
+- Stay restrained and factual when discussing disputes.
 
-## 我们不接受
+## Unacceptable
 
-- 人身攻击、羞辱、歧视或骚扰。
-- 禁止骚扰、持续纠缠、恶意挑衅或针对个人的攻击性表达。
-- 发布他人隐私、联系方式、合同全文或未经授权聊天记录。
-- 要求或贡献威胁、敲诈、伪造证据、违法施压、恶意操控内容。
-- 冒充律师、监管机构、HR、客户或其他第三方。
-- 反复发布无关广告、垃圾内容或恶意争吵。
+- Personal attacks, humiliation, discrimination, or harassment.
+- Persistent unwanted contact, malicious provocation, or targeted aggression.
+- Posting private details, contact information, full contracts, or unauthorized chats.
+- Requests or contributions involving threats, extortion, fabricated evidence, unlawful pressure, or malicious manipulation.
+- Impersonating lawyers, regulators, HR, clients, or third parties.
+- Repeated irrelevant advertising, spam, or disruptive arguments.
 
-## 反馈方式
+## Feedback
 
-提出批评时，请尽量说明：
-
-- 问题出在哪里。
-- 为什么会影响使用。
-- 建议如何修改。
-- 是否涉及安全边界。
-
-推荐表达：
+Explain the problem, its effect on use, a proposed change, and any safety issue.
 
 ```text
-我认为这个模板在客户压价场景中可能会暴露底线。建议改成条件交换表达，例如……
+This discount template may reveal the walk-away limit. I suggest conditional exchange wording, such as...
 ```
 
-## 处理方式
+## Enforcement
 
-维护者可以对违反准则的内容采取以下措施：
+Maintainers may request edits or anonymization, close issues or PRs, remove inappropriate content, or restrict participation.
 
-- 请求修改或脱敏。
-- 关闭 Issue 或 PR。
-- 删除不当内容。
-- 限制继续参与。
+## Shared goal
 
-## 共同目标
-
-本项目的目标是建设一个适合中文用户真实使用、也适合 Agent 调用的谈判决策 Skill。请帮助它保持专业、实用和安全。
+Build a professional, practical, safe negotiation decision skill for real users and agents. This fork makes the original Chinese material available in English.

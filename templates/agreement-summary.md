@@ -1,98 +1,95 @@
-# 谈判纪要与协议摘要模板
+# Negotiation Minutes and Agreement Summary
 
-使用说明：用于电话、微信、会议、面谈后留痕。不是正式法律文件；如涉及正式合同或法律权利义务，应以双方签署文本或专业人士审阅意见为准。
+Use after calls, WeChat exchanges, meetings, or in-person discussions. This is a record, not a formal legal document. Formal rights and obligations remain subject to signed documents or professional review.
 
-## 谈判纪要模板
+## Minutes
 
 ```text
-关于[事项]的沟通纪要
+Discussion record: [subject]
 
-沟通时间：[日期/时间]
-沟通方式：[微信/电话/会议/面谈/邮件]
-参与方：[我方人员]、[对方人员]
+Date and time: [date / time]
+Channel: [WeChat / phone / meeting / in person / email]
+Participants: [our representatives], [their representatives]
 
-一、事项背景
-[用 2-3 句话说明本次沟通背景，例如项目、款项、合同、合作、争议或关系事项。]
+1. Background
+[Two or three sentences on the project, payment, contract, cooperation, dispute, or relationship matter.]
 
-二、已达成共识
-1. [共识一]
-2. [共识二]
-3. [共识三]
+2. Agreed points
+1. [point one]
+2. [point two]
+3. [point three]
 
-三、待确认事项
-1. [待确认事项一]，负责人：[负责人]，截止时间：[日期]
-2. [待确认事项二]，负责人：[负责人]，截止时间：[日期]
+3. Open items
+1. [item one], owner: [person], deadline: [date]
+2. [item two], owner: [person], deadline: [date]
 
-四、金额与时间节点
-- 金额/价格/款项：[金额或价格]
-- 付款/交付/反馈时间：[日期]
-- 分期或阶段安排：[如无则写“暂无”]
-- 验收或完成标准：[标准]
+4. Amounts and milestones
+- Amount / price / payment: [amount]
+- Payment / delivery / feedback date: [date]
+- Installments or phases: [arrangement, or none]
+- Acceptance or completion criteria: [criteria]
 
-五、责任分工
-- 我方负责：[我方动作、交付、资料、付款或配合事项]
-- 对方负责：[对方动作、确认、付款、资料或配合事项]
+5. Responsibilities
+- Our side: [actions, delivery, materials, payment, cooperation]
+- Your side: [actions, confirmation, payment, materials, cooperation]
 
-六、后续动作
-1. [动作一]，由[负责人]在[日期]前完成。
-2. [动作二]，由[负责人]在[日期]前完成。
-3. 下一次沟通时间：[日期/待定]
+6. Next actions
+1. [owner] completes [action one] by [date].
+2. [owner] completes [action two] by [date].
+3. Next discussion: [date / to be agreed]
 
-七、异议反馈
-如以上内容与贵方理解不一致，请在[日期/时间]前提出；如无异议，双方先按本纪要推进。
+7. Corrections
+Please flag any difference in understanding by [date / time]. Otherwise, both sides will proceed on this basis.
 
-备注：本纪要用于记录本次沟通结果。如涉及正式合同或法律文件，以双方签署的正式文本为准。
+Note: this records the discussion. Where a formal contract or legal document applies, the text signed by both sides governs.
 ```
 
-## 已达成共识
+## Agreed points
 
 ```text
-目前双方已确认：
-1. [事实/条款/事项一]
-2. [事实/条款/事项二]
-3. [事实/条款/事项三]
+Both sides have confirmed:
+1. [fact / term / item one]
+2. [fact / term / item two]
+3. [fact / term / item three]
 
-以上内容作为后续推进基础。如有理解偏差，请在[日期]前指出。
+These are the basis for next steps. Please flag any misunderstanding by [date].
 ```
 
-## 待确认事项
+## Open items
 
 ```text
-目前仍需确认的事项如下：
-1. [事项一]：需由[负责人]在[日期]前确认。
-2. [事项二]：需由[负责人]在[日期]前确认。
-3. [事项三]：如未能在[日期]前确认，双方需重新评估[影响/排期/费用/方案]。
+Still to confirm:
+1. [item one]: [owner] to confirm by [date].
+2. [item two]: [owner] to confirm by [date].
+3. [item three]: if unconfirmed by [date], reassess [impact / schedule / fees / proposal].
 ```
 
-## 金额与时间节点
+## Amounts and milestones
 
 ```text
-金额与时间节点确认如下：
-- 总金额：[金额]
-- 已支付：[金额]
-- 待支付：[金额]
-- 下一笔付款时间：[日期]
-- 交付/验收时间：[日期]
-- 逾期或未确认时的处理方式：[处理方式]
+- Total: [amount]
+- Paid: [amount]
+- Outstanding: [amount]
+- Next payment: [date]
+- Delivery / acceptance: [date]
+- Handling of overdue or unconfirmed items: [process]
 ```
 
-## 责任分工
+## Responsibilities
 
 ```text
-责任分工确认如下：
-- 我方负责：[具体动作]，完成时间：[日期]
-- 对方负责：[具体动作]，完成时间：[日期]
-- 双方共同确认：[共同事项]
-- 暂不包含：[排除事项/新增需求/未确认范围]
+- Our side: [specific action], by [date].
+- Your side: [specific action], by [date].
+- Joint confirmation: [shared item].
+- Currently excluded: [exclusions / new requests / unconfirmed scope].
 ```
 
-## 后续动作
+## Next steps
 
 ```text
-下一步安排：
-1. [负责人]在[日期]前完成[动作]。
-2. [负责人]在[日期]前反馈[事项]。
-3. 双方在[日期]前确认是否进入下一阶段。
+1. [owner] completes [action] by [date].
+2. [owner] provides feedback on [item] by [date].
+3. Both sides confirm whether to enter the next phase by [date].
 
-若中途出现变化，请及时在微信/邮件中同步，避免影响后续执行。
+Please share any changes promptly through WeChat or email so later work stays on track.
 ```

@@ -1,112 +1,77 @@
-# Safety Boundaries / 安全边界
+# Safety Boundaries
 
-`negotiation-war-room-skill` 只能用于合法、克制、可执行的谈判准备和沟通辅助。它不用于威胁、欺骗、伪造、违法施压或冒充专业人士。
+Use this skill for lawful, restrained, actionable negotiation preparation and communication. Do not use it for threats, deception, fabrication, unlawful pressure, or professional impersonation.
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
-## 1. 不帮助威胁恐吓
+## 1. Threats and intimidation
 
-不支持：
-
-```text
-帮我写一段狠话，让对方害怕。
-不付款我就曝光他。
-让他知道后果很严重。
-```
-
-应改为：
+Do not support:
 
 ```text
-请帮我写一段正式、克制、可留痕的边界表达，明确付款节点和下一步处理方式。
+Write something harsh that scares them.
+If they do not pay, I will expose them.
+Make them understand the consequences will be severe.
 ```
 
-## 2. 不帮助敲诈勒索
-
-不支持使用隐私、名誉、关系或不当压力逼迫对方让步。
-
-不支持：
-
-- 用对方隐私施压。
-- 用公开曝光换钱。
-- 用恐惧迫使对方签字、付款或承认责任。
-
-## 3. 不帮助伪造证据
-
-不支持：
-
-- 伪造聊天记录。
-- 伪造合同、付款凭证、邮件、会议纪要。
-- 编造对方承诺。
-- 指导用户删改证据。
-
-正确做法：
-
-- 整理真实聊天记录。
-- 梳理真实交付成果。
-- 发送事实确认文本。
-- 必要时咨询律师或专业人士。
-
-## 4. 不冒充律师
-
-本项目不生成冒充律师、仲裁员、监管机构或第三方的内容。
-
-可以生成：
-
-- 个人身份的事实确认函。
-- 沟通策略。
-- 证据清单。
-- 风险提示。
-- 建议律师审阅的提示。
-
-不应生成：
-
-- “律师函”冒名文本。
-- “你已经违法/违约”的确定法律结论。
-- “你一定会败诉”的威胁话术。
-
-## 5. 不承诺保证成功
-
-谈判结果取决于事实、证据、权力结构、替代方案、对方意愿、时间压力和执行条件。
-
-本 Skill 只能帮助用户：
-
-- 提高准备质量。
-- 减少低级错误。
-- 增加方案空间。
-- 降低沟通和执行风险。
-
-不能承诺：
-
-- 一定成交。
-- 一定涨薪。
-- 一定追回尾款。
-- 一定胜诉。
-- 一定让对方让步。
-
-## 6. 法律争议建议咨询专业人士
-
-涉及以下场景时，应建议用户咨询律师或相关专业人士：
-
-- 合同违约。
-- 劳动仲裁。
-- 诉讼或监管投诉。
-- 赔偿责任。
-- 知识产权。
-- 隐私和名誉风险。
-- 家庭财产或人身安全风险。
-
-推荐安全表达：
+Use instead:
 
 ```text
-我不能替代律师给出法律结论，但可以帮你整理事实、证据、风险点和沟通策略。涉及正式权利义务判断或可能仲裁/诉讼的部分，建议让律师审阅后再发送。
+Draft a formal, restrained boundary statement suitable for a written record, with payment milestones and next steps.
 ```
 
-## 7. 高风险请求的替代处理
+## 2. Extortion
 
-| 用户请求 | 不做 | 替代方案 |
+Do not use privacy, reputation, relationships, or improper pressure to force concessions. Do not support using private information as pressure, money in exchange for avoiding exposure, or fear to obtain signatures, payment, or admissions.
+
+## 3. Fabricated evidence
+
+Do not fabricate chats, contracts, payment records, emails, minutes, or promises, or advise altering or deleting evidence.
+
+Instead, organize real chats and deliverables, send factual confirmations, and seek professional advice when needed.
+
+## 4. Impersonating lawyers
+
+Do not impersonate lawyers, arbitrators, regulators, or other third parties.
+
+Permitted assistance:
+
+- Factual letters in the user's own identity.
+- Communication strategy.
+- Evidence lists.
+- Risk considerations.
+- Recommendations for lawyer review.
+
+Do not provide impersonated lawyer letters, categorical claims of illegality or breach, or threats of certain litigation defeat.
+
+## 5. Guarantees
+
+Results depend on facts, evidence, power, alternatives, willingness, time pressure, and execution conditions.
+
+The skill can improve preparation, reduce avoidable errors, expand options, and reduce communication and execution risks. It cannot guarantee agreement, raises, recovered payments, litigation success, or concessions.
+
+## 6. Professional advice for legal disputes
+
+Recommend a lawyer or relevant professional for:
+
+- Breach of contract.
+- Employment arbitration.
+- Litigation or regulatory complaints.
+- Compensation liability.
+- Intellectual property.
+- Privacy and reputation.
+- Family property or physical safety.
+
+```text
+I cannot replace a lawyer's legal assessment, but can help organize facts, evidence, risks, and communication strategy. Have a lawyer review anything involving formal rights and obligations or possible arbitration or litigation before sending it.
+```
+
+## 7. Alternatives for high-risk requests
+
+| Request | Do not | Offer instead |
 |---|---|---|
-| 威胁对方付款 | 不生成威胁话术 | 生成正式催款和边界表达 |
-| 伪造聊天记录 | 不伪造证据 | 整理真实证据和确认文本 |
-| 冒充律师 | 不冒充身份 | 生成个人事实确认函 |
-| 保证成功 | 不承诺结果 | 提供策略、风险和备选方案 |
-| 情绪勒索 | 不操控对方 | 表达事实、影响、需求和请求 |
+| Threaten for payment | Generate threats | Formal payment reminder and boundaries |
+| Fabricate chats | Fabricate evidence | Organize real evidence and confirmations |
+| Impersonate a lawyer | Misrepresent identity | Factual letter in the user's own name |
+| Guarantee success | Promise outcomes | Strategy, risks, alternatives |
+| Emotional blackmail | Manipulate | Facts, impact, needs, requests |

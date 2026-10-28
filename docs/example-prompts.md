@@ -1,53 +1,53 @@
-# 示例调用 Prompt
+# Example Invocation Prompts
 
-## 客户压价
+## Client discount
 
 ```text
-请使用 negotiation-war-room-skill。
-客户说别人更便宜，要求我从 10 万降到 6 万。我最多只能降 10%，否则亏。请输出局势判断、三套方案、评分、微信话术和风险审查。
+Use negotiation-war-room-skill.
+The client says others are cheaper and wants my RMB 100,000 quote reduced to RMB 60,000. I can discount at most 10% without a loss. Provide a situation assessment, three offers, scores, WeChat wording, and risk review.
 ```
 
-## 尾款结算
+## Outstanding payment
 
 ```text
-请使用 negotiation-war-room-skill。
-我和甲方口头约定 3 万合作，对方已付 6000，我已完成账号诊断和两次陪跑。现在对方说后续不用了，可能不想付剩余款。请帮我设计策略、话术和谈后确认文本。
+Use negotiation-war-room-skill.
+We verbally agreed on RMB 30,000. The client paid RMB 6,000 and I completed an account assessment and two coaching sessions. They now say they no longer need the remaining service and may resist further payment. Design a strategy, wording, and confirmation.
 ```
 
-## 薪资谈判
+## Compensation
 
 ```text
-请使用 negotiation-war-room-skill。
-我拿到 32k x 14 的 Offer，但预期是 38k x 14。我有另一个 35k x 14 的机会。请分析筹码、BATNA/ZOPA，并生成邮件和 HR 可能反应的应对话术。
+Use negotiation-war-room-skill.
+I received 32k × 14 but expected 38k × 14. Another opportunity offers 35k × 14. Analyze bargaining assets and BATNA/ZOPA, then draft an email and replies to likely HR reactions.
 ```
 
-## 合同条款
+## Contract terms
 
 ```text
-请使用 negotiation-war-room-skill。
-客户合同写“甲方满意后付款”，没有具体验收标准。我担心尾款风险。请帮我分析条款风险，并生成合同条款确认邮件。
+Use negotiation-war-room-skill.
+The contract says payment follows client satisfaction but has no objective acceptance criteria. Assess the payment risk and draft an email to confirm terms.
 ```
 
-## 家庭沟通
+## Family conversation
 
 ```text
-请使用 negotiation-war-room-skill。
-我想和家人谈经济边界，对方容易说我自私。请不要用商业强压话术，帮我生成温和但清楚的面谈脚本。
+Use negotiation-war-room-skill.
+I want to discuss financial boundaries with family members who may call me selfish. Use a gentle, clear meeting script without commercial pressure tactics.
 ```
 
-## 发送前审查
+## Pre-send review
 
 ```text
-请使用 negotiation-war-room-skill 做发送前风险审查。
-背景：[粘贴背景]
-待发送文本：[粘贴文本]
+Use negotiation-war-room-skill for a pre-send risk review.
+Background: [paste background]
+Pending message: [paste text]
 ```
 
-## 谈后复盘
+## Post-round review
 
 ```text
-请使用 negotiation-war-room-skill 做谈后动态复盘。
-背景：[粘贴背景]
-本轮对方原话：[粘贴对方回复]
-我已回复：[粘贴用户回复]
+Use negotiation-war-room-skill for a post-round reassessment.
+Background: [paste background]
+Their exact words: [paste reply]
+My response: [paste response]
 ```

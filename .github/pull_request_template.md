@@ -1,66 +1,62 @@
-## 修改内容
+## Changes
 
-请简要说明本 PR 修改了什么。
-
-```text
-例如：新增房租谈判 Playbook；补充客户压价微信模板；修正 README 链接。
-```
-
-## 适用场景
-
-这个修改主要适用于哪些谈判场景？
-
-- [ ] 商业合作
-- [ ] 客户压价
-- [ ] 尾款结算
-- [ ] 薪资谈判
-- [ ] 合同条款
-- [ ] 采购销售
-- [ ] 合伙谈判
-- [ ] 纠纷协商
-- [ ] 熟人合作
-- [ ] 家庭沟通
-- [ ] Agent 集成
-- [ ] 文档/测试
-- [ ] 其他：
-
-## 是否涉及安全边界
-
-- [ ] 不涉及高风险内容
-- [ ] 涉及法律/合同/劳动争议
-- [ ] 涉及隐私或个人信息
-- [ ] 涉及家庭/人身安全
-- [ ] 涉及威胁、敲诈、伪造证据、违法施压等拒绝场景
-
-如涉及，请说明如何处理安全边界：
+Briefly explain the change.
 
 ```text
-[说明]
+Example: add a rent negotiation playbook, extend discount messages, or fix README links.
 ```
 
-## 是否已通过测试 Prompt
+## Applicable scenarios
 
-- [ ] 已使用 `tests/test-prompts.md` 中相关 Prompt 验证
-- [ ] 已补充新的测试 Prompt
-- [ ] 不适用，原因：
+- [ ] Business partnerships
+- [ ] Client discounts
+- [ ] Outstanding payments
+- [ ] Compensation
+- [ ] Contract terms
+- [ ] Procurement and sales
+- [ ] Partners
+- [ ] Disputes
+- [ ] Friends and relatives
+- [ ] Family conversations
+- [ ] Agent integration
+- [ ] Documentation / tests
+- [ ] Other:
 
-测试说明：
+## Safety implications
+
+- [ ] No high-risk content
+- [ ] Legal / contract / employment disputes
+- [ ] Privacy or personal information
+- [ ] Family / physical safety
+- [ ] Refusal cases: threats, extortion, evidence fabrication, unlawful pressure
+
+Explain how relevant boundaries are handled:
 
 ```text
-[简要说明测试结果]
+[explanation]
 ```
 
-## 提交前检查
+## Test prompts
 
-- [ ] 内容以中文为主，必要英文术语已解释。
-- [ ] 没有真实个人隐私或商业机密。
-- [ ] 没有承诺保证成功。
-- [ ] 没有欺骗、威胁、敲诈、伪造证据或违法施压内容。
-- [ ] 没有冒充律师、监管机构、HR、客户或第三方。
-- [ ] 涉及法律、劳动、合同争议时，只提供沟通策略、证据整理和风险提示。
-- [ ] 商业场景强调证据、留痕、付款节点和交付边界。
-- [ ] 家庭/关系场景没有套用商业强压话术。
+- [ ] Tried relevant prompts from `tests/test-prompts.md`
+- [ ] Added new prompts
+- [ ] Not applicable; reason:
 
-## 关联 Issue
+```text
+[brief results]
+```
+
+## Checklist
+
+- [ ] Primarily English; necessary specialist terms explained.
+- [ ] No private information or business secrets.
+- [ ] No guarantees of success.
+- [ ] No deception, threats, extortion, evidence fabrication, or unlawful pressure.
+- [ ] No impersonation of lawyers, regulators, HR, clients, or third parties.
+- [ ] Legal, employment, and contract disputes limited to communication, evidence organization, and risk considerations.
+- [ ] Business scenarios emphasize evidence, records, payment milestones, and scope.
+- [ ] Family and relationship scenarios avoid commercial pressure tactics.
+
+## Related issue
 
 Closes #

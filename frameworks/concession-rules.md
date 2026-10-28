@@ -1,112 +1,92 @@
-# 让步交换规则
+# Concession Exchange Rules
 
-本文件定义谈判中的让步规则。核心原则：不无条件让步，不提前暴露底线，每次让步必须换回确定条件。
+Make no unconditional concessions, protect the walk-away limit, and secure definite conditions in return for every concession.
 
-## 核心原则
+## Core principles
 
-1. 不无条件让步。
-2. 不提前暴露底线。
-3. 每次让步必须换回确定条件。
-4. 优先让次级利益，不让核心利益。
-5. 降价必须同步缩小范围、增加数量、缩短账期、延长合作或换取其他确定承诺。
-6. 延期必须换确认时间、书面承诺或阶段性付款。
-7. 免费支持必须换案例、推荐、付款、续约、明确边界或书面确认。
+1. No unconditional concessions.
+2. No early disclosure of the walk-away limit.
+3. Every concession must secure definite conditions.
+4. Trade secondary interests before core interests.
+5. Exchange discounts for reduced scope, greater volume, faster payment, a longer relationship, or another firm commitment.
+6. Exchange extensions for a confirmed date, written commitment, or milestone payment.
+7. Exchange free support for a case study, referral, payment, renewal, clear boundaries, or written confirmation.
 
-## 利益分层
+## Layers of interest
 
-| 层级 | 含义 | 处理方式 |
+| Layer | Meaning | Treatment |
 |---|---|---|
-| 核心利益 | 决定是否值得成交的利益，如现金流、底价、关键条款、安全边界 | 原则上不让 |
-| 次级利益 | 可交换变量，如付款节奏、交付顺序、服务范围、沟通频率 | 可有条件让 |
-| 情绪利益 | 面子、尊重、被理解、关系缓和 | 用语气和流程满足 |
-| 风险条款 | 责任、违约、验收、法律风险、退出机制 | 必须清晰，不模糊让 |
+| Core interests | What makes a deal worthwhile: cash flow, minimum price, key terms, safety boundaries | Generally protect |
+| Secondary interests | Payment timing, delivery order, service scope, communication frequency | Trade conditionally |
+| Emotional interests | Dignity, respect, being understood, reduced tension | Address through tone and process |
+| Risk terms | Liability, breach, acceptance, legal risk, exit mechanisms | Make clear; do not concede through ambiguity |
 
-## 典型让步规则
+## Typical rules
 
-### 降价
+### Discounts
 
-规则：
-
-- 降价必须同步缩小范围、增加订单量、缩短账期、延长合作周期或换取公开案例/推荐。
-- 不得在未确认范围时降价。
-- 不得一次报到底价。
-
-句式：
+- Link discounts to reduced scope, greater order volume, faster payment, longer terms, or permission for a public case study or referral.
+- Confirm scope before cutting prices.
+- Do not quote the lowest acceptable price immediately.
 
 ```text
-如果价格要调整，我们需要同步确认服务范围和付款节点。
-这个折扣可以申请，但需要和 12 个月合作周期以及预付款绑定。
+If we adjust the price, we also need to confirm the scope and payment milestones.
+We can request this discount, provided it is tied to a 12-month term and advance payment.
 ```
 
-### 延期
+### Extensions
 
-规则：
-
-- 延期必须换明确确认时间。
-- 延期期间如需继续投入，应绑定阶段性付款或范围限制。
-
-句式：
+- Secure a definite confirmation date.
+- If work continues during an extension, tie it to milestone payments or scope limits.
 
 ```text
-可以给你们内部多一点时间，但我们需要确认新的反馈日期。
-如果延期期间还需要我们继续支持，需要先明确支持范围和对应节点。
+We can allow more time for your internal discussion, but need to agree a new feedback date.
+If you need continued support during the extension, we should first define its scope and milestones.
 ```
 
-### 免费支持
+### Free support
 
-规则：
-
-- 免费支持必须换案例、推荐、付款、复购、续约、明确边界或书面确认。
-- 免费支持必须限定次数、范围和时间。
-
-句式：
+- Secure a case study, referral, payment, repeat purchase, renewal, clear boundary, or written confirmation.
+- Limit the number of occasions, scope, and duration.
 
 ```text
-这部分我们可以作为本次合作的额外支持，但需要限定在 X 次以内，并请你们确认后续案例授权或续约节点。
+We can include this as additional support for this engagement, up to X sessions. Please also confirm the case-study permission or renewal milestone.
 ```
 
-### 承担责任
+### Accepting responsibility
 
-规则：
-
-- 不承认未确认事实。
-- 不承担无限责任。
-- 责任必须有范围、上限、期限和触发条件。
-
-句式：
+- Do not admit unconfirmed facts.
+- Do not accept unlimited liability.
+- Define scope, caps, duration, and triggers.
 
 ```text
-我们愿意就已确认的问题承担对应处理责任，但需要先把事实范围和解决标准确认清楚。
+We are willing to address confirmed issues within our responsibility, once we have agreed the facts and resolution criteria.
 ```
 
-## 让步节奏
+## Pacing
 
-推荐节奏：
+1. First round: protect core interests and present combinations of terms.
+2. Second round: make a small concession in exchange for specific conditions.
+3. Third round: near the limit, stop changing figures; adjust scope, payment, time, and risk.
+4. Close: "To use this option, please confirm Y by X."
 
-1. 第一轮：不让核心利益，只提出组合方案。
-2. 第二轮：小幅让步，并换明确条件。
-3. 第三轮：接近底线时停止让数字，转向范围、付款、时间和风险调整。
-4. 收口：明确“如果采用该方案，需要在 X 前确认 Y”。
+## Signals to stop conceding
 
-## 停止让步信号
+- More concessions are requested with no commitment in return.
+- The other party refuses to specify dates, amounts, scope, or responsibilities.
+- The revised deal is worse than the user's BATNA.
+- New requests are presented as existing obligations.
+- Further concessions create legal, contract, relationship, or execution risks.
 
-出现以下情况，应停止继续让步：
-
-- 对方只要求更多让步，但不给任何承诺。
-- 对方拒绝明确时间、金额、范围或责任。
-- 让步后方案低于用户 BATNA。
-- 对方把新增需求包装成原有义务。
-- 继续让步会触发法律、合同、关系或执行风险。
-
-## 输出格式
+## Output
 
 ```text
-核心利益：
-次级利益：
-可让步项：
-不可让步项：
-每项让步换回：
-让步幅度：
-停止让步信号：
-建议话术：
+Core interests:
+Secondary interests:
+Available concessions:
+Non-negotiable items:
+What each concession secures:
+Concession size:
+Signals to stop:
+Suggested wording:
 ```

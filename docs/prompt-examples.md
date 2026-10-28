@@ -1,131 +1,131 @@
-# Prompt Examples / 示例 Prompt
+# Prompt Examples
 
-本页整理 20 个高质量示例 Prompt，覆盖不同谈判场景。更多测试 Prompt 见 [tests/test-prompts.md](../tests/test-prompts.md)。
+Twenty prompts covering different scenarios. See also [test prompts](../tests/test-prompts.md).
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
-## 1. 尾款结算：不验收
+## 1. Payment: acceptance delayed
 
 ```text
-请使用 negotiation-war-room-skill。客户拖欠 10 万尾款，说还没验收，但没有提出具体问题。我不想撕破脸，也不能继续免费改。请给我谈判方案、三套结算方案、微信跟进话术和风险审查。
+Use negotiation-war-room-skill. A client owes RMB 100,000, says acceptance is incomplete, but raises no specific issues. I want goodwill but cannot keep revising for free. Provide a strategy, three settlements, WeChat follow-up, and risk review.
 ```
 
-## 2. 尾款结算：口头约定
+## 2. Payment: verbal agreement
 
 ```text
-请使用 negotiation-war-room-skill。我和甲方口头约定 3 万合作，对方已付 6000，我已完成账号诊断和两次陪跑。现在对方说后续不用了，可能不想付剩余款。请帮我设计策略、话术和谈后确认文本。
+Use negotiation-war-room-skill. We verbally agreed RMB 30,000; RMB 6,000 is paid. I completed an account assessment and two coaching sessions. The client no longer wants future service and may resist further payment. Provide strategy, wording, and confirmation.
 ```
 
-## 3. 客户压价：竞品更便宜
+## 3. Discount: cheaper competitor
 
 ```text
-请使用 negotiation-war-room-skill。客户说别人 6 万能做，我报价 10 万，要求我降 40%。我最多只能降 10%。请帮我维护价值、缩小范围，并设计不同报价方案。
+Use negotiation-war-room-skill. I quoted RMB 100,000; the client cites a competitor at RMB 60,000 and requests 40% off. I can concede at most 10%. Help protect value, reduce scope, and design different quotes.
 ```
 
-## 4. 客户压价：只要最低价
+## 4. Discount: lowest price only
 
 ```text
-请使用 negotiation-war-room-skill。客户一直说“你别讲那么多，直接给最低价”。我该怎么回？请先提醒风险，再给一条微信回复。
+Use negotiation-war-room-skill. The client keeps saying, "Stop explaining and give your lowest price." Flag risks, then draft one WeChat reply.
 ```
 
-## 5. 薪资谈判：Offer 低
+## 5. Compensation: low offer
 
 ```text
-请使用 negotiation-war-room-skill。我拿到 32k x 14 的 Offer，但预期是 38k x 14。我有另一个 35k x 14 的机会。请分析筹码、BATNA/ZOPA，并生成给 HR 的邮件。
+Use negotiation-war-room-skill. I received 32k × 14, expected 38k × 14, and have another opportunity at 35k × 14. Analyze bargaining assets and BATNA/ZOPA and draft an HR email.
 ```
 
-## 6. 薪资谈判：涨薪
+## 6. Compensation: raise
 
 ```text
-请使用 negotiation-war-room-skill。我在公司一年半，负责的项目收入增长 25%，但老板只愿意涨 5%。我希望涨 15%。请给我谈判策略、面谈脚本和对方可能反应应对。
+Use negotiation-war-room-skill. After 18 months, my project's revenue is up 25%, but my manager offers only a 5% raise. I want 15%. Provide strategy, a meeting script, and replies to likely reactions.
 ```
 
-## 7. 合同条款：验收模糊
+## 7. Contract: vague acceptance
 
 ```text
-请使用 negotiation-war-room-skill。客户合同里写“甲方满意后付款”，没有具体验收标准。我担心尾款风险。请帮我分析条款风险并生成修改沟通邮件。
+Use negotiation-war-room-skill. The contract says "payment when the client is satisfied" without acceptance standards. Assess payment risk and draft an amendment email.
 ```
 
-## 8. 合同条款：责任过重
+## 8. Contract: excessive liability
 
 ```text
-请使用 negotiation-war-room-skill。对方合同要求我们承担所有间接损失且没有责任上限。金额不大但风险很高。请给我条款谈判策略和话术。
+Use negotiation-war-room-skill. The contract makes us liable for all indirect losses without a cap. The fee is small but risk is high. Provide strategy and wording.
 ```
 
-## 9. 合伙谈判：五五分
+## 9. Partnership: 50/50
 
 ```text
-请使用 negotiation-war-room-skill。朋友说他出资源，我负责执行，项目收益五五分。我觉得不公平，但不想伤感情。请帮我设计试运行和分配谈判方案。
+Use negotiation-war-room-skill. A friend brings resources and I execute; he proposes 50/50. I feel it is unfair but want to preserve the friendship. Design a trial and allocation negotiation.
 ```
 
-## 10. 合伙谈判：退出机制
+## 10. Partnership: exit
 
 ```text
-请使用 negotiation-war-room-skill。我和合伙人已经做了 3 个月项目，现在他想退出，但客户、账号和素材归属没说清。请帮我做谈判方案和确认文本。
+Use negotiation-war-room-skill. After three months, my partner wants to leave, but ownership of clients, account, and materials is unclear. Provide strategy and confirmation.
 ```
 
-## 11. 纠纷协商：赔偿要求
+## 11. Dispute: compensation demand
 
 ```text
-请使用 negotiation-war-room-skill。客户说我们的服务造成他们损失，要求赔 5 万。但事实还没对齐。我不想承认责任。请帮我写第一轮回应和风险审查。
+Use negotiation-war-room-skill. A client claims our service caused losses and demands RMB 50,000. Facts are not agreed and I do not want to admit liability. Draft a first response and review risks.
 ```
 
-## 12. 纠纷协商：退款
+## 12. Dispute: refund
 
 ```text
-请使用 negotiation-war-room-skill。对方要求全额退款，但我已经交付了大部分服务。请帮我拆分事实、证据、补救方案和谈判话术。
+Use negotiation-war-room-skill. A full refund is demanded although most service is delivered. Separate facts, evidence, remedies, and wording.
 ```
 
-## 13. 采购谈判：账期太长
+## 13. Procurement: long payment period
 
 ```text
-请使用 negotiation-war-room-skill。客户要求我们降价 15%，还要 90 天账期。我们现金流压力很大。请设计采购销售谈判方案。
+Use negotiation-war-room-skill. The client wants 15% off and 90-day payment terms, but cash flow is tight. Design procurement and sales options.
 ```
 
-## 14. 供应商谈判：质量和价格
+## 14. Supplier: quality and price
 
 ```text
-请使用 negotiation-war-room-skill。供应商涨价 20%，但质量最近不稳定。我想谈价格、质量标准和交付周期。请给我电话脚本。
+Use negotiation-war-room-skill. A supplier raised prices 20% while quality has become unstable. I want to discuss price, quality standards, and delivery. Draft a call script.
 ```
 
-## 15. 熟人合作：免费帮忙
+## 15. Friends: free help
 
 ```text
-请使用 negotiation-war-room-skill。朋友让我免费帮他做方案，说以后项目成了再分我。我想保留关系但不能白干。请给我微信回复。
+Use negotiation-war-room-skill. A friend wants a free proposal and promises a share if the project succeeds. I want to protect the relationship without unpaid work. Draft a WeChat reply.
 ```
 
-## 16. 熟人借钱
+## 16. Loan to a relative
 
 ```text
-请使用 negotiation-war-room-skill。亲戚想借 5 万，说两个月还，但以前借钱拖过。我不想伤关系，也不想再被拖。请帮我设计边界沟通。
+Use negotiation-war-room-skill. A relative wants RMB 50,000 for two months, but previously repaid late. Help me communicate boundaries without harming the relationship.
 ```
 
-## 17. 家庭沟通：经济边界
+## 17. Family: financial boundaries
 
 ```text
-请使用 negotiation-war-room-skill。我想和家人谈经济边界，对方容易说我自私。请不要用商业强压话术，帮我生成温和但清楚的面谈脚本。
+Use negotiation-war-room-skill. I want financial boundaries with family who may call me selfish. Draft a gentle, clear meeting script without commercial pressure tactics.
 ```
 
-## 18. 对方拖延
+## 18. Repeated delay
 
 ```text
-请使用 negotiation-war-room-skill。对方每次都说“下周给答复”，已经拖了一个月。我该怎么推进，同时不显得太急？
+Use negotiation-war-room-skill. For a month, the other party has repeatedly promised a reply next week. How can I advance things without appearing desperate?
 ```
 
-## 19. 发送前风险审查
+## 19. Pre-send review
 
 ```text
-请使用 negotiation-war-room-skill 做发送前风险审查。
-背景：客户拖欠尾款，我准备发催款微信。
-待发送文本：[粘贴文本]
-请指出风险，并给更安全版本。
+Use negotiation-war-room-skill for a pre-send review.
+Background: an overdue client balance; I am preparing a WeChat demand.
+Pending text: [paste text]
+Identify risks and provide a safer version.
 ```
 
-## 20. 谈后复盘
+## 20. Post-round review
 
 ```text
-请使用 negotiation-war-room-skill 做谈后动态复盘。
-背景：客户要求降价 30%，我提出三套方案。
-本轮对方原话：你先给最低价，不然我找别人。
-我还没回复。请分析对方真实诉求，并给下一句回复。
+Use negotiation-war-room-skill for a post-round reassessment.
+Background: the client requested 30% off and I offered three options.
+Their exact words: "Give me your lowest price or I will find someone else."
+I have not replied. Analyze underlying interests and draft the next response.
 ```

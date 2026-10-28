@@ -1,138 +1,133 @@
-# 邮件模板
+# Email Templates
 
-使用说明：邮件适合正式确认、留痕、多人抄送和合同/付款/纪要事项。将 `[变量]` 替换为真实信息。
+For formal confirmations, written records, multiple recipients, contracts, payments, and minutes. Replace `[variables]` with actual information.
 
-## 正式商务邮件
+## Formal business proposal
 
 ```text
-主题：关于[事项]的方案沟通
+Subject: Proposal for [subject]
 
-[对方称呼]，你好：
+Hello [name],
 
-感谢你们就[事项]继续沟通。结合目前双方已确认的信息，我方理解当前重点是：
+Thank you for continuing the discussion on [subject]. Based on the information confirmed so far, our understanding of the priorities is:
 
-1. [重点一]
-2. [重点二]
-3. [重点三]
+1. [priority one]
+2. [priority two]
+3. [priority three]
 
-为推进事项落地，我方建议采用以下方案：
+We propose:
 
-- 方案内容：[金额/范围/交付/服务/条款]
-- 我方负责：[我方承诺事项]
-- 需贵方确认：[对方需确认事项]
-- 时间节点：[具体日期]
+- Terms: [amount / scope / delivery / service / clauses]
+- Our responsibilities: [commitments]
+- Your confirmation needed: [items]
+- Milestone: [date]
 
-这个方案的考虑是，在兼顾[对方核心诉求]的同时，也确保[我方边界/交付质量/执行清晰度]。
+This addresses [your core interest] while protecting [our boundary / delivery quality / execution clarity].
 
-如贵方认可，请在[日期]前邮件回复确认；如需调整，也请具体说明调整点和原因，便于双方尽快对齐。
+Please confirm by email by [date], or specify requested changes and their reasons so we can align promptly.
 
-谢谢。
-
-[署名]
+Thank you,
+[signature]
 ```
 
-## 付款确认邮件
+## Payment confirmation
 
 ```text
-主题：关于[项目/订单名称]款项安排的确认
+Subject: Payment arrangements for [project / order]
 
-[对方称呼]，你好：
+Hello [name],
 
-我方就[项目/订单名称]的款项安排做如下确认：
+To confirm the payment arrangements for [project / order]:
 
-1. 已完成事项：[交付物/服务内容]，完成时间为[日期]。
-2. 对应款项：[金额]。
-3. 付款依据：[合同/报价单/订单/会议纪要]中的[条款/约定]。
-4. 原定付款节点：[日期/条件]。
-5. 当前待确认事项：[是否验收/付款日期/分期安排/发票信息]。
+1. Completed work: [deliverables / services], completed on [date].
+2. Corresponding payment: [amount].
+3. Basis: [term] in [contract / quote / order / minutes].
+4. Original payment milestone: [date / condition].
+5. Pending confirmation: [acceptance / payment date / installments / invoice details].
 
-如贵方对交付内容有具体验收异议，请在[日期]前以邮件形式列明；如无异议，烦请按约定在[日期]前安排付款。
+If there are specific acceptance objections, please list them by email by [date]. Otherwise, please arrange payment by [date] as agreed.
 
-若贵方确有财务流程需要调整，也请明确预计付款日期和对应安排，便于我方安排后续支持。
+If your finance process requires an adjustment, please specify the expected payment date and arrangements so we can plan subsequent support.
 
-谢谢。
-
-[署名]
+Thank you,
+[signature]
 ```
 
-## 合同条款确认邮件
+## Contract terms
 
 ```text
-主题：关于[合同名称]关键条款的确认
+Subject: Key terms in [contract]
 
-[对方称呼]，你好：
+Hello [name],
 
-我们已查看[合同名称/版本号]。整体合作方向没有问题，为避免后续执行中产生理解偏差，建议进一步确认以下条款：
+We have reviewed [contract / version]. We support the overall direction and suggest clarifying the following terms to ensure consistent execution:
 
-1. 付款节点：[需确认内容]
-2. 交付范围：[需确认内容]
-3. 验收标准：[需确认内容]
-4. 违约/责任边界：[需确认内容]
-5. 其他条款：[保密/知识产权/终止/争议解决等]
+1. Payment milestones: [details].
+2. Delivery scope: [details].
+3. Acceptance criteria: [details].
+4. Breach / responsibility boundaries: [details].
+5. Other terms: [confidentiality / IP / termination / disputes].
 
-我方建议的修改方向是：[简述修改原则或替代表述]。
+Our proposed changes are: [principles or alternative wording].
 
-这些调整主要是为了让双方责任、时间和标准更清楚，不影响合作推进。若涉及法律或正式权利义务判断，建议双方各自交由专业人士审阅。
+These changes clarify responsibilities, timing, and standards so cooperation can proceed smoothly. Each side should seek professional review where legal rights and obligations require assessment.
 
-请贵方在[日期]前反馈是否可接受，或提出替代修改意见。
+Please confirm acceptance or propose alternatives by [date].
 
-谢谢。
-
-[署名]
+Thank you,
+[signature]
 ```
 
-## 谈判纪要邮件
+## Discussion minutes
 
 ```text
-主题：[会议/电话日期]关于[事项]的沟通纪要
+Subject: [date] discussion on [subject]
 
-[对方称呼]，你好：
+Hello [name],
 
-为避免双方理解不一致，我将[日期]关于[事项]的沟通内容整理如下：
+To confirm our shared understanding of the discussion on [date]:
 
-一、已确认事项
-1. [事项一]
-2. [事项二]
-3. [事项三]
+1. Agreed points
+- [point one]
+- [point two]
+- [point three]
 
-二、待确认事项
-1. [待确认事项一]，负责人：[姓名/团队]，截止时间：[日期]
-2. [待确认事项二]，负责人：[姓名/团队]，截止时间：[日期]
+2. Open items
+- [item one], owner: [person / team], deadline: [date].
+- [item two], owner: [person / team], deadline: [date].
 
-三、金额/时间/交付节点
-- 金额：[金额]
-- 时间节点：[日期]
-- 交付/验收标准：[标准]
+3. Amounts and milestones
+- Amount: [amount].
+- Date: [date].
+- Delivery / acceptance standard: [standard].
 
-四、下一步动作
-- 我方：[动作]，预计完成时间：[日期]
-- 贵方：[动作]，预计完成时间：[日期]
+4. Next actions
+- Our side: [action], expected by [date].
+- Your side: [action], expected by [date].
 
-如以上纪要与贵方理解不一致，请在[日期/时间]前回复指出；如无异议，我们将按此版本继续推进。
+Please flag any differences in understanding by [date / time]. Otherwise, we will continue on this basis.
 
-谢谢。
-
-[署名]
+Thank you,
+[signature]
 ```
 
-## 跟进邮件
+## Follow-up
 
 ```text
-主题：跟进[事项]的确认进展
+Subject: Follow-up on [subject]
 
-[对方称呼]，你好：
+Hello [name],
 
-我跟进一下[事项]的确认进展。我们上次沟通中约定：
+I am following up on the confirmation of [subject]. Last time we agreed:
 
-1. [约定事项一]
-2. [约定事项二]
-3. [对方需反馈事项]
+1. [item one]
+2. [item two]
+3. [feedback required from your side]
 
-目前我方还在等待[待确认内容]。为不影响后续[交付/付款/排期/合同签署]，烦请贵方在[日期]前反馈确认。
+We are still awaiting [item]. Please confirm by [date] to keep [delivery / payment / scheduling / signing] on track.
 
-如当前仍有卡点，也请直接说明具体问题，我们可以基于[范围/时间/付款/条款]再做一次对齐。
+If anything remains blocked, please identify the specific issue so we can revisit [scope / timing / payment / terms].
 
-谢谢。
-
-[署名]
+Thank you,
+[signature]
 ```

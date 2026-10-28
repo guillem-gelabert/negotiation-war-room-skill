@@ -1,141 +1,141 @@
-# 客户压价与报价维护 Playbook
+# Client Discounts and Price Protection Playbook
 
-## 1. 场景定义
+## 1. Scenario
 
-适用于客户认为报价高、预算不足、要求折扣、续约压价、拿竞品报价比较或要求“给最低价”的场景。核心不是拒绝降价，而是把价格谈判转化为价值、范围、付款、周期和承诺的组合谈判。
+For high-price objections, limited budgets, discounts, renewal pressure, competitor comparisons, and demands for the lowest price. Expand the discussion to value, scope, payment, duration, and commitments.
 
-## 2. 常见用户处境
+## 2. Common situations
 
-- 客户说“太贵了”“今年预算少了”。
-- 老客户续约时要求大幅降价。
-- 客户拿竞品低价压用户。
-- 用户担心丢单，所以想直接让价。
-- 销售或乙方负责人有折扣权限，但不能破坏利润。
+- "Too expensive" or "this year's budget is smaller."
+- An existing client demands a major renewal discount.
+- A competitor's low quote is used as pressure.
+- The user fears losing the deal and wants to concede immediately.
+- A salesperson or service provider can discount but must protect profit.
 
-## 3. 用户常见错误
+## 3. Common mistakes
 
-- 直接问“你能接受多少”，把主动权交给对方。
-- 一次性报出最低价。
-- 降价但范围、交付和付款不变。
-- 反复解释成本，忽视客户内部审批压力。
-- 用情绪表达“我们已经很便宜了”。
+- Asking "What can you pay?" immediately and giving away initiative.
+- Quoting the lowest price at once.
+- Discounting without changing scope, delivery, or payment.
+- Repeatedly explaining costs while ignoring approval pressures.
+- Responding emotionally: "We are already very cheap."
 
-## 4. 谈判目标
+## 4. Objectives
 
-- 优先目标：维护报价价值，避免单向降价。
-- 次级目标：如必须让价，用范围、付款、周期、数量或案例授权换回确定条件。
-- 底线目标：不接低于利润底线或影响交付质量的订单。
+- Primary: protect quoted value and avoid unilateral price cuts.
+- Secondary: exchange necessary discounts for scope, payment, duration, volume, or case-study permission.
+- Minimum: decline work below the profit threshold or incompatible with delivery quality.
 
-## 5. 关键风险
+## 5. Key risks
 
-- 客户形成“压一压就降”的预期。
-- 降价后服务范围不变，利润和交付质量双重受损。
-- 用户过早暴露折扣权限。
-- 客户实际只是采购惯例压价，用户误判为真实预算不足。
-- 口头承诺折扣，没有确认付款和合作周期。
+- Teaching the client that pressure always earns discounts.
+- Unchanged scope damages both margins and quality.
+- Revealing discount authority early.
+- Mistaking routine purchasing tactics for genuine budget shortages.
+- Promising discounts without confirming payment and duration.
 
-## 6. 信息采集重点
-
-```text
-客户要求降价比例：
-客户给出的理由：
-是否有竞品报价：
-客户预算是否真实受限：
-客户决策人和审批流程：
-我方利润底线：
-可缩小的服务范围：
-可换取的付款/周期/数量：
-历史合作价值证据：
-是否有替代客户：
-```
-
-## 7. 权力指数判断重点
-
-- 替代方案：用户是否有其他客户或订单。
-- 时间压力：客户是否有上线、采购、续约截止日期。
-- 信息优势：用户是否掌握竞品差异、历史效果、客户真实预算。
-- 资源控制：用户是否提供难替代服务、技术、渠道或经验。
-- 证据强度：是否有 ROI、案例、数据、服务报告。
-- 关系依赖：客户替换供应商成本是否高。
-
-## 8. 筹码分析重点
-
-- 价值筹码：效果数据、经验、稳定性、响应速度。
-- 成本筹码：服务范围、交付频率、人员投入。
-- 付款筹码：预付款、缩短账期、年度合同。
-- 关系筹码：长期客户折扣、案例授权、转介绍。
-- 风险筹码：低价影响质量和交付确定性。
-
-## 9. 推荐策略
-
-1. 先承接预算压力，避免直接否定客户。
-2. 询问客户优先级：预算、效果、交付速度、服务范围还是付款节奏。
-3. 重新锚定价值，展示历史成果或替换成本。
-4. 给出 3 套方案，而不是只给一个折扣。
-5. 任何折扣必须换取范围缩减、预付款、长期合作、数量承诺或案例授权。
-
-## 10. 不建议动作
-
-- 不建议直接说“最低只能降 X”。
-- 不建议无条件降价。
-- 不建议攻击竞品或客户预算。
-- 不建议用“你们不懂价值”这种表达。
-- 不建议为了成交承诺超出能力的服务。
-
-## 11. 第一轮话术模板
+## 6. Information to gather
 
 ```text
-我理解今年预算压力确实更大。价格可以一起看，但我不建议只单独压价格，因为价格、服务范围、交付质量和付款节奏是绑定的。
-
-如果你们最优先的是预算，我们可以做一个精简范围的方案；如果最优先的是效果，建议保留核心方案，但可以优化付款节奏；如果你们能确认更长合作周期或更快付款，我也可以申请一个有限折扣。
-
-我先给你三套组合方案，你看哪一种更符合你们内部约束。
+Requested discount:
+Reason given:
+Competing quotes:
+Is the budget genuinely constrained?
+Decision-maker and approvals:
+Our profit threshold:
+Scope that can be reduced:
+Payment / duration / volume available in return:
+Evidence of past value:
+Alternative clients:
 ```
 
-## 12. 对方常见反应
+## 7. Power assessment
 
-- “你先给最低价。”
-- “别人比你便宜很多。”
-- “今年预算真的不够。”
-- “不降价我们就不续了。”
-- “先按低价做，后面有机会再合作。”
+- Alternatives: other clients or orders.
+- Time: launch, purchasing, or renewal deadlines.
+- Information: competitor differences, past results, actual budget.
+- Resources: distinctive services, technology, channels, experience.
+- Evidence: ROI, cases, data, service reports.
+- Dependence: the client's supplier switching costs.
 
-## 13. 应对话术
+## 8. Bargaining assets
 
-对方要最低价：
+- Value: results, experience, stability, response speed.
+- Cost: scope, delivery frequency, staffing.
+- Payment: prepayment, faster payment, annual contracts.
+- Relationships: loyalty discounts, case-study permission, referrals.
+- Risk: effects of low prices on quality and delivery certainty.
+
+## 9. Recommended strategy
+
+1. Acknowledge budget pressure without dismissing the client.
+2. Ask whether budget, results, speed, scope, or payment timing comes first.
+3. Re-anchor value using past outcomes or switching costs.
+4. Offer three combinations rather than a single discount.
+5. Exchange any discount for scope reduction, prepayment, longer terms, volume, or case-study permission.
+
+## 10. Avoid
+
+- "The most I can discount is X."
+- Unconditional discounts.
+- Attacking competitors or the client's budget.
+- "You do not understand value."
+- Promising services beyond capacity to close.
+
+## 11. First-round wording
 
 ```text
-我可以帮你争取空间，但最低价需要和范围、付款、合作周期一起确认。否则单独给一个数字，后续执行容易变形。
+I understand budgets are tighter this year. We can review pricing alongside scope, delivery quality, and payment timing.
+
+If budget is the main priority, we can prepare a reduced-scope option. If results come first, I suggest retaining the core service and adjusting payment timing. If you can confirm a longer term or faster payment, I can request a limited discount.
+
+I will send three combinations so you can see which best fits your internal constraints.
 ```
 
-对方拿竞品压价：
+## 12. Common reactions
+
+- "Give me your lowest price first."
+- "Others are much cheaper."
+- "We really do not have the budget."
+- "No discount, no renewal."
+- "Start at the low price; there will be more opportunities later."
+
+## 13. Replies
+
+Lowest price:
 
 ```text
-竞品价格可以作为参考，但需要一起看服务范围、响应速度、交付标准和风险承担。如果范围一致，我们可以对比；如果范围不同，直接比单价会不准确。
+I can explore room to move, but the price needs to be agreed with scope, payment, and duration. A figure alone can create problems during delivery.
 ```
 
-对方说不降就不续：
+Competitor comparison:
 
 ```text
-我理解你们需要控制预算。我们也希望继续合作，所以我建议不要只在原方案上硬降价，而是做一版预算优先方案：保留核心结果，调整非核心服务和付款安排。
+A competitor's quote is useful context if we compare scope, response speed, delivery standards, and risk allocation too. With equivalent scope we can compare directly; otherwise unit prices alone can mislead.
 ```
 
-## 14. 谈后确认文本
+No discount, no renewal:
 
 ```text
-我确认一下刚才沟通的方向：
-1. 你方当前主要约束是预算控制。
-2. 我方会提供三套方案：原核心方案、有限折扣方案、精简范围方案。
-3. 如果涉及折扣，需要同步确认合作周期、付款节点或服务范围调整。
-4. 你方在 X 前反馈更接近哪种方案，我们再细化报价。
-
-如理解有偏差，请直接指出。
+I understand the budget constraint, and we would like to continue working together. I suggest a budget-focused version that retains core outcomes while adjusting non-core services and payment terms.
 ```
 
-## 15. 复盘问题
+## 14. Confirmation
 
-- 客户真实约束是预算、审批、竞品还是价值感知？
-- 客户有没有明确可接受区间？
-- 客户是否愿意用付款、周期、范围换折扣？
-- 用户是否过早暴露底价？
-- 哪套方案最能测试客户真实偏好？
+```text
+To confirm our direction:
+1. Your main current constraint is budget control.
+2. We will provide three options: the original core service, a limited discount, and reduced scope.
+3. Any discount requires agreement on duration, payment milestones, or scope changes.
+4. Please indicate your preferred option by X so we can refine the quote.
+
+Please correct anything I have misunderstood.
+```
+
+## 15. Review questions
+
+- Is the real constraint budget, approvals, competitors, or perceived value?
+- Has the client given an acceptable range?
+- Will they exchange payment, duration, or scope for a discount?
+- Has the user disclosed the lowest price early?
+- Which offer best tests the client's preferences?

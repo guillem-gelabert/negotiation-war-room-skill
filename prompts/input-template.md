@@ -1,114 +1,114 @@
-# 标准输入模板
+# Standard Input Template
 
-本模板用于用户调用“动态谈判作战参谋 Skill”时提交谈判背景。Agent 应优先按这些字段解析信息；若用户没有完整填写，应先识别信息缺口，再基于已知信息输出临时策略。
+Use this template to submit negotiation background to the Negotiation War Room Skill. Parse these fields first. If the user has not completed them, identify gaps before giving provisional advice from known information.
 
-## 可复制输入格式
+## Copyable input
 
 ```text
-【谈判类型】
-字段含义：选择最接近的谈判场景。
-可选项：商业合作 / 客户压价 / 尾款结算 / 薪资 / 合同 / 采购销售 / 合伙 / 纠纷 / 熟人合作 / 家庭关系 / 其他
-示例：客户压价
+[Negotiation type]
+Meaning: choose the closest scenario.
+Options: business partnership / client discount / outstanding payment / compensation / contract / procurement and sales / partners / dispute / friends or relatives / family relationship / other
+Example: client discount
 
-【当前背景】
-字段含义：发生了什么？目前谈到哪一步？是否已经报价、拒绝、僵持、升级或接近成交？
-示例：客户收到报价后说预算不够，希望降价 30%，否则考虑换供应商。我们已经合作两年，目前在续约阶段。
+[Current background]
+Meaning: what happened and where do talks stand? Has a quote, rejection, impasse, escalation, or near-agreement occurred?
+Example: the client wants 30% off after receiving our quote, citing budget constraints and possible supplier replacement. We have worked together for two years and are discussing renewal.
 
-【我的身份与权限】
-字段含义：说明用户在谈判中的角色和能决定的范围。
-可参考：决策人 / 执行人 / 乙方 / 甲方 / 员工 / 候选人 / 合伙人 / 家庭成员 / 其他
-示例：我是乙方负责人，可以决定 10% 以内的折扣，超过需要和团队确认。
+[My role and authority]
+Meaning: your role and what you can decide.
+Examples of roles: decision-maker / implementer / service provider / client / employee / candidate / partner / family member / other
+Example: I lead the service provider's team and can approve discounts up to 10%; more requires team approval.
 
-【对方身份与权限】
-字段含义：对方是谁？是否有最终决策权？是否只是传话人或执行人？
-示例：对方是客户采购经理，可能需要老板最终审批。
+[Other party's role and authority]
+Meaning: who are they, and can they make the final decision? Are they relaying messages or implementing decisions?
+Example: the client's purchasing manager, likely needing final approval from the owner.
 
-【我的目标】
-字段含义：最想达成什么结果，尽量具体到金额、比例、条款、时间或行为。
-示例：尽量维持原报价，最多只降 10%，并完成今年续约。
+[My objective]
+Meaning: desired outcome, expressed in amounts, percentages, terms, dates, or behavior.
+Example: retain the original price if possible, discount no more than 10%, and secure this year's renewal.
 
-【我的底线】
-字段含义：最低能接受什么？低于什么条件就应暂停、延期或退出？
-示例：最低只能接受降价 10%；如果要求降 20% 以上，就必须缩小服务范围或放弃续约。
+[My walk-away limit]
+Meaning: the minimum acceptable result; below what conditions should you pause, defer, or exit?
+Example: I can accept a 10% reduction. A demand above 20% requires reduced scope or abandoning renewal.
 
-【我的 BATNA】
-字段含义：如果这次谈不成，我还有什么替代方案？BATNA 是 Best Alternative To a Negotiated Agreement，即谈不成时的最佳替代选择。
-示例：可以把团队资源转给另一个利润更高的客户；短期会损失收入，但不会亏损交付。
+[My BATNA]
+Meaning: Best Alternative to a Negotiated Agreement. What can you do if this negotiation fails?
+Example: move the team to a more profitable client. Revenue falls temporarily, but we avoid delivering at a loss.
 
-【对方可能诉求】
-字段含义：对方可能最在意什么？包括价格、预算、审批、时间、风险、面子、KPI、关系或现金流。
-示例：对方表面上要降价，真实诉求可能是今年预算减少，同时需要向老板证明采购成本下降。
+[Other party's possible interests]
+Meaning: price, budget, approval, time, risk, dignity, KPIs, relationships, or cash flow.
+Example: the stated demand is a discount; underlying needs may be a smaller annual budget and showing the owner reduced purchasing costs.
 
-【我的筹码】
-字段含义：我有什么价值、证据、资源、替代方案、时间优势或关系优势？
-示例：我们熟悉客户业务，替换成本高；过去交付效果稳定；有历史数据证明服务带来增长。
+[My bargaining assets]
+Meaning: value, evidence, resources, alternatives, time or relationship advantages.
+Example: we know the business, switching is costly, results are stable, and historical data shows growth.
 
-【我的弱点】
-字段含义：我最担心什么？哪里比较被动？例如现金流、时间压力、替代方案弱、关系依赖、证据不足。
-示例：这个客户占我们月收入 20%，短期丢掉会有压力。
+[My weaknesses]
+Meaning: concerns and vulnerabilities, such as cash flow, urgency, weak alternatives, dependence, or evidence gaps.
+Example: this client represents 20% of monthly revenue, so losing them immediately would be difficult.
 
-【已有证据】
-字段含义：可用于判断事实和留痕的材料，如聊天记录、合同、付款记录、交付成果、会议纪要、报价单、验收记录等。
-示例：有合同、历史付款记录、上一年度服务报告和本次报价单。
+[Available evidence]
+Meaning: chats, contracts, payments, deliverables, minutes, quotes, acceptance records, and other factual records.
+Example: contract, past payments, last year's service report, and current quote.
 
-【沟通渠道】
-字段含义：下一步准备用什么方式沟通。
-可选项：微信 / 电话 / 面谈 / 邮件 / 会议 / 其他
-示例：微信先回复，必要时约电话。
+[Communication channel]
+Meaning: the next channel you plan to use.
+Options: WeChat / phone / in person / email / meeting / other
+Example: reply on WeChat, then arrange a call if needed.
 
-【希望风格】
-字段含义：希望话术呈现的语气和边界。
-可选项：温和 / 稳健 / 强边界 / 正式 / 高情商 / 不撕破脸 / 快速成交
-示例：稳健，不撕破脸，但要守住价格底线。
+[Desired style]
+Meaning: desired tone and boundaries.
+Options: gentle / measured / firm boundaries / formal / tactful / preserve goodwill / close quickly
+Example: measured, preserve goodwill, protect the price limit.
 
-【是否需要】
-字段含义：本轮希望 Skill 输出哪些内容。
-可选项：策略分析 / 话术生成 / 模拟演练 / 消息润色 / 风险审查 / 谈后确认文本
-示例：策略分析 + 三套方案 + 微信话术 + 风险审查。
+[Requested output]
+Meaning: what you need this round.
+Options: strategy / wording / rehearsal / message editing / risk review / post-discussion confirmation
+Example: strategy + three offers + WeChat wording + risk review.
 ```
 
-## 最小输入示例
+## Minimal example
 
 ```text
-【谈判类型】
-客户压价
+[Negotiation type]
+Client discount
 
-【当前背景】
-客户续约时要求降价 30%，理由是今年预算紧。我们已经合作两年，客户对结果基本满意。
+[Current background]
+At renewal, the client requested 30% off because budgets are tight. We have worked together for two years and the client is generally satisfied.
 
-【我的身份与权限】
-我是乙方负责人，可以决定 10% 以内折扣。
+[My role and authority]
+I lead the provider's team and can approve up to 10% off.
 
-【对方身份与权限】
-对方是采购经理，可能需要老板审批。
+[Other party's role and authority]
+Purchasing manager, possibly needing the owner's approval.
 
-【我的目标】
-保持续约，最多降 10%。
+[My objective]
+Secure renewal with no more than 10% off.
 
-【我的底线】
-如果降价超过 10%，必须减少服务范围或延长合作周期。
+[My walk-away limit]
+Beyond 10% off, scope must decrease or the cooperation period must increase.
 
-【我的 BATNA】
-把团队资源转给另一个利润更高的客户。
+[My BATNA]
+Assign the team to a more profitable client.
 
-【对方可能诉求】
-降低预算压力，并向老板证明采购成本下降。
+[Other party's possible interests]
+Reduce budget pressure and demonstrate lower purchasing costs.
 
-【我的筹码】
-我们熟悉客户业务，替换成本高，有历史效果数据。
+[My bargaining assets]
+Business knowledge, high switching costs, historical results.
 
-【我的弱点】
-短期丢掉该客户会影响现金流。
+[My weaknesses]
+Losing the client immediately would affect cash flow.
 
-【已有证据】
-合同、付款记录、服务报告、报价单。
+[Available evidence]
+Contract, payment records, service reports, quote.
 
-【沟通渠道】
-微信
+[Communication channel]
+WeChat
 
-【希望风格】
-稳健 / 不撕破脸
+[Desired style]
+Measured / preserve goodwill
 
-【是否需要】
-策略分析 / 话术生成 / 风险审查
+[Requested output]
+Strategy / wording / risk review
 ```

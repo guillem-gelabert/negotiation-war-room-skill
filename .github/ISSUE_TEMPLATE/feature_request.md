@@ -1,63 +1,57 @@
 ---
-name: Feature request / 功能建议
-about: 建议新增行业场景、模板、Agent 适配方式或评测能力
+name: Feature request
+about: Suggest industry scenarios, templates, agent integrations, or evaluation capabilities
 title: "[Feature] "
 labels: enhancement
 assignees: ""
 ---
 
-## 建议类型
+## Request type
 
-- [ ] 新增行业场景
-- [ ] 新增话术模板
-- [ ] 新增谈后复盘模板
-- [ ] 新增 Agent 适配方式
-- [ ] 新增测试 Prompt
-- [ ] 新增安全边界规则
-- [ ] 改进 README / docs
-- [ ] 其他
+- [ ] Industry scenario
+- [ ] Wording template
+- [ ] Post-discussion review template
+- [ ] Agent integration
+- [ ] Test prompt
+- [ ] Safety rule
+- [ ] README / docs improvement
+- [ ] Other
 
-## 背景说明
+## Background
 
-这个功能建议解决什么问题？
+What problem would this solve?
 
 ```text
-例如：很多自由职业者会遇到“客户临时砍范围但不改付款”的情况，需要单独 Playbook。
+Example: freelancers often face clients reducing scope without changing payment, which could use a dedicated playbook.
 ```
 
-## 期望能力
-
-希望项目新增或改进什么？
+## Desired capability
 
 ```text
-[描述你希望的行为、模板或文档]
+[behavior, template, or documentation]
 ```
 
-## 适用用户
+## Users who would benefit
 
-哪些用户会受益？
+- [ ] Freelancers / service providers
+- [ ] Sales / business development
+- [ ] Purchasing / supply chain
+- [ ] Candidates / employees
+- [ ] Partners / founders
+- [ ] Family / acquaintance conversations
+- [ ] Agent developers
+- [ ] Other
 
-- [ ] 自由职业者/乙方服务商
-- [ ] 销售/商务
-- [ ] 采购/供应链
-- [ ] 候选人/员工
-- [ ] 合伙人/创业者
-- [ ] 家庭/熟人关系沟通
-- [ ] Agent 开发者
-- [ ] 其他
-
-## 示例 Prompt
-
-如有，请提供脱敏示例：
+## Example prompt
 
 ```text
-[示例 Prompt]
+[optional anonymized example]
 ```
 
-## 安全边界
+## Safety boundaries
 
-是否可能涉及法律、隐私、威胁、伪造证据、恶意操控或违法施压？
+Could this involve law, privacy, threats, fabricated evidence, manipulation, or unlawful pressure?
 
 ```text
-[说明风险或写“无”]
+[risks, or none]
 ```

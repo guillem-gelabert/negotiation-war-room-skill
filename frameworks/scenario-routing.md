@@ -1,233 +1,217 @@
-# 谈判场景分流规则
+# Negotiation Scenario Routing
 
-本文件用于判断谈判主场景、辅助场景和打法。Agent 必须先完成分流，再进入权力指数、BATNA/ZOPA 和方案设计。
+Identify the primary scenario, secondary scenario, and approach before power scoring, BATNA/ZOPA analysis, and offer design.
 
-## 分流原则
+## Principles
 
-1. 优先识别主场景：以用户最重要目标、金额、风险和关系影响为准。
-2. 识别辅助场景：例如“尾款结算 + 合同争议”“客户压价 + 续约”“熟人合作 + 合伙”。
-3. 若涉及法律、劳动、合同争议或人身安全，风险优先级高于成交。
-4. 家庭关系、熟人合作不套用商业强压话术，应优先保护情绪安全、边界和共识。
-5. 信息不足时输出“暂定场景”，并列出确认问题。
+1. Select the primary scenario using the user's main goal, financial exposure, risks, and relationship effects.
+2. Identify secondary scenarios, such as payment + contract dispute, discount + renewal, or friends + partnership.
+3. Legal, employment, contract, and physical safety risks take priority over closing a deal.
+4. For family or friends, prioritize emotional safety, boundaries, and shared understanding rather than commercial pressure tactics.
+5. With insufficient information, label the scenario provisional and list confirmation questions.
 
-## 场景打法表
+## Routing table
 
-| 场景 | 触发信号 | 核心打法 | 优先避免 |
+| Scenario | Signals | Core approach | Avoid first |
 |---|---|---|---|
-| 商业合作 | 合作、项目、资源、分成、渠道、联名 | 价值、交付、付款、边界 | 只谈愿景不谈责任 |
-| 尾款结算 | 尾款、回款、验收、拖欠、结算 | 证据、已交付价值、结算方式 | 继续免费投入 |
-| 客户压价 | 太贵、预算、降价、续约、竞品报价 | 价值重构、范围调整、价格保护 | 单纯降价 |
-| 薪资谈判 | offer、涨薪、晋升、奖金、职级 | 能力证明、市场价值、替代机会 | 威胁式表达 |
-| 合同谈判 | 合同、条款、违约、付款、验收、交付 | 条款、责任、付款、违约、交付范围 | 模糊承诺 |
-| 采购销售 | 采购、供应商、账期、起订量、框架协议 | 价格与量、账期、质量、供货稳定性联动 | 只比单价 |
-| 合伙谈判 | 合伙、股权、分工、退出、决策权 | 权责利、决策权、退出机制 | 靠感情替代规则 |
-| 纠纷协商 | 投诉、退款、赔偿、争议、和解 | 止损、证据、分级施压 | 情绪化定责 |
-| 熟人合作 | 朋友、亲戚、帮忙、面子、借钱 | 关系保护、边界、书面规则 | 为面子放弃边界 |
-| 家庭关系 | 伴侣、父母、家庭、分工、关系冲突 | 情绪安全、边界、共识 | 商业强压话术 |
+| Business partnership | Cooperation, project, resources, sharing, channel, co-branding | Value, delivery, payment, boundaries | Vision without responsibilities |
+| Outstanding payment | Balance, collection, acceptance, overdue payment, settlement | Evidence, value delivered, settlement options | Continued free work |
+| Client discount | Too expensive, budget, discount, renewal, competing quote | Reframe value, adjust scope, protect price | Price cuts alone |
+| Compensation | Offer, raise, promotion, bonus, level | Evidence of ability, market value, alternatives | Threats |
+| Contract | Terms, breach, payment, acceptance, delivery | Terms, liability, payment, breach, scope | Vague promises |
+| Procurement and sales | Purchasing, supplier, payment terms, minimum order, framework agreement | Link price, volume, payment, quality, reliability | Unit-price comparison alone |
+| Partners | Partnership, equity, responsibilities, exit, authority | Rights, duties, returns, decision rights, exit | Relationships replacing rules |
+| Disputes | Complaint, refund, compensation, dispute, settlement | Limit loss, preserve evidence, escalate in stages | Emotional blame |
+| Friends and relatives | Friend, relative, favor, saving face, loan | Protect relationships, boundaries, written rules | Giving up boundaries to save face |
+| Family | Partner, parents, family, chores, conflict | Emotional safety, boundaries, common ground | Commercial pressure tactics |
 
-## 具体打法
+## Approaches
 
-### 商业合作
+### Business partnerships
 
-判断重点：
+Assess:
 
-- 双方投入是否明确。
-- 交付物、付款节点和验收标准是否清楚。
-- 合作边界、知识产权、客户归属和退出机制是否存在。
+- Whether both sides' contributions are clear.
+- Deliverables, payment milestones, and acceptance criteria.
+- Boundaries, intellectual property, client ownership, and exits.
 
-打法：
+Approach:
 
-- 先谈共同价值，再谈交付和付款。
-- 把资源承诺写成可验证动作。
-- 对模糊愿景使用阶段性试运行和里程碑。
-
-输出要求：
+- Discuss shared value before delivery and payment.
+- Turn resource promises into verifiable actions.
+- Use trial phases and milestones for vague visions.
 
 ```text
-共同价值：
-交付边界：
-付款/分成：
-阶段性确认：
-退出机制：
+Shared value:
+Delivery boundaries:
+Payment / revenue sharing:
+Stage confirmations:
+Exit mechanism:
 ```
 
-### 尾款结算
+### Outstanding payments
 
-判断重点：
+Assess:
 
-- 是否有合同、验收记录、交付成果、沟通记录和付款记录。
-- 对方是真实异议还是拖延付款。
-- 是否存在新增需求被包装成验收问题。
+- Contracts, acceptance records, deliverables, communications, and payments.
+- Genuine objections versus delay.
+- New requests disguised as acceptance issues.
 
-打法：
+Approach:
 
-- 先整理证据和已交付价值。
-- 要求对方列明具体验收异议。
-- 提供分期或结算方案，但停止无边界免费支持。
-
-输出要求：
+- Organize evidence and delivered value first.
+- Request specific acceptance objections.
+- Offer installments or settlement options while ending open-ended free support.
 
 ```text
-已交付事实：
-证据清单：
-对方异议：
-结算方案：
-停止免费投入边界：
+Delivered facts:
+Evidence list:
+Other party's objections:
+Settlement options:
+Boundary on further unpaid work:
 ```
 
-### 客户压价
+### Client discount requests
 
-判断重点：
+Assess:
 
-- 对方是预算压力、采购惯例、竞品低价，还是对价值感知不足。
-- 我方是否有替代客户、历史效果和不可替代性。
-- 降价是否会破坏利润或交付质量。
+- Budget pressure, purchasing practice, low competitor prices, or weak perceived value.
+- Alternative clients, past results, and differentiated value.
+- Effects of discounts on profit and delivery quality.
 
-打法：
+Approach:
 
-- 先承接预算压力，再重构价值。
-- 折扣必须换范围调整、预付款、合作周期、数量或案例授权。
-- 不直接报底价。
-
-输出要求：
+- Acknowledge budget pressure, then restate value.
+- Exchange discounts for scope changes, prepayment, duration, volume, or case-study permission.
+- Do not quote the lowest acceptable price directly.
 
 ```text
-价值重构：
-价格保护边界：
-范围调整方案：
-折扣交换条件：
+Value reframing:
+Price protection boundary:
+Scope adjustment options:
+Conditions for discounts:
 ```
 
-### 薪资谈判
+### Compensation
 
-判断重点：
+Assess:
 
-- 用户能力证据、市场薪酬、当前 offer 结构和替代机会。
-- 对方薪资空间是否受职级、预算、审批影响。
-- 用户是否仍想保留机会。
+- Evidence of ability, market pay, offer structure, and alternatives.
+- Constraints from level, budget, or approvals.
+- Whether the user still wants the opportunity.
 
-打法：
+Approach:
 
-- 先表达兴趣和匹配，再提出基于证据的调整。
-- 谈总包，不只谈月薪。
-- base 受限时交换签字费、奖金、期权、职级、调薪节点或工作条件。
-
-输出要求：
+- Express interest and fit before requesting an evidence-based adjustment.
+- Discuss total compensation, rather than only monthly salary.
+- If base pay is constrained, consider signing bonuses, bonuses, options, level, review dates, or working conditions.
 
 ```text
-能力证明：
-市场价值：
-替代机会：
-目标总包：
-可交换非现金条件：
+Evidence of ability:
+Market value:
+Alternative opportunities:
+Target total compensation:
+Non-cash terms available for exchange:
 ```
 
-### 合同谈判
+### Contracts
 
-判断重点：
+Assess:
 
-- 付款、违约、责任、交付范围、验收、终止、保密、知识产权是否清楚。
-- 是否存在无限责任、模糊验收、单方解除或过高违约金。
+- Payment, breach, liability, scope, acceptance, termination, confidentiality, intellectual property.
+- Unlimited liability, vague acceptance, unilateral termination, excessive penalties.
 
-打法：
+Approach:
 
-- 把模糊条款改成可执行条款。
-- 责任要有范围、上限、期限和触发条件。
-- 涉及重大合同或争议时提示律师审阅。
-
-输出要求：
+- Turn vague terms into executable terms.
+- Define liability scope, caps, duration, and triggers.
+- Recommend lawyer review for significant contracts or disputes.
 
 ```text
-高风险条款：
-建议改法：
-责任边界：
-付款和验收：
-需律师审阅处：
+High-risk clauses:
+Proposed revisions:
+Responsibility boundaries:
+Payment and acceptance:
+Items for lawyer review:
 ```
 
-### 合伙谈判
+### Partners
 
-判断重点：
+Assess:
 
-- 出资、资源、劳动投入是否对等。
-- 决策权、收益分配、退出机制是否明确。
-- 熟人关系是否掩盖利益不对等。
+- Balance of capital, resources, and labor.
+- Clarity of decision rights, returns, and exits.
+- Whether friendship masks unequal interests.
 
-打法：
+Approach:
 
-- 先谈规则，再谈感情。
-- 权责利绑定，贡献不确定时用试运行、里程碑或 vesting。
-- 退出机制必须在合作前谈清楚。
-
-输出要求：
+- Discuss rules before relying on personal ties.
+- Link rights, duties, and returns; use trials, milestones, or vesting for uncertain contributions.
+- Agree an exit mechanism before starting.
 
 ```text
-投入：
-分工：
-决策权：
-收益分配：
-退出机制：
+Contributions:
+Responsibilities:
+Decision rights:
+Return allocation:
+Exit mechanism:
 ```
 
-### 纠纷协商
+### Disputes
 
-判断重点：
+Assess:
 
-- 事实、证据、责任和诉求是否分开。
-- 是否存在法律、劳动仲裁、合同争议或投诉风险。
-- 是否需要分级施压：提醒、正式函件、第三方、律师。
+- Separate facts, evidence, responsibility, and requests.
+- Legal, employment arbitration, contract, or complaint risks.
+- Need for staged escalation: reminder, formal letter, third party, lawyer.
 
-打法：
+Approach:
 
-- 先止损和留痕。
-- 用事实时间线代替情绪指责。
-- 分级施压，避免一上来威胁。
-- 只做沟通和风险提示，不给法律结论。
-
-输出要求：
+- Limit losses and document first.
+- Replace emotional accusations with a factual timeline.
+- Escalate in stages; do not open with threats.
+- Offer communication strategy and risk considerations, not legal conclusions.
 
 ```text
-事实时间线：
-证据清单：
-争议点：
-和解方案：
-分级施压路径：
-专业风险提示：
+Fact timeline:
+Evidence list:
+Disputed points:
+Settlement options:
+Staged escalation path:
+Professional risk note:
 ```
 
-### 家庭关系
+### Family relationships
 
-判断重点：
+Assess:
 
-- 是否有情绪安全、人身安全、经济控制或长期关系风险。
-- 用户真正需要的是说服、边界、共识还是安全退出。
+- Emotional and physical safety, financial control, long-term relationship risks.
+- Whether the real need is persuasion, boundaries, common ground, or a safe exit.
 
-打法：
+Approach:
 
-- 先确认情绪和关系，再表达边界。
-- 使用事实、感受、需求、请求结构。
-- 不使用商业强压、威胁、羞辱或输赢话术。
-- 涉及暴力、威胁、人身控制时，优先安全。
-
-输出要求：
+- Acknowledge emotions and the relationship before stating boundaries.
+- Use facts, feelings, needs, and requests.
+- Avoid commercial pressure, threats, humiliation, and win-or-lose language.
+- Prioritize safety in cases of violence, threats, or control over movement or personal freedom.
 
 ```text
-情绪安全：
-关系目标：
-边界：
-可接受共识：
-不建议表达：
+Emotional safety:
+Relationship goal:
+Boundaries:
+Acceptable common ground:
+Expressions to avoid:
 ```
 
-## 路由输出格式
+## Routing output
 
 ```text
-主场景：
-辅助场景：
-判断依据：
-当前阶段：
-优先风险：
-推荐打法：
-需要加载的 playbook：
-需要确认的问题：
+Primary scenario:
+Secondary scenario:
+Reasons:
+Current stage:
+Priority risks:
+Recommended approach:
+Playbook to load:
+Questions to confirm:
 ```

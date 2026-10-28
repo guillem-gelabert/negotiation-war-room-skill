@@ -1,144 +1,76 @@
-# Negotiation Methodology / 谈判方法论
+# Negotiation Methodology
 
-本页解释 `negotiation-war-room-skill` 背后的核心方法。Agent 在输出话术前，应先使用这些方法完成诊断。
+Use these methods to diagnose the situation before drafting.
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
 ## 1. BATNA
 
-BATNA 是 Best Alternative To a Negotiated Agreement，指谈不成时的最佳替代方案。
+Best Alternative to a Negotiated Agreement.
 
-使用方式：
-
-1. 列出用户所有替代选择。
-2. 评估每个替代选择的收益、成本、时间和风险。
-3. 选择最现实、最可执行的方案作为 BATNA。
-4. 不接受明显低于 BATNA 的谈判结果。
-
-示例：
+1. List all alternatives.
+2. Assess benefits, costs, time, and risk.
+3. Choose the most realistic and actionable.
+4. Avoid terms clearly worse than it.
 
 ```text
-客户压价谈不成，用户可以把团队排期给另一个利润更高的客户。
+If discount talks fail, assign the team to a more profitable client.
 ```
 
 ## 2. ZOPA
 
-ZOPA 是 Zone Of Possible Agreement，指双方都优于各自 BATNA 的可能成交区间。
+Zone of Possible Agreement: terms better than each side's BATNA.
 
-使用方式：
-
-- 不只看价格，也看范围、付款、周期、风险和资源。
-- 如果价格没有交集，尝试扩大变量。
-- 如果 ZOPA 不清楚，先探测对方优先级，不直接亮底线。
-
-示例：
+- Consider scope, payment, duration, risk, and resources alongside price.
+- Add variables when prices do not overlap.
+- Probe priorities rather than reveal the limit when the range is unclear.
 
 ```text
-客户想从 10 万降到 6 万。可能 ZOPA 不是 6-10 万之间的单一数字，而是：
-9 万 + 预付款 + 年度合作；
-6 万 + 缩小服务范围；
-10 万 + 增加季度复盘。
+A request to cut RMB 100,000 to RMB 60,000 might lead to:
+RMB 90,000 + advance payment + annual cooperation;
+RMB 60,000 + reduced scope;
+RMB 100,000 + quarterly reviews.
 ```
 
-## 3. 权力指数
+## 3. Power index
 
-权力指数用于判断用户应强硬、稳健还是柔性。
+Choose a firm, measured, or flexible posture by assessing alternatives, time pressure, information advantage, resource control, evidence strength, and relationship dependence.
 
-评分维度：
+Score both sides, classify relative strength, and choose the posture accordingly.
 
-- 替代方案
-- 时间压力
-- 信息优势
-- 资源控制
-- 证据强度
-- 关系依赖
+## 4. Bargaining map
 
-使用方式：
-
-1. 分别给用户和对方评分。
-2. 判断用户明显强势、略强势、均衡、偏弱势或明显弱势。
-3. 根据强弱选择策略姿态。
-
-## 4. 筹码地图
-
-筹码不只是钱。
-
-常见筹码：
-
-- 金钱：价格、尾款、薪资、奖金。
-- 时间：截止日期、交付周期、付款节点。
-- 范围：服务内容、职责、验收标准。
-- 风险：违约、责任、质保、争议。
-- 资源：客户、渠道、技术、品牌、人力。
-- 关系：长期合作、转介绍、声誉。
-- 信息：证据、市场价、行业标准。
-- 选择权：替代客户、替代供应商、其他 Offer。
+- Money: price, balances, salary, bonuses.
+- Time: deadlines, delivery, payment milestones.
+- Scope: services, responsibilities, acceptance.
+- Risk: breach, liability, warranty, disputes.
+- Resources: clients, channels, technology, brand, people.
+- Relationships: long-term cooperation, referrals, reputation.
+- Information: evidence, market prices, industry standards.
+- Options: other clients, suppliers, offers.
 
 ## 5. MESO
 
-MESO 是 Multiple Equivalent Simultaneous Offers，指同时给出多套对用户价值接近、但变量组合不同的方案。
+Multiple Equivalent Simultaneous Offers: offers of similar value to the user with different combinations of terms.
 
-目的：
+Use them to move beyond price, discover preferences and underlying interests, and improve agreement likelihood. Typical options protect value, secure agreement, and preserve relationships or long-term cooperation.
 
-- 避免只围绕价格拉扯。
-- 让对方选择偏好。
-- 反推对方真实利益。
-- 提高成交概率。
+## 6. Conditional concessions
 
-常见三套：
-
-- 保利益方案。
-- 保成交方案。
-- 保关系/长期合作方案。
-
-## 6. 让步交换
-
-核心原则：不无条件让步。
-
-让步必须换回：
-
-- 付款。
-- 数量。
-- 合作周期。
-- 范围缩小。
-- 书面确认。
-- 案例授权。
-- 推荐或转介绍。
-- 责任边界。
-
-示例：
+No unconditional concessions. Secure payment, volume, duration, reduced scope, written confirmation, case-study permission, referrals, or responsibility boundaries in return.
 
 ```text
-如果价格要调整，我们需要同步确认服务范围和付款节点。
+If we adjust price, we also need to confirm scope and payment milestones.
 ```
 
-## 7. 风险审查
+## 7. Risk review
 
-发送前必须检查：
+Before sending, check exposed limits, unconditional concessions, emotional wording, unconfirmed admissions, missing next steps, lack of records, and legal, contract, employment, or relationship risks.
 
-- 是否暴露底线。
-- 是否无条件让步。
-- 是否情绪化。
-- 是否承认未确认责任。
-- 是否缺少下一步。
-- 是否没有留痕。
-- 是否存在法律、合同、劳动或关系风险。
+## 8. Confirmation
 
-## 8. 谈后确认
-
-谈判不是说完就结束。每次电话、微信、会议后，都应生成确认文本。
-
-确认文本应包含：
-
-- 已确认事项。
-- 待确认事项。
-- 金额与时间节点。
-- 责任分工。
-- 后续动作。
-- 异议反馈期限。
-
-示例：
+After calls, chats, and meetings, document agreed and open items, amounts, dates, responsibilities, next actions, and a correction deadline.
 
 ```text
-我确认一下刚才沟通的结果：1）已确认 A；2）待确认 B；3）下一步由你方在 X 前确认 Y。如理解有偏差，请今天内指出。
+To confirm: 1) A is agreed; 2) B remains open; 3) please confirm Y by X. Flag any misunderstanding today.
 ```

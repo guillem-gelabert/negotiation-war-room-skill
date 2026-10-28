@@ -1,66 +1,62 @@
 ---
-name: Scenario request / 新场景请求
-about: 请求新增谈判场景，例如房租谈判、退款谈判、商务报价谈判等
+name: Scenario request
+about: Request a new negotiation scenario, such as rent, refunds, or business pricing
 title: "[Scenario] "
 labels: scenario
 assignees: ""
 ---
 
-## 希望新增的场景
+## Scenario
 
 ```text
-例如：房租谈判 / 课程退款 / 商务报价 / 装修增项 / SaaS 续约 / 供应商涨价
+Examples: rent / course refund / business quote / renovation additions / SaaS renewal / supplier price increase
 ```
 
-## 场景背景
+## Background
 
-请描述这个场景中用户通常会遇到什么问题。
+What do users typically face?
 
 ```text
-[脱敏描述]
+[anonymized description]
 ```
 
-## 典型用户目标
+## Typical user goals
 
-用户通常想达成什么？
+- [ ] Lower price
+- [ ] Recover payment
+- [ ] Preserve relationship
+- [ ] Clarify responsibility
+- [ ] Seek compensation
+- [ ] End cooperation
+- [ ] Other:
 
-- [ ] 降低价格
-- [ ] 收回款项
-- [ ] 维护关系
-- [ ] 明确责任
-- [ ] 争取补偿
-- [ ] 终止合作
-- [ ] 其他：
-
-## 对方常见诉求
-
-对方通常会说什么、在意什么？
+## Other party's typical interests
 
 ```text
-[描述对方常见说法和真实诉求]
+[common statements and underlying interests]
 ```
 
-## 推荐输出类型
+## Suggested output
 
 - [ ] Playbook
-- [ ] 微信模板
-- [ ] 邮件模板
-- [ ] 电话脚本
-- [ ] 会议脚本
-- [ ] 风险清单
-- [ ] 测试 Prompt
-- [ ] 完整案例
+- [ ] WeChat template
+- [ ] Email template
+- [ ] Call script
+- [ ] Meeting script
+- [ ] Risk checklist
+- [ ] Test prompt
+- [ ] Worked example
 
-## 示例 Prompt
+## Example prompt
 
 ```text
-[可选：提供一个脱敏 Prompt]
+[optional anonymized prompt]
 ```
 
-## 风险提醒
+## Risks
 
-这个场景是否涉及法律、隐私、人身安全、合同争议或高压沟通？
+Does this involve legal, privacy, physical safety, contract, or high-pressure communication issues?
 
 ```text
-[说明风险]
+[explain risks]
 ```

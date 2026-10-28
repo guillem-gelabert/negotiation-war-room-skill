@@ -1,221 +1,203 @@
-# 完整案例：客户压价与报价维护
+# Worked Example: Client Discount and Price Protection
 
-案例摘要：客户嫌报价高，说别人更便宜，希望压价 40%；Skill 需要帮助用户维护价值、缩小范围，并设计不同报价方案。
+Summary: the client requests 40% off, citing a cheaper competitor. Protect value, adjust scope, and design different offers.
 
-## 用户输入
+## User input
 
 ```text
-【谈判类型】
-客户压价
+[Type]
+Client discount
 
-【当前背景】
-我们给客户报了 10 万的年度内容运营服务。客户说别人 6 万就能做，希望我们降价 40%。客户是老客户，合作过一年，对结果比较认可，但今年预算紧。
+[Background]
+We quoted RMB 100,000 for annual content operations. The client says others can do it for RMB 60,000 and wants 40% off. We have worked together for a year; results are appreciated, but budgets are tighter.
 
-【我的身份与权限】
-我是乙方负责人，可以决定 10% 以内折扣。
+[My role]
+Provider's team leader, authorized to discount up to 10%.
 
-【对方身份与权限】
-对方是市场负责人，有建议权，但预算可能要老板批。
+[Other party]
+Marketing lead with recommendation authority; the owner may approve budget.
 
-【我的目标】
-维护报价价值，最好 10 万成交，最多降到 9 万。
+[Objective]
+Maintain value, ideally close at RMB 100,000, no lower than RMB 90,000.
 
-【我的底线】
-如果低于 9 万，必须减少服务范围或改成季度合作。
+[Limit]
+Below RMB 90,000 requires less scope or a quarterly engagement.
 
-【我的 BATNA】
-不接这个低价年度单，把团队排期给另一个利润更高的新客户。
+[BATNA]
+Decline the low-price annual order and assign the team to a more profitable new client.
 
-【对方可能诉求】
-压低预算，向老板证明降本，同时又想保留服务质量。
+[Their interests]
+Reduce budget, demonstrate savings, retain quality.
 
-【我的筹码】
-熟悉客户业务，去年数据效果不错，替换供应商有磨合成本。
+[My assets]
+Business knowledge, strong results last year, switching and onboarding costs.
 
-【我的弱点】
-老客户关系重要，短期也希望保持续约。
+[My weaknesses]
+The existing relationship matters and I want renewal soon.
 
-【已有证据】
-去年服务报告、数据截图、续约报价单。
+[Evidence]
+Last year's report, data screenshots, renewal quote.
 
-【沟通渠道】
-微信 + 电话
+[Channel]
+WeChat + phone
 
-【希望风格】
-稳健 / 高情商 / 不撕破脸
+[Style]
+Measured / tactful / preserve goodwill
 
-【是否需要】
-策略分析 / 三套报价方案 / 微信话术 / 风险审查
+[Output]
+Strategy / three quotes / WeChat wording / risk review
 ```
 
-## Skill 输出示例
+## Example output
 
-### 一、当前局势判断
+### 1. Situation
 
-这是客户压价与报价维护场景。对方用竞品低价建立低锚，用户不能围绕“6 万”直接谈，否则报价价值会被重置。
+The competitor's RMB 60,000 establishes a low anchor. Negotiating directly around it could reset the perceived value of the offer.
 
-策略风格：稳健锚定 + 范围交换。先承认预算压力，再重构价值，最后用三套方案让对方选择。
+Use measured anchoring and scope exchanges: acknowledge budget pressure, explain value, then offer three choices.
 
-### 二、双方权力指数
+### 2. Power index
 
-用户 38/60，对方 34/60。用户略强势。
+User: 38/60. Other party: 34/60. The example characterizes the user as somewhat stronger.
 
-用户优势：
+Advantages: past results, business knowledge, high switching costs, alternative client.
 
-- 有历史效果数据。
-- 熟悉客户业务，替换成本较高。
-- 有替代客户。
+Weaknesses: renewal matters and discount authority is limited.
 
-用户短板：
+Protect price without a blunt rejection. Exchange discounts for scope, duration, payment, or case-study permission.
 
-- 重视老客户续约。
-- 折扣权限有限。
+### 3. Information gaps
 
-策略含义：适合维护价格，不适合直接强硬拒绝。折扣必须换范围、周期、付款或案例授权。
+- Does the competitor's RMB 60,000 cover equivalent scope?
+- What is the real budget ceiling?
+- Does the owner prioritize savings, results, or stability?
+- Will the client accept less scope or a shorter term?
 
-### 三、信息缺口
+### 4. Goals
 
-- 竞品 6 万是否服务范围一致？
-- 客户今年预算真实上限是多少？
-- 对方老板最看重降本、效果还是稳定性？
-- 客户是否愿意缩小范围或缩短合作周期？
+- Ideal: RMB 100,000 annual service.
+- Acceptable: RMB 90,000 with prepayment or case-study permission.
+- Limit: below RMB 90,000 requires less scope or quarterly cooperation.
+- External wording: price depends on scope, payment, and duration; keep the RMB 90,000 minimum private.
 
-### 四、目标三层模型
+### 5. BATNA / ZOPA
 
-- 理想目标：10 万年度服务成交。
-- 可接受目标：9 万年度服务，换取预付款或案例授权。
-- 底线：低于 9 万必须缩小范围或改季度合作。
-- 对外表达：不说“最低 9 万”，而说“价格需要和范围、付款、合作周期一起看”。
+- User: work with the more profitable new client.
+- Client: competitor at RMB 60,000, with onboarding and uncertain-result risks.
+- Possible overlap:
+  - RMB 90,000–100,000 for full annual service.
+  - RMB 80,000 or less with reduced scope.
+  - RMB 30,000 quarterly trial.
 
-### 五、BATNA / ZOPA 分析
+### 6. Bargaining map
 
-- 用户 BATNA：转给利润更高的新客户。
-- 对方 BATNA：选择 6 万竞品，但有磨合和效果不确定风险。
-- 可能 ZOPA：
-  - 9-10 万年度完整服务。
-  - 8 万以内但缩小范围。
-  - 3 万季度试运行。
+User: historical data, business knowledge, reliable delivery, switching costs.
 
-### 六、筹码地图
+Client: competing quote, budget constraint, renewal choice.
 
-用户筹码：
+Variables: scope, frequency, prepayment, duration, case-study permission, quarterly reviews.
 
-- 历史数据、业务理解、交付稳定、替换成本。
+### 7. Client profile
 
-对方筹码：
+- Demand: 40% discount.
+- Underlying interests: budget control and easier internal approval.
+- Pressure: cost reductions and smaller marketing budget.
+- Authority: medium; likely owner approval required.
 
-- 有竞品低价、预算压力、续约选择权。
+### 8. Strategy
 
-可交换变量：
+1. Avoid attacking or dismissing competitors.
+2. Compare scope and delivery standards.
+3. Translate 40% off into a reduced-scope version.
+4. Offer three quotes rather than one figure.
 
-- 服务范围、服务频率、付款比例、合作周期、案例授权、季度复盘。
+### 9. Offers
 
-### 七、对方画像
+**A: protect value**
 
-表面诉求：降价 40%。
+- User receives: RMB 100,000.
+- Client receives: quarterly reviews and priority response at key milestones.
+- Concession: limited extra review support.
+- Return: annual signing and original payment schedule.
+- Risk: budget pressure may seem unaddressed.
+- Fits: results are the client's priority.
 
-真实利益：预算控制和内部审批好交代。
+**B: measured agreement**
 
-压力来源：老板要求降本、市场预算缩减。
+- User receives: RMB 90,000 with core scope retained.
+- Client receives: 10% off.
+- Concession: limited discount.
+- Return: 12 months, 50% advance payment, anonymous case-study permission.
+- Risk: payment conditions may be rejected.
+- Fits: real budget pressure with continued concern for quality.
 
-决策权：中等，可能需要老板审批。
+**C: budget first**
 
-### 八、策略建议
+- User receives: RMB 60,000 with delivery that avoids a loss.
+- Client receives: a budget-matched offer.
+- Concession: price close to the requested level.
+- Return: quarterly strategy and monthly reviews only; no daily execution or extra revisions.
+- Risk: expectations of reduced scope may remain unclear.
+- Fits: a hard budget ceiling.
 
-1. 不直接评价竞品便宜或不好。
-2. 要求对比服务范围和交付标准。
-3. 把“降价 40%”转为“精简版方案”。
-4. 给三套报价，避免只谈一个数字。
+### 10. Scores
 
-### 九、三套谈判方案
-
-方案 A：价值维护版
-
-- 用户获得：10 万报价不变。
-- 对方获得：增加季度复盘和重点节点优先响应。
-- 用户让步：增加少量复盘支持。
-- 换回条件：年度签约，按原付款节点执行。
-- 风险：客户可能觉得预算压力未被照顾。
-- 适合：客户更看重效果。
-
-方案 B：稳健成交版
-
-- 用户获得：9 万成交，保留核心服务范围。
-- 对方获得：10% 优惠。
-- 用户让步：有限折扣。
-- 换回条件：签 12 个月，预付 50%，允许使用匿名案例。
-- 风险：需要客户接受付款条件。
-- 适合：客户预算有压力但仍重视服务质量。
-
-方案 C：预算优先版
-
-- 用户获得：6 万不亏损执行。
-- 对方获得：预算匹配。
-- 用户让步：价格降至对方预算附近。
-- 换回条件：服务范围缩小为季度策略 + 月度复盘，不包含日常执行和额外改稿。
-- 风险：客户可能对精简范围预期不清。
-- 适合：客户预算是硬上限。
-
-### 十、方案评分
-
-| 方案 | 利益最大化 | 成交概率 | 风险可控 | 关系保留 | 执行清晰度 | 总分 | 推荐顺序 |
+| Option | Value | Agreement likelihood | Risk control | Relationship | Execution clarity | Total | Rank |
 |---|---:|---:|---:|---:|---:|---:|---|
-| A 价值维护版 | 5 | 3 | 5 | 4 | 4 | 21 | 2 |
-| B 稳健成交版 | 4 | 4 | 5 | 5 | 5 | 23 | 1 |
-| C 预算优先版 | 2 | 5 | 3 | 4 | 4 | 18 | 3 |
+| A: protect value | 5 | 3 | 5 | 4 | 4 | 21 | 2 |
+| B: measured agreement | 4 | 4 | 5 | 5 | 5 | 23 | 1 |
+| C: budget first | 2 | 5 | 3 | 4 | 4 | 18 | 3 |
 
-推荐：先推方案 B，同时保留方案 A 和 C 作为选择。
+Lead with B and retain A and C as choices.
 
-### 十一、第一轮话术
-
-```text
-[对方称呼]，我理解今年预算压力确实更大。6 万这个报价我们可以参考，但我建议先看一下服务范围和交付标准是不是一致。
-
-我们去年的合作之所以能稳定推进，是因为团队已经熟悉你们业务，也有一套固定交付节奏。如果直接把完整服务降到 6 万，范围和质量都会受影响，这对双方都不稳。
-
-我建议给你三个选择：一是保持完整年度方案，增加季度复盘；二是做 9 万续约版，但需要确认 12 个月合作和 50% 预付款；三是如果预算必须压到 6 万附近，我们就做精简范围，只保留核心策略和复盘，不包含日常执行。
-
-你看哪一种更符合你们内部审批？
-```
-
-### 十二、对方可能反应与应对
-
-对方说“别人就是 6 万全包”：
+### 11. First message
 
 ```text
-可以，我们可以一起对比一下“全包”具体包含哪些交付、修改次数、响应时间和责任边界。如果范围完全一致，我们再看价格空间；如果范围不同，直接比总价容易误判。
+[name], I understand budgets are tighter this year. The RMB 60,000 quote is useful context; let's first compare scope and delivery standards.
+
+Our team knows your business and has an established delivery rhythm. Providing the entire service at RMB 60,000 would affect scope and quality.
+
+I suggest three choices: the full annual service with quarterly reviews; a RMB 90,000 renewal with 12 months and 50% prepayment; or, if the budget must stay near RMB 60,000, a reduced service covering core strategy and reviews without daily execution.
+
+Which would best fit your approval process?
 ```
 
-对方说“你就给最低价”：
+### 12. Reactions and replies
+
+"Others include everything at RMB 60,000."
 
 ```text
-我可以帮你争取空间，但最低价必须和范围、付款、周期一起确认。否则单独给数字，后续执行会很容易变形。
+Let's compare what "everything" includes: deliverables, revisions, response times, and responsibility boundaries. If scope matches, we can review pricing; if it differs, total prices alone can mislead.
 ```
 
-### 十三、发送前风险审查
-
-风险等级：低到中。
-
-注意：
-
-- 不要攻击竞品。
-- 不要说“最多只能降 10%”。
-- 不要把 6 万版写得像完整服务。
-
-### 十四、谈后确认文本
+"Give me the lowest price."
 
 ```text
-我确认一下我们刚才沟通的方向：
-1. 你方今年重点是预算控制和审批通过。
-2. 我方会提供三套方案：完整年度版、9 万续约版、预算精简版。
-3. 不同价格对应不同服务范围、付款节点和交付标准。
-4. 你方在[日期]前反馈更接近哪种方案，我们再细化报价。
-
-如理解有偏差，请直接指出。
+I can request flexibility once scope, payment, and duration are confirmed. A number alone may leave delivery expectations unclear.
 ```
 
-### 十五、下一轮行动
+### 13. Risk review
 
-- 发三套方案，不单独发最低价。
-- 要求对方确认预算、范围和审批人。
-- 若客户只接受 6 万，转为精简版，不承诺完整服务。
+Low to medium.
+
+- Do not attack competitors.
+- Do not disclose "at most 10% off."
+- Make clear that the RMB 60,000 version has reduced scope.
+
+### 14. Confirmation
+
+```text
+To confirm our direction:
+1. Your priorities are budget control and approval.
+2. We will provide a full annual version, a RMB 90,000 renewal, and a reduced-budget version.
+3. Prices correspond to different scope, payment milestones, and delivery standards.
+4. Please indicate your preferred option by [date] so we can refine the quote.
+
+Please correct anything I have misunderstood.
+```
+
+### 15. Next actions
+
+- Send three offers rather than a minimum price alone.
+- Confirm budget, scope, and approver.
+- If only RMB 60,000 is possible, use reduced scope without promising full service.

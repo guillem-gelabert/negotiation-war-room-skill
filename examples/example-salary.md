@@ -1,223 +1,214 @@
-# 完整案例：薪资、涨薪、Offer 谈判
+# Worked Example: Salary, Raises, and Offers
 
-## 用户输入
+## User input
 
 ```text
-【谈判类型】
-薪资 / Offer 谈判
+[Type]
+Salary / offer negotiation
 
-【当前背景】
-我拿到一家 AI SaaS 公司的产品经理 Offer，给的是 32k x 14。我预期是 38k x 14，大概希望提高 20%。岗位职责比普通 PM 更重，要负责商业化和增长。
+[Background]
+An AI SaaS company offered me a product manager role at 32k × 14 salary payments. I expected 38k × 14, about a 20% increase. Responsibilities exceed a typical PM role and include monetization and growth.
 
-【我的身份与权限】
-我是候选人。
+[My role]
+Candidate.
 
-【对方身份与权限】
-对方是 HR，薪资可能需要业务负责人和 HRBP 审批。
+[Other party]
+HR; compensation may need business lead and HR business partner approval.
 
-【我的目标】
-希望 base 提到 38k，或者用签字费、奖金、职级、调薪节点补足总包。
+[Objective]
+Raise base to 38k, or bridge total compensation through a signing bonus, bonus, level, or review milestone.
 
-【我的底线】
-低于 35k x 14 且没有其他补偿，我可能不接受。
+[Limit]
+Below 35k × 14 without other compensation may be unacceptable.
 
-【我的 BATNA】
-手上还有一个 35k x 14 的 Offer，但公司方向没那么喜欢。
+[BATNA]
+Another offer at 35k × 14, though I like its company direction less.
 
-【对方可能诉求】
-控制预算，尽快招到能负责增长和商业化的人。
+[Their interests]
+Control budget and hire someone capable of growth and monetization quickly.
 
-【我的筹码】
-有 5 年产品经验，做过 0-1 商业化，上一家公司增长项目带来 30% 转化提升；另有 Offer。
+[My assets]
+Five years in product, zero-to-one monetization, a growth project with 30% conversion improvement, another offer.
 
-【我的弱点】
-我比较喜欢这家公司方向，不想谈崩。
+[My weakness]
+I prefer this company's direction and do not want talks to break down.
 
-【已有证据】
-项目成果、面试反馈、另一个 Offer 口头信息。
+[Evidence]
+Project results, interview feedback, verbal information on the other offer.
 
-【沟通渠道】
-邮件 + 电话
+[Channel]
+Email + phone.
 
-【希望风格】
-专业 / 稳健 / 不威胁
+[Style]
+Professional / measured / no threats.
 
-【是否需要】
-策略分析 / 邮件话术 / HR 反应应对 / 风险审查
+[Output]
+Strategy / email / HR responses / risk review.
 ```
 
-## Skill 输出示例
+## Example output
 
-### 一、当前局势判断
+### 1. Situation
 
-这是 Offer 薪资谈判。用户不是单纯要更高工资，而是要让薪酬与岗位职责、市场价值和替代机会匹配。
+This is an offer compensation negotiation to align pay with responsibilities, market value, and alternatives.
 
-策略风格：专业稳健。先表达加入意愿，再用职责范围、成果证据和市场替代机会提出总包调整。
+Use a professional, measured approach: express interest in joining, then support a total compensation adjustment with role scope, achievements, and alternatives.
 
-### 二、双方权力指数
+### 2. Power index
 
-用户 39/60，对方 36/60，用户略强势。
+User: 39/60. Other party: 36/60. The example characterizes the user as somewhat stronger.
 
-用户优势：
+Advantages:
 
-- 有另一个 35k x 14 Offer。
-- 有商业化和增长成果。
-- 岗位职责较重，匹配度高。
+- Another offer at 35k × 14.
+- Monetization and growth results.
+- Strong fit for substantial responsibilities.
 
-用户短板：
+Weaknesses:
 
-- 更喜欢该公司，心理 BATNA 弱于表面 BATNA。
-- 另一个 Offer 是口头信息，证据强度中等。
+- Preference for this company weakens the practical appeal of the alternative.
+- The other offer is verbal, so evidence strength is moderate.
 
-### 三、信息缺口
+### 3. Information gaps
 
-- 该岗位职级和薪酬 band。
-- 32k x 14 是否已经是 HR 初始上限。
-- 是否有签字费、绩效奖金、期权、调薪节点空间。
-- 业务负责人是否强烈想要用户。
+- Role level and salary band.
+- Whether 32k × 14 is already HR's initial ceiling.
+- Flexibility on sign-on, performance bonus, equity, reviews.
+- How strongly the business lead wants the candidate.
 
-### 四、目标三层模型
+### 4. Goals
 
-- 理想目标：38k x 14。
-- 可接受目标：35k-36k x 14 + 签字费/奖金/明确调薪节点。
-- 底线：低于 35k x 14 且无补偿，不接受。
-- 对外表达：不直接说底线，表达为“希望职责预期和总包更匹配”。
+- Ideal: 38k × 14.
+- Acceptable: 35k–36k × 14 plus sign-on, bonus, or a clear review date.
+- Limit: below 35k × 14 without compensation is unacceptable.
+- External wording: align responsibility and total rewards without revealing the limit.
 
-### 五、BATNA / ZOPA 分析
+### 5. BATNA / ZOPA
 
-- 用户 BATNA：接受 35k x 14 的另一个 Offer。
-- 对方 BATNA：选择其他候选人，但可能需要重新面试并承担时间成本。
-- 可能 ZOPA：
-  - base 提升到 35k-36k。
-  - base 不变，补签字费或绩效奖金。
-  - base 小幅提升 + 6 个月调薪评估。
+- User: accept the other 35k × 14 offer.
+- Company: another candidate, with renewed interviews and time cost.
+- Possible overlap:
+  - Base of 35k–36k.
+  - Unchanged base with sign-on or performance bonus.
+  - Modest base increase plus a six-month review.
 
-### 六、筹码地图
+### 6. Bargaining map
 
-用户筹码：
+User: monetization experience, growth outcomes, fit, another offer.
 
-- 商业化经验、增长成果、岗位匹配、另一个 Offer。
+Company: budget, salary system, user's interest in its direction.
 
-对方筹码：
+Variables: base, bonus, sign-on, equity, title, level, review cycle, remote work, start date.
 
-- 预算和薪酬体系。
-- 用户对公司方向感兴趣。
+### 7. Company profile
 
-可交换变量：
+- Position: current salary structure.
+- Interests: control budget and hire a good fit quickly.
+- Pressures: hiring cycle, business lead's needs, internal pay equity.
+- Authority: HR has moderate authority and needs approval.
 
-- base、bonus、sign-on、equity、title、level、review cycle、remote、start date。
+### 8. Strategy
 
-### 七、对方画像
+1. Avoid threats or demands for immediate action.
+2. Express interest clearly.
+3. Support the roughly 20% request with achievements and responsibilities.
+4. Offer several compensation routes beyond base.
+5. Ask about flexibility rather than a binary accept / reject decision.
 
-- 表面诉求：按当前薪资结构发 Offer。
-- 真实利益：控制预算、尽快招到合适人。
-- 压力来源：招聘周期、业务负责人需求、薪酬公平性。
-- 决策权：HR 中等，需要审批。
+### 9. Offers
 
-### 八、策略建议
+**A: target base**
 
-1. 不威胁、不催促。
-2. 明确自己对岗位的兴趣。
-3. 用成果和职责范围支撑 20% 提升。
-4. 给多种补偿方式，不只卡 base。
-5. 要求对方反馈可调整空间，而不是“接受/拒绝”二选一。
+- User receives: 38k × 14.
+- Company receives: prompt offer confirmation.
+- Concession: early start.
+- Return: updated written offer.
+- Risk: budget may not support it.
 
-### 九、三套谈判方案
+**B: bridge total compensation**
 
-方案 A：base 达标
+- User receives: 35k–36k × 14 plus sign-on or bonus to bridge the gap.
+- Company receives: less disruption to the base band.
+- Concession: base below the ideal.
+- Return: sign-on or bonus in the offer.
+- Risk: bonus conditions need definition.
 
-- 用户获得：38k x 14。
-- 对方获得：候选人快速确认 Offer。
-- 用户让步：尽快入职。
-- 换回条件：书面 Offer 更新。
-- 风险：对方预算可能不支持。
+**C: development milestone**
 
-方案 B：总包补足
+- User receives: small initial increase plus a six-month salary / level review.
+- Company receives: lower initial fixed costs.
+- Concession: short-term compensation below target.
+- Return: written timing, measures, and adjustment process.
+- Risk: later increase remains uncertain.
 
-- 用户获得：35k-36k x 14 + 签字费/奖金补足差额。
-- 对方获得：不大幅突破 base band。
-- 用户让步：接受 base 低于理想值。
-- 换回条件：签字费或奖金写入 Offer。
-- 风险：奖金条件需明确。
+### 10. Scores
 
-方案 C：成长节点
-
-- 用户获得：当前薪资小幅上调 + 6 个月调薪/职级评估。
-- 对方获得：先控制固定成本。
-- 用户让步：短期总包低于目标。
-- 换回条件：评估时间、指标、调整机制书面确认。
-- 风险：后续调薪不确定。
-
-### 十、方案评分
-
-| 方案 | 利益最大化 | 成交概率 | 风险可控 | 关系保留 | 执行清晰度 | 总分 | 推荐顺序 |
+| Option | Value | Agreement likelihood | Risk control | Relationship | Execution clarity | Total | Rank |
 |---|---:|---:|---:|---:|---:|---:|---|
-| A base 达标 | 5 | 3 | 4 | 4 | 5 | 21 | 2 |
-| B 总包补足 | 4 | 4 | 4 | 5 | 4 | 21 | 1 |
-| C 成长节点 | 3 | 5 | 3 | 5 | 3 | 19 | 3 |
+| A: target base | 5 | 3 | 4 | 4 | 5 | 21 | 2 |
+| B: bridge package | 4 | 4 | 4 | 5 | 4 | 21 | 1 |
+| C: review milestone | 3 | 5 | 3 | 5 | 3 | 19 | 3 |
 
-推荐：先提目标 base，同时主动给方案 B 作为替代。
+State the target base and proactively offer B as an alternative.
 
-### 十一、第一轮邮件话术
-
-```text
-您好，
-
-感谢团队推进 Offer。我对这个岗位方向和团队都很认可，也希望能尽快把细节确认下来。
-
-结合这个岗位实际需要承担商业化和增长职责，以及我过往在 0-1 商业化、转化提升项目中的经验，我希望薪资能进一步调整到接近 38k x 14 的水平。
-
-我目前也有其他机会在推进，但我更希望基于这个岗位本身的职责匹配度来讨论。如果 base 薪资空间有限，也可以一起看签字费、绩效奖金、职级或 6 个月后的调薪评估节点。
-
-我的核心诉求是让职责预期和整体回报更匹配。也想听听你们这边可调整的空间。
-
-谢谢。
-```
-
-### 十二、对方可能反应与应对
-
-HR 说预算到顶：
+### 11. First email
 
 ```text
-理解内部预算限制。如果 base 暂时没有空间，我们可以看总包结构，比如签字费、绩效奖金、期权，或者明确 6 个月后的调薪评估机制。
+Hello,
+
+Thank you for progressing the offer. I am interested in the role and team and would like to confirm the remaining details soon.
+
+Given the monetization and growth responsibilities, and my experience with zero-to-one monetization and conversion improvement, I would like to discuss compensation closer to 38k × 14.
+
+I have other opportunities in progress, but would prefer to focus on this role's responsibilities and fit. If base pay is constrained, we could explore a signing bonus, performance bonus, level, or a six-month compensation review.
+
+I would like responsibilities and overall rewards to align, and would welcome your thoughts on possible adjustments.
+
+Thank you.
 ```
 
-HR 说先入职后调：
+### 12. HR reactions and replies
+
+Budget ceiling:
 
 ```text
-我可以接受用表现验证价值，但希望提前确认评估时间、指标和调整机制。这样双方对预期会更一致。
+I understand the budget limit. If base cannot move, could we look at the package structure: sign-on, performance bonus, equity, or a clear six-month review mechanism?
 ```
 
-HR 问另一个 Offer：
+Join first, adjust later:
 
 ```text
-目前确实有其他机会在推进，薪资大概在 35k x 14 左右。但我更希望基于这边岗位职责和匹配度来讨论，如果能接近目标区间，我会更倾向这边。
+I am comfortable demonstrating value through performance. Could we agree the review date, measures, and adjustment process in advance?
 ```
 
-### 十三、发送前风险审查
-
-风险等级：低。
-
-注意：
-
-- 不要写“不给我就不来”。
-- 不要夸大另一个 Offer。
-- 不要只讲个人期待，要绑定岗位职责和成果证据。
-
-### 十四、谈后确认文本
+Other offer:
 
 ```text
-感谢刚才沟通。我确认一下目前讨论结果：
-1. 我对岗位和团队方向仍然认可。
-2. 我的目标是让总包与商业化、增长职责更匹配。
-3. 可讨论方向包括 base 调整、签字费、绩效奖金、职级或 6 个月调薪评估。
-4. 你方会在[日期]前反馈可调整空间。
-
-如我理解有偏差，请随时指出。
+I have another opportunity around 35k × 14. I would prefer to discuss this role on its scope and fit; moving closer to the target would make me more inclined to join here.
 ```
 
-### 十五、下一轮行动
+### 13. Risk review
 
-- 先发邮件，不催对方立即表态。
-- 若 HR 拒绝 base，转向总包结构。
-- 若所有条件都无法调整，再与 BATNA 对比决定接受或退出。
+Low.
+
+- Avoid "Pay this or I will not join."
+- Do not exaggerate the other offer.
+- Support expectations with role responsibilities and achievements.
+
+### 14. Confirmation
+
+```text
+Thank you for our discussion. To confirm:
+1. I remain interested in the role and team.
+2. My aim is to align total compensation with monetization and growth responsibilities.
+3. Options include base, sign-on, performance bonus, level, or a six-month review.
+4. You will respond on possible adjustments by [date].
+
+Please flag any misunderstanding.
+```
+
+### 15. Next actions
+
+- Email without demanding an immediate decision.
+- If base is refused, discuss the package structure.
+- If nothing can change, compare the offer with the BATNA before accepting or exiting.

@@ -1,124 +1,101 @@
-# Quick Start / 快速开始
+# Quick Start
 
-本页面向第一次使用 `negotiation-war-room-skill` 的用户。你可以在 5 分钟内完成：克隆仓库、读取核心协议、复制系统提示词、填写输入模板，并用测试 Prompt 验证 Agent 输出。
+For first-time users: clone the repository, read the protocol, copy the system prompt, complete the input template, and check output with a test prompt in about five minutes.
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
-## 1. 克隆仓库
+## 1. Clone
 
 ```bash
-git clone https://github.com/your-name/negotiation-war-room-skill.git
+git clone https://github.com/guillem-gelabert/negotiation-war-room-skill.git
 cd negotiation-war-room-skill
 ```
 
-如果你只是想体验，也可以直接在 GitHub 页面打开文件，无需本地安装。
+You can also read the files directly on GitHub without a local installation.
 
-## 2. 打开 `skill.md`
+## 2. Open `SKILL.md`
 
-`skill.md` 是本项目的核心协议文件，定义了 Agent 的角色、工作流、输入输出结构、安全边界和调用建议。
+The core protocol defines the agent's role, workflow, input and output, safety boundaries, and usage.
 
 ```bash
-cat skill.md
+cat SKILL.md
 ```
 
-推荐先阅读：
+Read:
 
-- [skill.md](../skill.md)
-- [prompts/system-prompt.md](../prompts/system-prompt.md)
-- [prompts/input-template.md](../prompts/input-template.md)
-- [prompts/output-template.md](../prompts/output-template.md)
+- [SKILL.md](../SKILL.md)
+- [System prompt](../prompts/system-prompt.md)
+- [Input template](../prompts/input-template.md)
+- [Output template](../prompts/output-template.md)
 
-## 3. 复制 system prompt
+## 3. Copy the system prompt
 
-如果你的工具支持 System Prompt、Project Instructions、Rules 或自定义 Agent 指令，复制：
-
-[prompts/system-prompt.md](../prompts/system-prompt.md)
-
-使用方式示例：
+For tools with System Prompt, Project Instructions, Rules, or custom agent instructions, copy [prompts/system-prompt.md](../prompts/system-prompt.md).
 
 ```text
-你现在使用 negotiation-war-room-skill。
-请遵守以下系统提示词：
-[粘贴 prompts/system-prompt.md 内容]
+Use negotiation-war-room-skill with these instructions:
+[paste prompts/system-prompt.md]
 ```
 
-如果你的工具不支持系统提示词，也可以在对话开头粘贴：
+Otherwise, begin the conversation with:
 
 ```text
-请读取并遵守 negotiation-war-room-skill 的 skill.md 工作流。
-我的谈判背景如下：
-[粘贴背景]
+Read and follow the workflow in negotiation-war-room-skill's SKILL.md.
+My background:
+[paste background]
 ```
 
-## 4. 填写 input template
+## 4. Complete the input template
 
-打开 [prompts/input-template.md](../prompts/input-template.md)，按模板填写谈判背景。
-
-最小输入示例：
+Open [prompts/input-template.md](../prompts/input-template.md).
 
 ```text
-【谈判类型】
-客户压价
+[Type]
+Client discount
 
-【当前背景】
-客户说别人报价便宜 40%，希望我降价。
+[Background]
+The client cites a competitor 40% cheaper and wants a discount.
 
-【我的身份与权限】
-我是乙方负责人，可以决定 10% 以内折扣。
+[My role]
+Provider's team lead with authority for up to 10% off.
 
-【对方身份与权限】
-对方是客户市场负责人，可能需要老板审批。
+[Other party]
+Marketing lead, possibly needing owner approval.
 
-【我的目标】
-维护报价，最多降 10%。
+[Objective]
+Protect the quote; no more than 10% off.
 
-【我的底线】
-低于这个折扣必须缩小服务范围。
+[Limit]
+A greater discount requires reduced scope.
 
-【我的 BATNA】
-把团队排期给另一个利润更高的客户。
+[BATNA]
+Give the team's slot to a more profitable client.
 
-【沟通渠道】
-微信
+[Channel]
+WeChat
 
-【是否需要】
-策略分析 / 三套方案 / 微信话术 / 风险审查
+[Output]
+Strategy / three offers / WeChat wording / risk review
 ```
 
-## 5. 使用 test prompts 验证
+## 5. Try test prompts
 
-打开 [tests/test-prompts.md](../tests/test-prompts.md)，复制任意测试 Prompt 给 Agent。
-
-建议先测试这 3 类：
+Copy a prompt from [tests/test-prompts.md](../tests/test-prompts.md). Start with:
 
 ```text
-使用 negotiation-war-room-skill。客户说报价太高，要降 25%，否则找别人。我最多只能降 8%，但想保住合作。请输出策略、三套方案和微信回复。
+Use negotiation-war-room-skill. The client wants 25% off or will find someone else. I can concede at most 8% but want to retain the work. Provide strategy, three offers, and a WeChat reply.
 ```
 
 ```text
-使用 negotiation-war-room-skill。客户拖欠 10 万尾款，说还没验收，但没有提出具体问题。我不想撕破脸，也不能继续免费改。请给我谈判方案和跟进消息。
+Use negotiation-war-room-skill. A client owes RMB 100,000, delays acceptance, and raises no specific issues. I want goodwill but cannot revise for free indefinitely. Provide strategy and follow-up wording.
 ```
 
 ```text
-使用 negotiation-war-room-skill。我拿到 offer 但薪资低于预期，希望争取 15% 提升。请生成邮件，并审查风险。
+Use negotiation-war-room-skill. My offer is below expectations and I want 15% more. Draft an email and review risks.
 ```
 
-## 6. 判断输出是否合格
+## 6. Assess the output
 
-合格输出通常包含：
+Look for scenario identification, gaps, power scoring, three-level goals, BATNA/ZOPA, bargaining map, three offers, scores, first wording, reactions and replies, pre-send review, confirmation, and next actions.
 
-- 谈判类型判断
-- 信息缺口
-- 权力指数
-- 目标三层模型
-- BATNA / ZOPA
-- 筹码地图
-- 三套方案
-- 方案评分
-- 第一轮话术
-- 对方可能反应与应对
-- 发送前风险审查
-- 谈后确认文本
-- 下一轮行动
-
-完整验收标准见 [tests/acceptance-checklist.md](../tests/acceptance-checklist.md)。
+See the [acceptance checklist](../tests/acceptance-checklist.md) for full criteria.

@@ -1,24 +1,24 @@
-# 谈判模拟 Prompt
+# Negotiation Simulation Prompt
 
-用于让 Agent 扮演对方，帮助用户预演。
+Have the agent play the other party for rehearsal.
 
 ```text
-请基于以下谈判背景进行模拟。
+Simulate a negotiation using the background below.
 
-角色设定：
-- 你扮演对方谈判代表。
-- 你的目标是保护自己的利益，但不要故意无理取闹。
-- 你的反应应符合对方身份、压力、权力和真实利益。
+Role:
+- Play the other party's representative.
+- Protect your interests without being deliberately unreasonable.
+- Match your identity, pressures, power, and underlying interests.
 
-模拟规则：
-1. 每轮只回复对方一句或一段真实可能说的话。
-2. 回复后给出“隐藏意图分析”，说明这句话背后的利益、压力或试探。
-3. 不直接替用户谈判，等待用户下一轮回应。
-4. 若用户要求复盘，再评价用户回复的强弱和风险。
+Rules:
+1. Give only one plausible sentence or paragraph from the other party each round.
+2. Follow it with an analysis of possible underlying intent: interests, pressures, or probing.
+3. Wait for the user's response rather than negotiating on their behalf.
+4. If the user asks for a review, assess the response's strengths, weaknesses, and risks.
 
-谈判背景：
-[粘贴用户背景]
+Background:
+[paste background]
 
-对方画像：
-[身份、利益、压力、决策权、可替代选择]
+Other party's profile:
+[identity, interests, pressures, authority, alternatives]
 ```

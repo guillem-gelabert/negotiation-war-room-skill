@@ -1,68 +1,68 @@
-# 会议谈判脚本
+# Meeting Negotiation Script
 
-使用说明：会议适合多方对齐、争议处理和方案收口。会议前要设议题，会议后必须发纪要。
+For alignment across several parties, disputes, and closing proposals. Set an agenda beforehand and send minutes afterward.
 
-## 面谈开场
+## Opening
 
 ```text
-今天我们把[事项]当面/会议上对齐一下。我希望这次沟通尽量聚焦事实、约束和下一步，不把问题留到后面反复解释。
+Let's align on [subject] today, focusing on facts, constraints, and next steps so we do not leave key questions unresolved.
 
-我这边的目标不是争谁对谁错，而是找到一个双方都能执行的方案。
+I would like us to find an arrangement both sides can carry out.
 ```
 
-## 议题设置
+## Agenda
 
 ```text
-我建议今天按四个议题走：
-1. 先确认已经一致的事实；
-2. 再说明双方当前约束；
-3. 然后看可选方案；
-4. 最后确认负责人、时间和书面纪要。
+I suggest four topics:
+1. Confirm facts we agree on.
+2. Explain each side's constraints.
+3. Review possible options.
+4. Confirm owners, dates, and written minutes.
 
-如果你们还有其他必须讨论的问题，也可以先补充，我们一起排个优先级。
+Please add any essential topics so we can prioritize them together.
 ```
 
-## 利益探测
+## Exploring interests
 
 ```text
-我想先确认一下，你们现在最关心的是[价格/付款/时间/风险/质量/审批/关系]哪一项？
+Which matters most right now: [price / payment / time / risk / quality / approvals / relationship]?
 
-如果这个点不能完全满足，你们是否能接受在[范围/时间/付款/责任]上做组合调整？
+If that cannot be fully met, would a combination of [scope / time / payment / responsibility] help?
 
-这样我们就不是只在一个条件上拉扯，而是找一个更容易落地的组合。
+That would give us more room to find a workable arrangement.
 ```
 
-## 方案提出
+## Presenting offers
 
 ```text
-基于刚才说的约束，我这边建议先看三个方案：
+Given those constraints, I suggest three options:
 
-方案一：[方案 A]，优点是[优点]，需要你们确认[条件]。
-方案二：[方案 B]，优点是[优点]，我方可以在[让步项]上配合，但需要换取[条件]。
-方案三：[方案 C]，更适合[场景]，但需要注意[风险]。
+A: [terms]. The benefit is [benefit], requiring your confirmation of [condition].
+B: [terms]. The benefit is [benefit]. We can concede [item] in return for [condition].
+C: [terms]. This suits [situation], with [risk] to consider.
 
-我们可以先判断哪一个方向最接近双方目标，再细化细节。
+Let's choose the direction closest to both sides' goals before refining details.
 ```
 
-## 争议处理
+## Handling disagreement
 
 ```text
-这个点我们先不急着下结论。我建议把它拆成三部分：
-1. 双方都认可的事实是什么；
-2. 分歧具体在哪里；
-3. 有没有一个临时方案能先降低风险、继续推进。
+Before reaching a conclusion, let's separate:
+1. Facts we both accept.
+2. Specific points of disagreement.
+3. A temporary arrangement that reduces risk and allows progress.
 
-如果这个争议涉及合同、责任或法律判断，我们可以先记录下来，后续让专业人士看过再确认。
+If this requires contract, liability, or legal assessment, let's record it for professional review before confirming.
 ```
 
-## 会议收口
+## Closing
 
 ```text
-会议最后我确认一下：
-1. 今天已达成共识的是[共识事项]；
-2. 还需要确认的是[待确认事项]；
-3. 下一步由[负责人]在[日期]前完成[动作]；
-4. 我方会在[日期]前完成[动作]。
+Before we finish:
+1. Agreed today: [points].
+2. Still to confirm: [items].
+3. [owner] will complete [action] by [date].
+4. We will complete [action] by [date].
 
-会后我会把纪要发出来。如果大家对纪要有不同理解，请在[时间]前反馈；没有异议的话，我们就按纪要推进。
+I will send the minutes afterward. Please flag any different understanding by [time]. Otherwise, we will proceed on that basis.
 ```

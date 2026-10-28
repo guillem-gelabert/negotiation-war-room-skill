@@ -1,94 +1,94 @@
-# 微信消息模板
+# WeChat Message Templates
 
-使用说明：将方括号中的变量替换为真实信息。微信场景优先简洁、自然、可继续沟通；涉及金额、付款、合同、责任时，保留关键文字用于留痕。
+Replace bracketed variables with actual information. Keep messages concise, natural, and open to discussion. Preserve key written details for amounts, payments, contracts, and responsibilities.
 
-## 温和推进型
+## Gentle progress
 
-适用：对方没有明确拒绝，但推进慢、需要提醒或继续对齐。
+For slow progress without outright rejection, reminders, or alignment.
 
 ```text
-[对方称呼]，我跟进一下[事项]。我理解你这边还需要考虑/确认，所以我想先把关键点对齐一下。
+[name], following up on [subject]. I understand you still need to consider / confirm it, so I wanted to check the key points.
 
-目前我这边理解是：[已确认点 1]、[已确认点 2]，现在主要还差[待确认事项]。
+My understanding is [confirmed point 1] and [confirmed point 2], with [open item] still outstanding.
 
-你看我们能不能在[日期/时间]前先确认[下一步动作]？如果你这边还有顾虑，也可以直接告诉我，我们再一起看怎么调整。
+Could we confirm [next action] by [date / time]? Please share any concerns so we can look at adjustments together.
 ```
 
-## 稳健边界型
+## Measured boundaries
 
-适用：需要表达不能无条件接受，但仍希望继续谈。
+For conditions that cannot be accepted unconditionally, while keeping talks open.
 
 ```text
-[对方称呼]，这个方向我理解，但目前这个条件我还不能直接确认，主要是因为[原因 1]和[原因 2]会影响后续执行。
+[name], I understand the direction. I cannot confirm this condition yet because [reason 1] and [reason 2] affect execution.
 
-我这边可以在[可配合事项]上做一些调整，但需要同步确认[对方需确认事项]。这样双方后面都更清楚，也避免执行中再产生误解。
+I can adjust [item], provided we also confirm [their required action]. That will keep expectations clear on both sides.
 
-你看我们是否按这个思路继续对齐？
+Shall we continue on that basis?
 ```
 
-## 强边界但不撕破脸型
+## Firm boundaries with goodwill
 
-适用：对方要求已接近或突破底线，需要明确拒绝某个条件。
+For requests approaching or crossing a limit that must be declined.
 
 ```text
-[对方称呼]，我认真看了你提的[条件/要求]。这个条件我这边不能按原样接受，因为它会直接影响[成本/交付质量/责任边界/合作公平性]。
+[name], I have considered [condition / request]. I cannot accept it as proposed because it affects [cost / quality / responsibility / fairness].
 
-我还是希望这件事能继续往前走，所以给你两个可执行选择：
-1. [方案一]
-2. [方案二]
+I would still like to move forward and can offer:
+1. [option one]
+2. [option two]
 
-如果这两个方向都不合适，我们可能需要先暂停[事项]，等双方条件更清楚后再推进。这样对双方都更稳妥。
+If neither fits, we may need to pause [subject] until the conditions are clearer for both sides.
 ```
 
-## 催付款型
+## Payment reminder
 
-适用：尾款、分期款、账期到期、对方拖延付款。
+For balances, installments, due payments, or delays.
 
 ```text
-[对方称呼]，我跟进一下[项目/订单]的付款事项。
+[name], following up on payment for [project / order].
 
-目前[交付物/服务内容]已在[日期]完成并提交，按照我们之前确认的[合同/报价/聊天记录]，对应款项是[金额]，付款节点为[日期/条件]。
+[deliverables / services] were completed and submitted on [date]. Under [contract / quote / chat record], the corresponding payment is [amount], due on [date / condition].
 
-如果你们对交付有具体验收异议，请在[日期]前列出具体项；如果没有新的异议，麻烦按约定推进付款。若财务流程需要缓冲，也请明确预计付款日期，方便我这边安排后续支持。
+Please list any specific acceptance objections by [date]. Otherwise, please progress payment as agreed. If finance needs more time, please confirm the expected payment date so I can plan subsequent support.
 ```
 
-## 压价回应型
+## Response to discount pressure
 
-适用：客户要求降价、说预算不足、拿竞品报价压价。
+For discount demands, budget objections, or competing quotes.
 
 ```text
-[对方称呼]，我理解你们今年/这次对预算比较敏感。价格可以一起看，但我不建议只单独压价格，因为价格会和[服务范围/交付周期/质量标准/付款节奏]绑定。
+[name], I understand budget is a concern. We can review price together with [scope / delivery / quality / payment timing].
 
-我这边可以给你三个方向：
-1. 保持核心方案，价格不变/小幅优化，确保[核心价值]；
-2. 如果预算优先，可以精简[范围/服务项]，对应调整价格；
-3. 如果你们能确认[长期合作/预付款/采购量/案例授权]，我可以再申请一个有限优惠。
+Here are three directions:
+1. Keep the core service at the original or slightly adjusted price, protecting [value].
+2. Reduce [scope / services] to meet the budget, with a corresponding price change.
+3. Confirm [longer term / advance payment / volume / case-study permission], allowing me to request a limited discount.
 
-你看哪种更符合你们内部约束？
+Which fits your constraints best?
 ```
 
-## 合作确认型
+## Cooperation confirmation
 
-适用：电话、微信或面谈后确认共识，避免口头理解偏差。
+For documenting a call, chat, or meeting.
 
 ```text
-我确认一下我们刚才沟通的结果：
-1. [已确认事项 1]
-2. [已确认事项 2]
-3. 下一步由[负责人]在[日期]前完成[动作]
-4. 我这边会在[日期]前完成[动作]
+To confirm our discussion:
+1. [agreed point 1]
+2. [agreed point 2]
+3. [owner] will complete [action] by [date].
+4. I will complete [action] by [date].
 
-如果以上理解有偏差，请今天/明天[时间]前指出；如果没有异议，我们就先按这个版本推进。
+Please flag any misunderstanding by [time today / tomorrow]. Otherwise, we will proceed on this basis.
 ```
 
-## 不再继续合作型
+## Ending cooperation
 
-适用：条件低于底线、风险不可控、对方持续不确认或合作不再值得继续。
+For terms below the limit, unmanageable risk, repeated lack of confirmation, or cooperation no longer worth continuing.
 
 ```text
-[对方称呼]，这段时间我们就[事项]沟通了几轮，我也认真评估了目前的条件。
+[name], we have discussed [subject] over several rounds, and I have considered the current terms.
 
-基于[核心原因：价格/范围/付款/责任/时间/合作方式]，这次我这边可能不适合继续推进。为了避免后面双方投入更多时间却无法落地，我建议这个事项先到这里。
+Given [price / scope / payment / responsibility / timing / working model], I do not think I can continue this engagement. I suggest stopping here before both sides invest more time in an arrangement that will not work.
 
-已经确认/已完成的部分，我们可以按[结算/交接/收尾方式]处理清楚。后续如果条件有变化，也欢迎再沟通。
+We can close the confirmed or completed work through [settlement / handover / closeout]. If circumstances change, I am open to discussing it again.
 ```

@@ -1,65 +1,39 @@
-# Security Policy / 安全政策
+# Security Policy
 
-`negotiation-war-room-skill` 是谈判策略和沟通辅助项目，不是法律、心理、财务或安全专业服务。
+This project supports negotiation strategy and communication. It is not a legal, psychological, financial, or safety service.
 
-## 禁止用途
+## Prohibited uses
 
-不得使用本项目生成、优化或包装以下内容：
+Do not generate, improve, or repackage:
 
-- 威胁、恐吓、骚扰、羞辱或报复。
-- 敲诈勒索、违法施压或用隐私信息逼迫对方。
-- 伪造聊天记录、合同、付款记录、会议纪要、证据或身份。
-- 冒充律师、仲裁员、监管机构、HR、客户、供应商或其他第三方。
-- 情绪勒索、恶意操控、PUA 或诱导对方在压力下作出决定。
-- 承诺“保证成功”“一定追回”“一定胜诉”“一定让对方让步”。
-- 指导用户销毁证据、隐瞒关键事实或规避法律义务。
+- Threats, intimidation, harassment, humiliation, retaliation.
+- Extortion, unlawful pressure, private-information coercion.
+- Fabricated chats, contracts, payments, minutes, evidence, identities.
+- Impersonation of lawyers, arbitrators, regulators, HR, clients, suppliers, or third parties.
+- Emotional blackmail, malicious psychological manipulation, or coercive decisions.
+- Guarantees of success, recovery, litigation victory, or concessions.
+- Advice to destroy evidence, conceal key facts, or evade legal obligations.
 
-## 安全边界
+## Boundaries
 
-本项目可以帮助用户：
+The project can identify risks, organize facts and timelines, design lawful and actionable strategies, draft channel-specific wording, review messages, and debrief.
 
-- 识别谈判风险。
-- 整理事实、证据和时间线。
-- 设计合法、克制、可执行的沟通策略。
-- 生成微信、邮件、电话和会议话术。
-- 做发送前风险审查和谈后复盘。
+It cannot replace lawyers, arbitrators, therapists, financial advisers, law enforcement, regulators, or emergency services.
 
-本项目不能替代：
+## High-risk scenarios
 
-- 律师。
-- 仲裁员。
-- 心理咨询师。
-- 财务顾问。
-- 执法、监管或紧急援助机构。
+Limit assistance to communication strategy, evidence organization, and risk considerations; recommend professional advice for:
 
-## 高风险场景
+- Contract disputes, breach, compensation.
+- Employment arbitration, noncompetes, termination.
+- Litigation, regulatory complaints, administrative penalties.
+- Family property, physical safety, violence, threats, control.
+- Privacy, reputation, IP, data compliance.
 
-涉及以下场景时，应只提供沟通策略、证据整理和风险提示，并建议用户咨询专业人士：
+## Reporting risky content
 
-- 合同争议、违约、赔偿。
-- 劳动仲裁、竞业限制、解约。
-- 诉讼、监管投诉、行政处罚。
-- 家庭财产、人身安全、暴力、威胁、控制。
-- 隐私、名誉、知识产权或数据合规问题。
+Open an issue with file path, problematic content, reason for concern, and safer wording. Do not include real private information, full contracts, identity documents, phone numbers, home addresses, or unauthorized chats.
 
-## 如何报告风险内容
+## Priorities
 
-如果你发现项目中存在可能鼓励不安全行为的模板、案例或表述，请提交 Issue，并说明：
-
-- 文件路径。
-- 问题内容。
-- 风险原因。
-- 建议替代表述。
-
-请不要提交真实个人隐私、合同全文、身份证件、手机号、家庭地址或未经授权的聊天记录。
-
-## 处理原则
-
-维护者应优先处理可能导致以下风险的问题：
-
-- 违法施压。
-- 隐私侵犯。
-- 伪造证据。
-- 冒充专业身份。
-- 人身安全风险。
-- 误导用户相信“保证成功”。
+Prioritize unlawful pressure, privacy violations, fabricated evidence, professional impersonation, physical danger, and misleading success guarantees.

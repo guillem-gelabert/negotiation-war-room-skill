@@ -1,119 +1,99 @@
-# Agent Integration / Agent 集成指南
+# Agent Integration
 
-`negotiation-war-room-skill` 本质是 **Skill / Prompt / Playbook 文档库**，不依赖特定平台。只要你的 Agent 支持读取文档、粘贴系统提示词或添加自定义规则，就可以使用。
+`negotiation-war-room-skill` is a platform-independent library of skill instructions, prompts, and playbooks. It can be used by agents that read documents, accept pasted system instructions, or support custom rules.
 
-返回首页：[README.md](../README.md)
+[Back to README](../README.md)
 
-## 核心文件
+## Core files
 
-- [skill.md](../skill.md)：完整 Skill 协议，适合完整集成。
-- [prompts/system-prompt.md](../prompts/system-prompt.md)：适合作为系统提示词。
-- [prompts/input-template.md](../prompts/input-template.md)：用户输入模板。
-- [prompts/output-template.md](../prompts/output-template.md)：标准输出结构。
-- [playbooks/](../playbooks/)：按场景加载的打法。
-- [templates/](../templates/)：微信、邮件、电话、会议等可复制模板。
+- [SKILL.md](../SKILL.md): full skill protocol.
+- [System prompt](../prompts/system-prompt.md): standalone instructions.
+- [Input template](../prompts/input-template.md): negotiation background.
+- [Output template](../prompts/output-template.md): standard output.
+- [Playbooks](../playbooks/): load by scenario.
+- [Templates](../templates/): WeChat, email, phone, meeting, and other reusable text.
 
 ## ChatGPT
 
-适合方式：
-
-1. 在自定义 GPT 的 Instructions 中粘贴 `prompts/system-prompt.md`。
-2. 将 `skill.md` 和相关目录作为知识文件上传。
-3. 使用 `prompts/input-template.md` 作为用户输入格式。
-
-推荐调用：
+1. Paste `prompts/system-prompt.md` into a custom GPT's Instructions.
+2. Upload `SKILL.md` and relevant supporting files as knowledge.
+3. Use `prompts/input-template.md` for user input.
 
 ```text
-请使用 negotiation-war-room-skill 的工作流。
-我的谈判背景如下：
-[按 input-template 填写]
+Use the negotiation-war-room-skill workflow.
+My negotiation background:
+[complete the input template]
 ```
 
 ## Claude
 
-适合方式：
-
-1. 在 Claude Project 中添加 `skill.md`、`prompts/`、`frameworks/`、`playbooks/`。
-2. 在 Project Instructions 中粘贴 `prompts/system-prompt.md`。
-3. 每次对话按场景要求 Claude 读取对应 Playbook。
-
-推荐调用：
+1. Add `SKILL.md`, `prompts/`, `frameworks/`, and `playbooks/` to a Claude Project.
+2. Paste the system prompt into Project Instructions.
+3. Ask Claude to read the relevant playbook for each scenario.
 
 ```text
-请先读取 skill.md，再读取 playbooks/client-discount.md，帮我处理以下客户压价谈判。
+Read SKILL.md, then playbooks/client-discount.md, and help with this client discount negotiation.
 ```
 
 ## Cursor
 
-适合方式：
-
-1. 将仓库放入工作区。
-2. 在 Cursor Rules 或项目说明中引用 `skill.md`。
-3. 让 Cursor 根据任务读取对应文件。
-
-推荐调用：
+1. Put the repository in the workspace.
+2. Reference `SKILL.md` in Cursor Rules or project instructions.
+3. Have Cursor read the relevant files for the task.
 
 ```text
-Use negotiation-war-room-skill. Read skill.md first, then use frameworks and playbooks based on my negotiation scenario.
+Use negotiation-war-room-skill. Read SKILL.md first, then use frameworks and playbooks based on my negotiation scenario.
 ```
 
 ## Codex
 
-适合方式：
-
-1. 将仓库作为 Codex 工作区。
-2. 直接要求 Codex 读取 `skill.md`。
-3. 针对具体场景读取 `playbooks/`、`frameworks/` 和 `templates/`。
-
-推荐调用：
+1. Use the repository as the workspace.
+2. Ask Codex to read `SKILL.md`.
+3. Load relevant playbooks, frameworks, and templates.
 
 ```text
-请使用本仓库的 negotiation-war-room-skill。
-先读取 skill.md，然后基于我的场景读取对应 playbook，输出完整谈判策略。
+Use this repository's negotiation-war-room-skill.
+Read SKILL.md, then the playbook for my scenario, and provide a full negotiation strategy.
 ```
 
-## OpenAI Agent
+## OpenAI agents
 
-适合方式：
-
-1. 将 `prompts/system-prompt.md` 作为 system instructions。
-2. 将 `skill.md`、`frameworks/`、`playbooks/`、`templates/` 放入可检索知识库或文件上下文。
-3. 在工具编排中让 Agent 先做场景分流，再加载对应 Playbook。
-
-建议流程：
+1. Use `prompts/system-prompt.md` as system instructions.
+2. Put `SKILL.md`, `frameworks/`, `playbooks/`, and `templates/` in retrievable knowledge or file context.
+3. Route the scenario before loading its playbook in the tool workflow.
 
 ```text
 system: [prompts/system-prompt.md]
-retrieval/context: skill.md + frameworks + playbooks + templates
+retrieval/context: SKILL.md + frameworks + playbooks + templates
 user: [input-template]
 assistant: [output-template]
 ```
 
-## 其他支持自定义提示词的 Agent
+## Other agents with custom instructions
 
-只要支持以下任一能力即可使用：
+Any of these capabilities can support use:
 
-- 可粘贴系统提示词。
-- 可上传或读取 Markdown 文档。
-- 可设置项目规则。
-- 可检索本地文件。
-- 可用 Prompt 模板驱动输出。
+- Pasted system instructions.
+- Uploaded or readable Markdown.
+- Project rules.
+- Local file retrieval.
+- Prompt templates.
 
-最低集成方式：
+Minimal integration:
 
 ```text
-系统提示词：复制 prompts/system-prompt.md
-用户输入：复制 prompts/input-template.md 并填写
-输出格式：参考 prompts/output-template.md
+System instructions: copy prompts/system-prompt.md
+User input: complete prompts/input-template.md
+Output format: follow prompts/output-template.md
 ```
 
-## 平台无关原则
+## Platform-independent principles
 
-这个项目不绑定任何模型或平台。Agent 的关键任务是：
+The agent should:
 
-1. 先诊断，不直接写话术。
-2. 先识别信息缺口，不编造事实。
-3. 先分析权力、BATNA/ZOPA 和筹码，再出方案。
-4. 输出多方案和评分。
-5. 做风险审查和谈后确认。
-6. 遵守安全边界。
+1. Diagnose before drafting.
+2. Identify gaps without inventing facts.
+3. Analyze power, BATNA/ZOPA, and bargaining assets before offers.
+4. Provide multiple offers and scores.
+5. Review risks and confirm outcomes.
+6. Respect safety boundaries.

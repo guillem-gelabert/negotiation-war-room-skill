@@ -1,76 +1,76 @@
-# 场景指南
+# Scenario Guide
 
-## 商业合作
+## Business partnerships
 
-关注：价值、交付、付款、边界、退出。
+Focus: value, delivery, payment, boundaries, exits.
 
-推荐读取：
+Read:
 
 - `playbooks/partnership.md`
 - `frameworks/negotiation-frameworks.md`
 - `templates/agreement-summary.md`
 
-## 尾款结算
+## Outstanding payments
 
-关注：证据、已交付价值、验收、结算方式、留痕。
+Focus: evidence, delivered value, acceptance, settlement, records.
 
-推荐读取：
+Read:
 
 - `playbooks/business-payment.md`
 - `frameworks/risk-checklist.md`
 - `templates/wechat-message.md`
 
-## 客户压价
+## Client discounts
 
-关注：价值重构、范围调整、价格保护、付款和周期。
+Focus: value, scope adjustment, price protection, payment, duration.
 
-推荐读取：
+Read:
 
 - `playbooks/client-discount.md`
 - `frameworks/meso-options.md`
 - `templates/wechat-message.md`
 
-## 薪资谈判
+## Compensation
 
-关注：能力证明、市场价值、替代机会、总包结构。
+Focus: evidence of ability, market value, alternatives, total compensation.
 
-推荐读取：
+Read:
 
 - `playbooks/salary-negotiation.md`
 - `templates/email-template.md`
 
-## 合同条款
+## Contract terms
 
-关注：付款、验收、违约、责任上限、交付范围。
+Focus: payment, acceptance, breach, liability caps, scope.
 
-推荐读取：
+Read:
 
 - `playbooks/contract-negotiation.md`
 - `frameworks/risk-checklist.md`
 
-## 合伙谈判
+## Partners
 
-关注：权责利、决策权、投入、退出机制。
+Focus: rights, duties, returns, decisions, contributions, exits.
 
-推荐读取：
+Read:
 
 - `playbooks/partnership.md`
 - `templates/agreement-summary.md`
 
-## 纠纷协商
+## Disputes
 
-关注：止损、事实时间线、证据、分级处理。
+Focus: limit loss, factual timeline, evidence, staged resolution.
 
-推荐读取：
+Read:
 
 - `playbooks/dispute-resolution.md`
 - `prompts/review-prompt.md`
 
-## 家庭/关系沟通
+## Family and relationships
 
-关注：情绪安全、边界、共识，不使用商业强压话术。
+Focus: emotional safety, boundaries, shared understanding; avoid commercial pressure tactics.
 
-推荐读取：
+Read:
 
 - `playbooks/relationship-communication.md`
 - `templates/wechat-message.md`

@@ -1,59 +1,53 @@
 ---
-name: Bug report / 问题反馈
-about: 反馈文档错误、模板失效、场景判断不合理或 Agent 输出不符合预期
+name: Bug report
+about: Report documentation errors, ineffective templates, scenario assessment problems, or unexpected agent output
 title: "[Bug] "
 labels: bug
 assignees: ""
 ---
 
-## 问题类型
+## Problem type
 
-- [ ] 文档错误
-- [ ] 模板失效
-- [ ] 场景判断不合理
-- [ ] 输出结构不完整
-- [ ] 安全边界不清晰
-- [ ] 示例或测试 Prompt 有问题
-- [ ] 其他
+- [ ] Documentation error
+- [ ] Ineffective template
+- [ ] Incorrect scenario assessment
+- [ ] Incomplete output structure
+- [ ] Unclear safety boundaries
+- [ ] Example or test prompt issue
+- [ ] Other
 
-## 问题位置
-
-文件路径或章节：
+## Location
 
 ```text
-例如：playbooks/client-discount.md / 第一轮话术模板
+Example: playbooks/client-discount.md / First-round wording
 ```
 
-## 问题描述
+## Description
 
-请说明问题是什么，为什么会影响使用。
+Explain the problem and its effect on use.
 
 ```text
-例如：客户压价场景中，当前模板没有要求折扣绑定付款或范围调整，可能导致无条件让步。
+Example: the discount template does not require payment or scope conditions, potentially creating an unconditional concession.
 ```
 
-## 复现方式
+## Reproduction
 
-如果是 Agent 输出问题，请提供脱敏后的输入 Prompt：
+For output issues, provide an anonymized prompt:
 
 ```text
-[粘贴 Prompt]
+[paste prompt]
 ```
 
-## 期望结果
-
-你认为合理输出或修正方向是什么？
+## Expected result
 
 ```text
-[描述期望行为]
+[expected behavior or correction]
 ```
 
-## 安全边界
+## Safety boundaries
 
-这个问题是否涉及以下内容？
-
-- [ ] 法律/合同/劳动争议
-- [ ] 隐私或个人信息
-- [ ] 威胁、敲诈、伪造证据、违法施压
-- [ ] 家庭/人身安全风险
-- [ ] 不涉及
+- [ ] Legal / contract / employment dispute
+- [ ] Privacy or personal information
+- [ ] Threats, extortion, fabricated evidence, unlawful pressure
+- [ ] Family / physical safety
+- [ ] None

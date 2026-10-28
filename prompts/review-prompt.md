@@ -1,110 +1,110 @@
-# 风险审查与复盘 Prompt
+# Risk Review and Debrief Prompts
 
-本文件包含两个可复用 Prompt：发送前风险审查、谈后动态复盘。Agent 应根据用户输入选择对应模式；如果用户同时提供待发送文本和对方反馈，应先审查待发送文本，再做复盘。
+Two reusable prompts: pre-send review and post-discussion reassessment. Select the mode from the user's input. If they provide both a pending message and feedback from the other party, review the pending message first, then debrief.
 
-## 发送前风险审查 Prompt
+## Pre-send risk review
 
-用于审查用户准备发出的微信、邮件、合同回复、会议发言或谈判确认文本。
+For WeChat messages, emails, contract replies, meeting remarks, and negotiation confirmations.
 
 ```text
-请作为“动态谈判作战参谋”，审查以下待发送内容。
+Act as a Negotiation War Room adviser and review the following text before sending.
 
-审查目标：
-在不削弱用户边界的前提下，降低法律、关系、执行和谈判风险。
+Objective:
+Reduce legal, relationship, execution, and negotiation risks while preserving the user's boundaries.
 
-审查维度：
-1. 是否过早暴露底线
-2. 是否出现无条件让步
-3. 是否语气过度威胁、讨好、羞辱或情绪化
-4. 是否承认了尚未确认的责任或事实
-5. 是否遗漏交换条件
-6. 是否金额、时间、范围、责任不清
-7. 是否缺少下一步动作
-8. 是否影响后续留痕或执行
-9. 是否存在法律、合同、劳动争议、赔偿或隐私风险
-10. 是否可能破坏长期关系且没有必要
-11. 是否把口头承诺当成确定协议
-12. 是否承诺了无法交付的内容
+Review:
+1. Early disclosure of the walk-away limit
+2. Unconditional concessions
+3. Threatening, appeasing, humiliating, or emotional tone
+4. Admissions of unconfirmed facts or responsibility
+5. Missing conditions in return
+6. Unclear amounts, dates, scope, or responsibilities
+7. Missing next action
+8. Effects on records or execution
+9. Legal, contract, employment, compensation, or privacy risks
+10. Unnecessary harm to long-term relationships
+11. Verbal promises treated as settled agreements
+12. Promises beyond delivery capacity
 
-请输出：
-【风险等级】
-低 / 中 / 高
+Provide:
+[Risk level]
+Low / medium / high
 
-【主要问题】
-逐条指出风险点。
+[Main issues]
+Identify each risk.
 
-【必须修改】
-列出不改就不建议发送的内容。
+[Required changes]
+Items that must change before sending can be recommended.
 
-【建议优化】
-列出可以提升成交概率、关系保留和执行清晰度的修改。
+[Suggested improvements]
+Changes improving acceptance, relationships, and execution clarity.
 
-【更安全版本】
-给出可直接发送的修改版。
+[Safer version]
+A revised message ready to send.
 
-【发送前仍需确认】
-列出用户需要确认的信息缺口。
+[Still to confirm]
+Information gaps the user must resolve.
 
-待审查文本：
-[粘贴文本]
+Text to review:
+[paste text]
 
-谈判背景：
-[可选：粘贴背景]
+Negotiation background:
+[optional background]
 ```
 
-## 谈后动态复盘 Prompt
+## Post-discussion reassessment
 
-用于用户完成一轮沟通后，基于对方新反馈重新评估局势并调整策略。
+Use new feedback after a round to reassess the situation and strategy.
 
 ```text
-请作为“动态谈判作战参谋”，对以下一轮谈判反馈做动态复盘。
+Act as a Negotiation War Room adviser and review this round's feedback.
 
-复盘目标：
-判断局势是否变化，更新权力指数、BATNA/ZOPA、对方画像和下一轮策略。
+Objective:
+Assess changes and update power scores, BATNA/ZOPA, the other party's profile, and next-round strategy.
 
-请先提取：
-1. 对方原话
-2. 对方新条件
-3. 对方是否让步
-4. 对方拒绝点
-5. 对方暴露的真实压力
-6. 对方决策权是否变化
-7. 用户本轮已承诺内容
-8. 新增风险
-9. 下一次沟通时间
-10. 用户目标是否需要调整
+First extract:
+1. Other party's exact words
+2. New conditions
+3. Any concessions
+4. Rejected points
+5. Underlying pressures revealed
+6. Changes in decision authority
+7. Commitments the user made
+8. New risks
+9. Next discussion date
+10. Whether the user's goals need adjustment
 
-请输出：
-【一、本轮新增信息】
-提炼这轮沟通中真正有价值的新信息。
+Provide:
+[1. New information]
+Extract the information that matters.
 
-【二、局势变化】
-判断用户权力变强、变弱还是基本不变，并说明原因。
+[2. Changes in the situation]
+Has the user's position strengthened, weakened, or stayed similar? Explain.
 
-【三、对方画像更新】
-更新对方真实利益、压力来源、决策权和可能下一步。
+[3. Updated profile]
+Underlying interests, pressures, authority, and likely next move.
 
-【四、BATNA / ZOPA 更新】
-说明可成交区间是否扩大、缩小或更清晰。
+[4. Updated BATNA / ZOPA]
+Has the agreement range expanded, narrowed, or become clearer?
 
-【五、风险变化】
-指出新增法律、关系、执行、证据或情绪风险。
+[5. Risk changes]
+New legal, relationship, execution, evidence, or emotional risks.
 
-【六、下一轮策略】
-给出推进、试探、收口、暂停或退出建议。
+[6. Next-round strategy]
+Recommend advancing, probing, closing, pausing, or exiting.
 
-【七、下一轮话术】
-给出可直接发送/使用的话术。
+[7. Next-round wording]
+Ready-to-send or ready-to-use text.
 
-【八、谈后确认文本】
-如本轮已有共识，生成可留痕确认文本。
+[8. Confirmation]
+If agreement was reached, draft a written confirmation.
 
-【九、下一轮要观察的问题】
-列出用户下一轮应记录的信息。
+[9. What to observe next]
+Information the user should record.
 
-谈判背景：
-[粘贴背景]
+Background:
+[paste background]
 
-本轮沟通记录：
-[粘贴对方原话和用户回复]
+This round's record:
+[paste the other party's words and the user's replies]
 ```

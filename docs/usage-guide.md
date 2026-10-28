@@ -1,66 +1,64 @@
-# 使用指南
+# Usage Guide
 
-## 核心思路
+## Core approach
 
-这个 Skill 不直接给“漂亮话”，而是先判断：
+Before drafting, assess:
 
-- 这是什么谈判？
-- 信息是否足够？
-- 用户是强势、均势还是弱势？
-- 用户的理想目标、可接受目标、底线是什么？
-- BATNA 和 ZOPA 在哪里？
-- 哪些筹码可以交换？
-- 什么话术既能推进，又不暴露底线或制造风险？
+- What kind of negotiation is this?
+- Is information sufficient?
+- Is the user's position strong, balanced, or weak?
+- What are the ideal, acceptable, and walk-away outcomes?
+- What are the BATNA and ZOPA?
+- Which bargaining variables can be exchanged?
+- What wording advances the discussion without exposing limits or creating risk?
 
-## 推荐工作流
+## Workflow
 
-1. 读取 `skill.md`。
-2. 用 `prompts/input-template.md` 收集信息。
-3. 用 `frameworks/scenario-routing.md` 判断场景。
-4. 读取对应 `playbooks/`。
-5. 用 `frameworks/power-index.md` 做权力评分。
-6. 用 `frameworks/batna-zopa.md` 判断成交区间。
-7. 用 `frameworks/meso-options.md` 生成多方案。
-8. 用 `templates/` 生成对应渠道话术。
-9. 用 `prompts/review-prompt.md` 做风险审查和复盘。
+1. Read `SKILL.md`.
+2. Gather information with `prompts/input-template.md`.
+3. Route using `frameworks/scenario-routing.md`.
+4. Read the relevant `playbooks/` file.
+5. Score power with `frameworks/power-index.md`.
+6. Assess the agreement range with `frameworks/batna-zopa.md`.
+7. Generate offers with `frameworks/meso-options.md`.
+8. Draft for the channel using `templates/`.
+9. Review and debrief using `prompts/review-prompt.md`.
 
-## 适合的输出模式
+## Output modes
 
-### 全量策略
+### Full strategy
 
-适合复杂谈判：
-
-```text
-请输出完整结构：局势判断、信息缺口、权力指数、目标三层、BATNA/ZOPA、筹码地图、对方画像、三套方案、评分、话术、风险审查、谈后确认。
-```
-
-### 快速微信回复
-
-适合临场回复：
+For complex negotiations:
 
 ```text
-请先用 3 句话判断风险，再给一条微信回复。
+Provide the full structure: situation, gaps, power index, three-level goals, BATNA/ZOPA, bargaining map, profile, three offers, scores, wording, risk review, confirmation.
 ```
 
-### 模拟演练
+### Quick WeChat reply
 
-适合重要谈判前预演：
+For an immediate response:
 
 ```text
-请进入模拟演练模式。你扮演客户，我练习回应。每轮只回复客户一句话，并给隐藏意图分析。
+Assess risks in three sentences, then give one WeChat reply.
 ```
 
-### 发送前审查
+### Rehearsal
 
-适合发出消息前：
+Before an important discussion:
 
 ```text
-请审查这段话是否暴露底线、无条件让步、承认责任或存在法律风险，并给更安全版本。
+Enter simulation mode. Play the client while I practice replies. Give one client sentence per round and analyze possible underlying intent.
 ```
 
-## 注意
+### Pre-send review
 
-- 不要把 Agent 当律师。
-- 不要要求 Agent 伪造证据或威胁对方。
-- 不要让 Agent 直接承诺保证成功。
-- 涉及正式法律权利义务时，请咨询律师或相关专业人士。
+```text
+Check this message for exposed limits, unconditional concessions, admissions, or legal risk, and provide a safer version.
+```
+
+## Notes
+
+- Do not treat the agent as a lawyer.
+- Do not request fabricated evidence or threats.
+- Do not ask for guaranteed outcomes.
+- Consult a lawyer or relevant professional for formal legal rights and obligations.

@@ -1,99 +1,91 @@
-# 双方权力指数评分模型
+# Power Index for Both Sides
 
-权力指数用于判断用户在谈判中的杠杆强弱。Agent 必须分别评估用户和对方，每项 0-10 分，总分 60 分。
+Assess the user's negotiating power and the other party's separately. Score six dimensions from 0 to 10, totaling 60.
 
-## 评分维度
+## Dimensions
 
-| 维度 | 0-2 分 | 3-5 分 | 6-8 分 | 9-10 分 |
+For each side, interpret "our" as the side being scored and "the other party" as the opposite side.
+
+| Dimension | 0–2 | 3–5 | 6–8 | 9–10 |
 |---|---|---|---|---|
-| 替代方案 | 几乎没有可行替代 | 有替代但成本高 | 替代可行但需要时间 | 替代清晰、低成本、可立即执行 |
-| 时间压力 | 我方极急或截止期不利 | 我方较急 | 双方压力接近 | 对方更急或拖延成本更高 |
-| 信息优势 | 信息严重不足 | 有部分信息但缺关键证据 | 掌握多数事实和市场信息 | 掌握关键证据、规则、报价或审批信息 |
-| 资源控制 | 关键资源完全在对方 | 我方控制少量资源 | 双方各有关键资源 | 我方控制付款、交付、客户、渠道、审批或稀缺能力 |
-| 证据强度 | 无记录或证据弱 | 有零散聊天/口头记录 | 有合同、记录、交付或数据 | 证据完整、连续、可核验、可留痕 |
-| 关系依赖 | 我方高度依赖对方 | 我方更依赖 | 双方依赖接近 | 对方更依赖合作、声誉、关系或连续性 |
+| Alternatives | Almost no viable alternative | Alternatives are costly | Viable alternatives take time | Clear, low-cost alternatives available immediately |
+| Time pressure | Extreme urgency or an unfavorable deadline | Greater urgency on our side | Similar pressure | The other party is more urgent or bears greater delay costs |
+| Information advantage | Severe information gaps | Some information but key evidence missing | Most facts and market information known | Key evidence, rules, quotes, or approval information known |
+| Resource control | All key resources controlled by the other party | We control few resources | Both sides control key resources | We control payment, delivery, clients, channels, approvals, or scarce skills |
+| Evidence strength | No records or weak evidence | Scattered chats or oral records | Contracts, records, deliverables, or data | Complete, continuous, verifiable, documented evidence |
+| Relationship dependence | We are highly dependent | We are more dependent | Similar dependence | The other party depends more on cooperation, reputation, relationships, or continuity |
 
-## 评分步骤
+## Scoring process
 
-1. 先按 6 个维度为用户评分。
-2. 再按同样维度为对方评分。
-3. 计算权力差：用户总分 - 对方总分。
-4. 根据权力差选择策略姿态。
-5. 若某一维度信息不足，标注“暂估”，并列为信息缺口。
+1. Score the user on all six dimensions.
+2. Score the other party on the same dimensions.
+3. Calculate the gap: user total minus other party total.
+4. Select a strategic posture using that gap.
+5. Label uncertain scores "provisional" and record the missing information.
 
-## 结果判断
+## Interpretation
 
-| 权力差 | 结论 | 策略 |
+| Gap | Position | Strategy |
 |---:|---|---|
-| +21 到 +60 | 用户明显强势 | 可以明确原则、设置期限、要求对方给出承诺；仍需留台阶，避免激化 |
-| +8 到 +20 | 用户略强势 | 适合稳健锚定，提出条件交换和 2-3 套方案 |
-| -7 到 +7 | 双方均衡 | 避免摊牌，扩大可交换变量，用 MESO 探测偏好 |
-| -20 到 -8 | 用户偏弱势 | 先补证据、补 BATNA、降低对抗，使用柔性但有边界的话术 |
-| -60 到 -21 | 用户明显弱势 | 不建议强硬施压；优先止损、争取时间、建立替代方案或寻求专业支持 |
+| +21 to +60 | User substantially stronger | State principles, set deadlines, request commitments; allow a dignified way forward and avoid escalation |
+| +8 to +20 | User somewhat stronger | Use measured anchoring, conditional exchanges, and two or three offers |
+| −7 to +7 | Balanced | Avoid a showdown, expand variables, use MESO to probe preferences |
+| −20 to −8 | User somewhat weaker | Build evidence and BATNA, reduce confrontation, use gentle wording with boundaries |
+| −60 to −21 | User substantially weaker | Avoid hard pressure; limit losses, gain time, build alternatives, or seek professional support |
 
-## 策略姿态
+## Strategic postures
 
-### 用户明显强势
+### User substantially stronger
 
-使用条件：
+Applies when:
 
-- 用户替代方案强，对方更急。
-- 用户掌握证据、资源或审批权。
+- The user has strong alternatives and the other party is more urgent.
+- The user controls evidence, resources, or approvals.
 
-策略：
+Strategy:
 
-- 明确可接受框架和截止时间。
-- 要求对方具体确认下一步。
-- 少解释，多给选择。
+- State an acceptable framework and deadline.
+- Request a specific next-step confirmation.
+- Explain less and offer choices.
 
-禁忌：
+Avoid humiliating or threatening the other party or turning advantage into confrontation.
 
-- 羞辱对方、威胁对方、把优势用成对抗。
+### User somewhat stronger
 
-### 用户略强势
+- Anchor with restraint.
+- Offer conditional concessions.
+- Replace single-issue haggling with choices of terms.
 
-策略：
+### Balanced
 
-- 使用稳健锚定。
-- 提供有条件让步。
-- 用方案选择替代单点讨价还价。
+- Find a shared goal first.
+- Use MESO to discover preferences.
+- Link price, scope, time, risk, and payment.
 
-### 双方均衡
+### User somewhat weaker
 
-策略：
+- Gather information and evidence first.
+- Gain breathing room.
+- Avoid revealing anxiety or the walk-away limit.
+- Seek better terms through relationships, risk, and execution costs.
 
-- 先找共同目标。
-- 用 MESO 探测对方偏好。
-- 把价格、范围、时间、风险、付款联动。
+### User substantially weaker
 
-### 用户偏弱势
+- Limit losses first.
+- Avoid pressure scripts.
+- Build alternatives promptly.
+- Recommend professional advice for legal, employment, contract, or safety risks.
 
-策略：
-
-- 先收集信息和证据。
-- 争取缓冲时间。
-- 避免暴露焦虑和底线。
-- 用关系、风险、执行成本争取条件。
-
-### 用户明显弱势
-
-策略：
-
-- 优先止损。
-- 不做高压话术。
-- 尽快建立替代方案。
-- 涉及法律、劳动、合同或安全风险时，建议咨询专业人士。
-
-## 输出格式
+## Output
 
 ```text
-用户权力指数：/60
-对方权力指数：/60
-权力差：
-结论：用户明显强势 / 用户略强势 / 双方均衡 / 用户偏弱势 / 用户明显弱势
-最高分维度：
-最低分维度：
-信息不足维度：
-建议策略姿态：
-不建议采取：
+User's power index: /60
+Other party's power index: /60
+Power gap:
+Conclusion: user substantially stronger / user somewhat stronger / balanced / user somewhat weaker / user substantially weaker
+Highest-scoring dimension:
+Lowest-scoring dimension:
+Dimensions with insufficient information:
+Recommended posture:
+Actions to avoid:
 ```

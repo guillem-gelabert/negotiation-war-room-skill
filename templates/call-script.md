@@ -1,56 +1,56 @@
-# 电话沟通脚本
+# Phone Conversation Script
 
-使用说明：电话适合快速探测需求和推进决策，但关键结论必须在电话后用微信或邮件确认。
+Use calls to discover needs and advance decisions quickly. Confirm key outcomes afterward through WeChat or email.
 
-## 电话开场
+## Opening
 
 ```text
-我今天想用几分钟把[事项]的关键点对齐一下，避免我们在微信/邮件里来回理解不一致。
+I would like to spend a few minutes aligning on [subject] so we have the same understanding.
 
-这通电话我主要想确认三件事：第一是你们现在最核心的顾虑，第二是双方能调整的空间，第三是下一步由谁在什么时间确认。
+I would like to clarify your main concern, the flexibility on both sides, and who will confirm the next step by when.
 ```
 
-## 探测需求
+## Discovering needs
 
 ```text
-我先确认一下，你这边目前最卡的是[价格/预算/付款/时间/交付范围/审批/风险]中的哪一个？
+Which is the main obstacle right now: [price / budget / payment / timing / scope / approval / risk]?
 
-如果只能优先解决一个问题，你们内部最看重的是[选项 A]、[选项 B]，还是[选项 C]？
+If we can address one issue first, would your team prioritize [A], [B], or [C]?
 
-这个要求主要来自预算限制、审批流程，还是你们对方案本身还有顾虑？
+Is the requirement driven by budget, approvals, or concerns about the proposal itself?
 ```
 
-## 回应压价
+## Price pressure
 
 ```text
-价格我理解可以讨论，但我不建议只单独看价格。因为价格会和[范围]、[交付质量]、[付款节奏]、[合作周期]绑定。
+We can discuss price together with [scope], [quality], [payment timing], and [duration].
 
-如果你们预算优先，我们可以看精简范围；如果效果优先，建议保留核心方案；如果你们能确认[预付款/长期合作/采购量]，我这边可以再看能否申请有限优惠。
+If budget comes first, we can reduce scope. If results come first, I suggest keeping the core service. If you can confirm [prepayment / a longer term / volume], I can explore a limited discount.
 ```
 
-## 处理拖延
+## Delay
 
 ```text
-我理解你们内部还需要流程。为了不让这件事一直悬着，我们先确认一个具体反馈时间。
+I understand there is an internal process. Let's agree a specific feedback date so the matter does not remain open indefinitely.
 
-你看是在[日期 A]前给初步意见，还是[日期 B]前直接确认方案？如果中间还有卡点，也请提前告诉我，我好判断是否需要调整安排。
+Could you provide initial feedback by [A], or confirm the proposal by [B]? Please flag obstacles early so I can assess any schedule changes.
 ```
 
-## 推进决策
+## Moving toward a decision
 
 ```text
-为了让这件事能往前走，我建议现在先定一个方向：如果你们更重视[对方诉求]，我们就按[方案 A]；如果更重视[另一诉求]，就按[方案 B]。
+I suggest choosing a direction now: if [interest] matters most, use [A]; if [other interest] comes first, use [B].
 
-这两个方案我都可以配合推进，但需要你们确认[付款/时间/范围/审批人]，否则后续执行会比较模糊。
+I can support either, but need confirmation of [payment / timing / scope / approver] so execution is clear.
 ```
 
-## 收口确认
+## Closing
 
 ```text
-那我把刚才电话里确认的几点整理成文字发你：
-1. [确认点一]
-2. [确认点二]
-3. [下一步动作]
+I will send a written summary of what we confirmed:
+1. [point one]
+2. [point two]
+3. [next action]
 
-如果我理解有偏差，你直接在文字里改；如果没有偏差，我们就按这个版本推进。你看可以吗？
+Please correct anything I have misunderstood. Otherwise, shall we proceed on that basis?
 ```
